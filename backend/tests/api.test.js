@@ -7,7 +7,7 @@ import { loadCatalog } from "../src/catalog-data.js";
 import { emptyCriteria } from "../src/criteria.js";
 
 const repository = await loadCatalog();
-const gpu = { ...emptyCriteria("component_search"), category: "gpu", brand: "NVIDIA", brand_policy: "required", min_memory_gb: 12 };
+const gpu = { ...emptyCriteria("component_search"), category: "gpu", brand: "NVIDIA", brand_policy: "required", min_memory_gb: 12, unhandled_requirements: [] };
 async function start(t, options = {}) {
   const server = createApp({ repository, ...options }).listen(0, "127.0.0.1");
   await once(server, "listening");
@@ -57,8 +57,8 @@ test("GET products validates filters, stable pages and total; no currency guesse
 });
 
 test("invalid input, markup, content type, body size and parser errors are safe", async t => {
-  const api = await start(t);
-  for (const value of ["", "  ", 123, { query: "cpu" }, "a".repeat(501), "CPU\u0000", "<em>GPU</em>"]) {
+  const api = await start(t, { searchLimit: 30 });
+  for (const value of ["", "  ", 123, { query: "cpu" }, "a".repeat(501), "CPU\u0000", "fă\u200bră GPU", "<em>GPU</em>", "???", "500"]) {
     const r = await api.post(value);
     assert.equal(r.status, 400); assert.equal((await r.json()).error.code, "invalid_input");
   }
@@ -104,11 +104,14 @@ test("official SDK serializes a strict Responses request and decodes the mocked 
   assert.equal(r.status, 200);
   const data = await r.json();
   assert.equal(data.mode, "openai"); assert.equal(data.criteria.brand, "NVIDIA");
+  assert.equal(data.interpretation_source, "openai"); assert.equal(data.criteria.unhandled_requirements, undefined);
   assert.ok(data.products.every(p => p.specs.memory_gb >= 12)); assert.ok(data.total > 0);
   const { url, body } = captured;
   assert.equal(new URL(url).pathname, "/v1/responses"); assert.equal(body.model, "configured-test-model");
   assert.equal(body.text.format.strict, true); assert.equal(body.text.format.schema.additionalProperties, false);
   assert.equal(body.tools, undefined); assert.equal(body.store, false);
+  assert.equal(body.max_output_tokens, 2000);
+  assert.ok(body.text.format.schema.required.includes("unhandled_requirements"));
   assert.deepEqual(body.input, [{ role: "user", content: query }]);
   assert.ok(!JSON.stringify(body).includes(repository.list("gpu")[0].name));
 });
@@ -123,14 +126,36 @@ test("invalid structured output, refusal and incomplete responses fail closed", 
   }
 });
 
-test("a model cannot turn a build into a product list or RON into USD", async t => {
+test("builds and non-comparable budgets are resolved locally in OpenAI mode", async t => {
   const api = await start(t, { mode: "openai", client: mocked({ status: "completed", output_parsed: gpu }) });
   const guard = await (await api.post("Vreau un PC de gaming")).json();
   assert.equal(guard.criteria.intent, "build_request"); assert.deepEqual(guard.products, []);
   const priced = await start(t, { mode: "openai", client: mocked({ status: "completed", output_parsed: { ...gpu, budget_max: 500, currency: "USD" } }) });
-  assert.equal((await priced.post("GPU NVIDIA cu buget de 500 lei")).status, 502);
+  const ron = await (await priced.post("GPU NVIDIA cu buget de 500 lei")).json();
+  assert.deepEqual(ron.products, []); assert.equal(ron.criteria.currency, "RON"); assert.equal(ron.interpretation_source, "validation");
   const noCurrency = await (await priced.post("GPU NVIDIA cu buget de 500")).json();
   assert.equal(noCurrency.total, 0); assert.equal(noCurrency.criteria.currency, null);
+});
+
+test("an unsupported requirement reported by the model cannot disappear into a partial search", async t => {
+  const api = await start(t, { mode: "openai", client: mocked({ status: "completed",
+    output_parsed: { ...gpu, unhandled_requirements: ["test-only-provider-text"] } }) });
+  const r = await api.post("Une carte graphique NVIDIA avec une exigence particulière");
+  assert.equal(r.status, 200);
+  const body = await r.json();
+  assert.equal(body.criteria.intent, "clarify"); assert.deepEqual(body.products, []);
+  assert.equal(body.interpretation_source, "openai");
+  assert.ok(!JSON.stringify(body).includes("test-only-provider-text"));
+});
+
+test("an altered USD amount or currency is a sanitized provider error", async t => {
+  for (const [amount, currency] of [[400, "USD"], [300, "EUR"]]) {
+    const client = mocked({ status: "completed", output_parsed: { ...gpu, budget_max: amount, currency } });
+    const api = await start(t, { mode: "openai", client });
+    const r = await api.post("GPU NVIDIA minimum 12 GB, maximum 300 USD");
+    assert.equal(r.status, 502);
+    assert.equal((await r.json()).error.code, "llm_invalid_response");
+  }
 });
 
 test("upstream timeout, authorization and rate errors are sanitized", async t => {
@@ -150,5 +175,17 @@ test("schema-valid model output cannot drop a recognized hard minimum or downgra
     const response = await api.post(query);
     assert.equal(response.status, 502);
     assert.equal((await response.json()).error.code, "llm_invalid_response");
+  }
+});
+
+test("free phrasing still protects a recognized number; a simple query cannot gain a budget", async t => {
+  const cases = [
+    ["Mi-ai recomanda o placă video NVIDIA de minimum 12 GB?", { ...gpu, min_memory_gb: null }],
+    ["GPU NVIDIA minimum 12 GB", { ...gpu, budget_max: 300, currency: "USD" }]
+  ];
+  for (const [query, output] of cases) {
+    const api = await start(t, { mode: "openai", client: mocked({ status: "completed", output_parsed: output }) });
+    const r = await api.post(query);
+    assert.equal(r.status, 502); assert.equal((await r.json()).error.code, "llm_invalid_response");
   }
 });

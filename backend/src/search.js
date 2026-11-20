@@ -9,6 +9,19 @@ const checksForBuild = [
 const labels = { cpu: "Procesor", gpu: "Placă video", ram: "Memorie RAM", motherboard: "Placă de bază",
   psu: "Sursă", case: "Carcasă", cooler: "Cooler", storage: "Stocare internă" };
 const incompatibleBudget = "Catalogul oferă doar prețuri istorice verificate în USD. Bugetul cerut nu poate fi comparat.";
+const clarificationMessages = {
+  negative: "Căutarea nu poate aplica excluderi. Precizează componenta sau marca pe care vrei să o incluzi.",
+  multiple_brands: "Cererea menționează mai multe mărci. Alege o singură marcă sau caută-le separat.",
+  multiple_components: "Ai cerut mai multe tipuri de componente. Caută fiecare categorie separat.",
+  alternative: "Cererea conține alternative. Alege o variantă pentru această căutare.",
+  range: "Cererea conține un interval sau mai multe valori pentru aceeași specificație. Precizează un singur criteriu acceptat.",
+  unsupported_bound: "Limita cerută nu poate fi aplicată. Sunt acceptate praguri minime pentru componente și plafoane maxime pentru buget.",
+  ambiguous_budget: "Bugetul conține mai multe sume sau monede. Precizează un singur plafon și moneda lui.",
+  invalid_quantity: "Valoarea nu este validă pentru această categorie. Verifică numărul, semnul și unitatea.",
+  unsupported_spec: "Catalogul nu permite filtrarea după toate caracteristicile cerute. Reformulează folosind criteriile disponibile.",
+  missing_category: "Ce tip de componentă cauți? Poți preciza, de exemplu, procesor, placă video sau memorie RAM.",
+  budget_currency: incompatibleBudget
+};
 const hasBudget = c => c.budget_max !== null;
 const capacity = p => p.category === "storage" ? p.specs.capacity_gb : p.specs.memory_gb;
 
@@ -70,7 +83,7 @@ export function listProducts(repository, criteria, page, pageSize) {
     products: matches.slice(start, start + pageSize).map(({ p }) => p) };
 }
 
-export function search(repository, criteria) {
+export function search(repository, criteria, issue) {
   const result = { criteria, total: 0, products: [], messages: [], suggestions: [] };
   const { intent } = criteria;
   if (intent === "build_request" || intent === "compatibility_check") {
@@ -83,7 +96,8 @@ export function search(repository, criteria) {
     return result;
   }
   if (intent === "clarify") {
-    result.messages.push("Criteriile sunt neclare sau depășesc filtrele disponibile.");
+    if (issue) result.clarification_reason = issue;
+    result.messages.push(clarificationMessages[issue] ?? "Criteriile sunt neclare sau depășesc filtrele disponibile.");
     result.suggestions.push("Precizează o singură componentă și un criteriu, de exemplu „32 GB RAM DDR5”.");
     return result;
   }

@@ -21,6 +21,9 @@ export const shape = z.strictObject({
   resolution: z.enum(["1080p", "1440p", "2160p"]).nullable()
 });
 
+// Model-only field. Raw model notes never become filters or UI text.
+export const modelShape = shape.extend({ unhandled_requirements: z.array(z.string()) });
+
 export function emptyCriteria(intent = "clarify") {
   const empty = Object.fromEntries(Object.keys(shape.shape).map(key => [key, null]));
   return { ...empty, intent, budget_exclusive: false };
@@ -60,5 +63,5 @@ export const criteriaSchema = shape.superRefine((c, ctx) => {
 
 export const requestSchema = z.strictObject({
   query: z.string().max(500).trim().min(3)
-    .refine(s => !/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]|<\/?[a-z][^>]*>/iu.test(s))
+    .refine(s => /\p{L}/u.test(s) && !/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f\p{Cf}]|<\/?[a-z][^>]*>/iu.test(s))
 });

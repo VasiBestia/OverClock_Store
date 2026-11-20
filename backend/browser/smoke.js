@@ -6,7 +6,7 @@ import { chromium } from "playwright";
 import { createApp } from "../src/app.js";
 import { loadCatalog } from "../src/catalog-data.js";
 
-let server, browser, base;
+let server, browser, base, repository;
 const desktop = { width: 1440, height: 900 };
 const mobile = { width: 390, height: 844 };
 const legacyScripts = new Map([
@@ -14,7 +14,7 @@ const legacyScripts = new Map([
   ["https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js", "bootstrap.bundle.min.js"]
 ]);
 before(async () => {
-  const repository = await loadCatalog();
+  repository = await loadCatalog();
   server = createApp({ repository, mode: "demo" }).listen(0, "127.0.0.1");
   await once(server, "listening");
   base = "http://127.0.0.1:" + server.address().port;
@@ -25,17 +25,17 @@ after(async () => {
   if (server) await new Promise(resolve => { server.close(resolve); server.closeAllConnections(); });
 });
 
-async function open(t, pagePath, viewport) {
+async function open(t, pagePath, viewport, origin = base) {
   const page = await browser.newPage({ viewport });
   t.after(() => page.close());
   await page.route("**/*", route => {
     const url = route.request().url();
-    if (url.startsWith(base + "/")) return route.continue();
+    if (url.startsWith(origin + "/")) return route.continue();
     if (!legacyScripts.has(url)) return route.abort();
     const cache = process.env.OVERCLOCK_TEST_ASSETS;
     return cache ? route.fulfill({ path: path.join(cache, legacyScripts.get(url)), contentType: "application/javascript" }) : route.continue();
   });
-  await page.goto(base + pagePath);
+  await page.goto(origin + pagePath);
   await page.waitForFunction(() => Boolean(window.jQuery && window.bootstrap), undefined, { timeout: 10000 });
   return page;
 }
@@ -106,4 +106,45 @@ test("the original cart quantity controls still increment and decrement", async 
   await quantity.locator(".btn-plus").click(); assert.equal(Number(await value.inputValue()), original + 1);
   await quantity.locator(".btn-minus").click(); assert.equal(Number(await value.inputValue()), original);
   assert.equal(await page.locator("form[data-hardware-search]").count(), 0);
+});
+
+test("shop explains exclusions and hardware ceilings and clears previous product cards", async t => {
+  const page = await open(t, "/shop.html", desktop);
+  const results = page.locator("#hardware-search-results");
+  await submit(page, "GPU NVIDIA", "desktop");
+  assert.ok(await results.locator("article").count() > 0);
+  for (const [query, message] of [["GPU fără NVIDIA", /excluderi/], ["GPU cu cel mult 8 GB", /Limita cerută/],
+    ["GPU AMD sau NVIDIA", /mai multe mărci/]]) {
+    await submit(page, query, "desktop");
+    assert.match(await results.innerText(), message); assert.equal(await results.locator("article").count(), 0);
+  }
+});
+
+test("mobile shows local validation in OpenAI mode, actual API errors and recovery", async t => {
+  const api = createApp({ repository, mode: "openai", key: "" }).listen(0, "127.0.0.1");
+  await once(api, "listening");
+  t.after(() => new Promise(resolve => { api.close(resolve); api.closeAllConnections(); }));
+  const page = await open(t, "/", mobile, "http://127.0.0.1:" + api.address().port);
+  await submit(page, "GPU cu maximum 900 lei", "mobile");
+  const results = page.locator("#hardware-search-results");
+  assert.match(await results.innerText(), /fără apel OpenAI/);
+  assert.match(await results.innerText(), /nu poate fi comparat/);
+  await submit(page, "GPU NVIDIA", "mobile");
+  assert.match(await page.locator("#hardware-search-status").innerText(), /cheie configurată pe server/);
+  assert.equal(await results.locator("article").count(), 0);
+  await submit(page, "Vreau un PC de gaming cu buget de 5000 lei", "mobile");
+  assert.match(await results.innerText(), /5000 RON/); assert.match(await results.innerText(), /verific|valida/i);
+  assert.equal(await results.locator("article").count(), 0);
+});
+
+test("the UI displays Retry-After from the real cost limiter", async t => {
+  const client = { responses: { parse: () => assert.fail("Daily limit is zero") } };
+  const api = createApp({ repository, mode: "openai", client, dailyLimit: 0 }).listen(0, "127.0.0.1");
+  await once(api, "listening");
+  t.after(() => new Promise(resolve => { api.close(resolve); api.closeAllConnections(); }));
+  const page = await open(t, "/shop.html", desktop, "http://127.0.0.1:" + api.address().port);
+  await submit(page, "GPU NVIDIA", "desktop");
+  const message = await page.locator("#hardware-search-status").innerText();
+  assert.match(message, /Limita zilnică/); assert.match(message, /Timp de așteptare: \d+ (?:s|min)/);
+  assert.equal(await page.locator("#hardware-search-results article").count(), 0);
 });

@@ -6,7 +6,7 @@
   const results = document.querySelector("#hardware-search-results");
   const modeLabels = {
     demo: "Mod demonstrativ · interpretare locală",
-    openai: "Mod OpenAI · interpretare prin model"
+    openai: "Mod OpenAI"
   };
   const categories = { cpu: "Procesor", gpu: "Placă video", ram: "Memorie RAM", psu: "Sursă",
     motherboard: "Placă de bază", case: "Carcasă", cooler: "Cooler", storage: "Stocare internă" };
@@ -53,7 +53,13 @@
       const data = await response.json();
       if (!response.ok) {
         setMode(data.mode);
-        return { error: data.error?.message || "Cererea nu a putut fi procesată." };
+        let message = data.error?.message || "Cererea nu a putut fi procesată.";
+        const seconds = Number(response.headers.get("Retry-After"));
+        if (response.status === 429 && Number.isSafeInteger(seconds) && seconds > 0) {
+          const wait = seconds < 60 ? seconds + " s" : Math.ceil(seconds / 60) + " min";
+          message += " Timp de așteptare: " + wait + ".";
+        }
+        return { error: message };
       }
       return data;
     } finally {
@@ -102,6 +108,9 @@
   function render(data) {
     setMode(data.mode);
     const content = document.createDocumentFragment();
+    if (data.mode === "openai" && data.interpretation_source === "validation") {
+      content.append(element("p", "small text-muted mb-2", "Verificare locală · fără apel OpenAI."));
+    }
     const criteria = describe(data.criteria);
     if (criteria) content.append(element("p", "fw-bold mb-2", "Criterii identificate: " + criteria));
     for (const message of data.messages) content.append(element("p", "mb-2", message));

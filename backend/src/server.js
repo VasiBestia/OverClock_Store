@@ -10,7 +10,9 @@ for (const origin of origins) {
 }
 const mode = process.env.SEARCH_MODE || "demo";
 const app = createApp({ repository: await loadCatalog(), mode, key: process.env.OPENAI_API_KEY,
-  model: process.env.OPENAI_MODEL || "gpt-5.4-mini", origins });
+  model: process.env.OPENAI_MODEL || "gpt-5.4-mini", origins,
+  dailyLimit: process.env.OPENAI_DAILY_REQUEST_LIMIT ? Number(process.env.OPENAI_DAILY_REQUEST_LIMIT) : undefined,
+  maxConcurrent: process.env.OPENAI_MAX_CONCURRENT ? Number(process.env.OPENAI_MAX_CONCURRENT) : undefined });
 const host = process.env.HOST || "127.0.0.1";
 const server = app.listen(port, host, () => console.log("OverClock Store | " + mode + " | http://" + host + ":" + port));
 server.headersTimeout = 10000;

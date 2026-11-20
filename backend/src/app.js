@@ -27,8 +27,8 @@ function limiter(limit) {
 }
 
 export function createApp({ repository, mode = "demo", key, model = "gpt-5.4-mini", client,
-  origins = [], searchLimit = 12, catalogLimit = 90 }) {
-  const interpret = createInterpreter({ mode, key, model, client });
+  origins = [], searchLimit = 12, catalogLimit = 90, dailyLimit, maxConcurrent }) {
+  const interpret = createInterpreter({ mode, key, model, client, dailyLimit, maxConcurrent });
   const app = express();
   app.disable("x-powered-by");
   app.use((_req, res, next) => { res.set("X-Content-Type-Options", "nosniff"); next(); });
@@ -39,7 +39,10 @@ export function createApp({ repository, mode = "demo", key, model = "gpt-5.4-min
     if (origin && origin !== req.protocol + "://" + req.get("host") && !origins.includes(origin)) {
       return next(new ApiError(403, "origin_denied", "Originea frontend-ului nu este permisă."));
     }
-    if (origin) res.set("Access-Control-Allow-Origin", origin);
+    if (origin) {
+      res.set("Access-Control-Allow-Origin", origin);
+      res.set("Access-Control-Expose-Headers", "Retry-After");
+    }
     if (req.method !== "OPTIONS") return next();
     res.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
     res.set("Access-Control-Allow-Headers", "Content-Type");
@@ -52,8 +55,8 @@ export function createApp({ repository, mode = "demo", key, model = "gpt-5.4-min
   express.json({ limit: "4kb", inflate: false }), async (req, res) => {
     const input = requestSchema.safeParse(req.body);
     if (!input.success) throw badInput();
-    const criteria = await interpret(input.data.query);
-    res.json({ mode, ...search(repository, criteria) });
+    const { criteria, source, issue } = await interpret(input.data.query);
+    res.json({ mode, interpretation_source: source, ...search(repository, criteria, issue) });
   });
   app.get("/api/products", limiter(catalogLimit), (req, res) => {
     const query = productQuery.safeParse(req.query);
@@ -79,6 +82,7 @@ export function createApp({ repository, mode = "demo", key, model = "gpt-5.4-min
     if (err.type === "entity.too.large") e = new ApiError(413, "body_too_large", "Cererea depășește limita de 4 KiB.");
     if (["encoding.unsupported", "charset.unsupported"].includes(err.type)) e = new ApiError(415, "unsupported_media_type", "Codificare nesuportată.");
     if (!(e instanceof ApiError)) e = new ApiError(500, "internal_error", "Cererea nu a putut fi procesată.");
+    if (e.retryAfter !== undefined) res.set("Retry-After", String(e.retryAfter));
     res.status(e.status).json({ mode, error: { code: e.code, message: e.message } });
   });
   return app;
