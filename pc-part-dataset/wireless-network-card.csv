@@ -106,7 +106,6 @@ D-Link DWA-548,39.99,Wi-Fi 4,PCIe x1,
 MSI AC905C,,Wi-Fi 5,PCIe x1,Black
 fenvi FV-AXE210NG,,Wi-Fi 6E,M.2,
 StarTech PEX300WN2X2,24.99,Wi-Fi 4,PCIe x1,
-Intel 7260HMWDTX1,,Wi-Fi 5,PCIe x1,
 AVM FRITZ! WLAN Stick AC 430 MU-MIMO,,Wi-Fi 5,USB Type-A 2.0,White / Red
 Intel 9560.NGWG.NVR,,Wi-Fi 5,M.2,Silver
 Edimax EW-7612PIN V2,17.55,Wi-Fi 4,PCIe x1,Green
@@ -194,7 +193,6 @@ InFocus INA-WIFIUSB-4,,Wi-Fi 5,USB Type-A 2.0,Black
 HP 8265,,Wi-Fi 5,PCIe x1,Green / Black
 fenvi FV8303,,Wi-Fi 4,PCIe x1,
 Intel 8265.NGWMG.DTX1,,Wi-Fi 5,M.2,
-Intel AX210,,Wi-Fi 6E,M.2 PCIe,Green
 Gigabyte GC-WBAX1200,,Wi-Fi 6E,PCIe x1,Black
 SIIG JU-WR0112-S2,16.22,Wi-Fi 4,USB Type-A 2.0,Black
 Rosewill RNX-AC3000,,Wi-Fi 6,PCIe x1,Black
@@ -275,7 +273,6 @@ Intel 7260HMW BN,,Wi-Fi 4,Mini-PCIe,
 Linksys AE6000,,Wi-Fi 5,USB Type-A 2.0,
 Orico ORICO WRA150,,Wi-Fi 4,USB Type-A 2.0,
 Orico ORICO WRB150,,Wi-Fi 4,USB Type-A 2.0,
-Orico ORICO WRB150,,Wi-Fi 4,USB Type-A 2.0,
 Orico ORICO WRD150,,Wi-Fi 4,USB Type-A 2.0,
 Orico WRD150BLK,,Wi-Fi 4,USB Type-A 2.0,
 Samsung WIS12ABGNX/XAA,,Wi-Fi 4,USB Type-A 2.0,
@@ -312,7 +309,6 @@ Belkin F7D1102,,Wi-Fi 4,USB Type-A 2.0,
 Buffalo Technology WI-U2-433DM,,Wi-Fi 5,USB Type-A 2.0,
 Cisco AM10,,Wi-Fi 4,USB Type-A 2.0,
 D-Link N69506,,Wi-Fi 4,USB Type-A 2.0,
-D-Link DWA-548,,Wi-Fi 4,PCIe x1,
 Encore ENLWI-N3,,Wi-Fi 4,PCI,
 Linksys WUSB600N,52.99,Wi-Fi 4,USB Type-A 2.0,
 SIIG JU-WR0012-S1,,Wi-Fi 4,USB Type-A 2.0,
@@ -323,7 +319,6 @@ TP-Link TL-WDN4200,,Wi-Fi 4,USB Type-A 2.0,
 Cisco AE3000,,Wi-Fi 4,USB Type-A 2.0,
 Intel 6205,,Wi-Fi 4,Mini-PCIe,
 Intel 6235ANHMW,,Wi-Fi 4,Mini-PCIe,
-Asus USB-N13,,Wi-Fi 4,USB Type-A 2.0,
 Belkin AE3000,,Wi-Fi 4,USB Type-A 2.0,
 Belkin F7D2102TT,,Wi-Fi 4,USB Type-A 2.0,
 BenQ WDRT8192,,Wi-Fi 4,USB Type-A 2.0,
@@ -339,16 +334,12 @@ Edimax EW-7711MAC,,Wi-Fi 5,USB Type-A 2.0,
 Intel 3160.NGWG,,Wi-Fi 5,Mini-PCIe,
 Intel 6300,,Wi-Fi 4,Mini-PCIe,
 Intel 7260,19.98,Wi-Fi 4,Mini-PCIe,
-Intel 7260,,Wi-Fi 4,Mini-PCIe,
-Intel 7260,,Wi-Fi 4,Mini-PCIe,
 Asus USB-AC68,,Wi-Fi 5,USB Type-A 3.2 Gen 1,
 AUKEY WF-R12,,Wi-Fi 5,USB Type-A 3.2 Gen 1,
 Athenatech NE-WN3201D,,Wi-Fi 4,USB Type-A 2.0,
 D-Link DWA-192,,Wi-Fi 5,USB Type-A 3.2 Gen 1,
 Rosewill RNX-N600PCE_v2.0,,Wi-Fi 4,PCIe x1,
 Rosewill RNX-N300UB,,Wi-Fi 4,USB Type-A 2.0,
-Rosewill RNX-N150NUB,,Wi-Fi 4,USB Type-A 2.0,
-Rosewill RNX-N150NUB,,Wi-Fi 4,USB Type-A 2.0,
 TRENDnet TEW-807ECH,,Wi-Fi 5,PCIe x1,
 Linksys AE2500-CA,,Wi-Fi 4,USB Type-A 2.0,
 Netgear WF2190,,Wi-Fi 5,USB Type-A 3.2 Gen 1,
@@ -367,9 +358,6 @@ Sabrent USB-802N,,Wi-Fi 4,USB Type-A 2.0,Black
 Belkin Linksys AE1200-NP,,Wi-Fi 4,USB Type-A 3.2 Gen 1,Black
 Hommie N900,,Wi-Fi 4,PCIe x1,
 fenvi FV-AX3000R,,Wi-Fi 6,PCIe x1,Red / Black
-Intel AX210 w/vPro,,Wi-Fi 6E,M.2 PCIe,Green
-Intel AX210,,Wi-Fi 6E,M.2 PCIe,Green
-Intel AX210 w/vPro,,Wi-Fi 6E,M.2 PCIe,Green
 fenvi Wi-Fi 7 FV-BE8800,,Wi-Fi 7,PCIe x1,Red / Black
 D-Link DWA-181-US,19.79,Wi-Fi 5,USB Type-A 2.0,Black
 D-Link DWA-X3000,,Wi-Fi 6,PCIe x1,Black

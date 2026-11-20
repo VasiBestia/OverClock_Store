@@ -661,7 +661,6 @@ Corsair RM650x,,ATX,gold,650,Full,
 EVGA SuperNOVA 1300 GT,,ATX,gold,1300,Full,Black
 KOLINK ENCLAVE,,ATX,gold,600,Full,Black
 SeaSonic G12 GM,,ATX,gold,750,Semi,Black / Blue
-Silverstone SFX,,SFX,bronze,300,false,Black
 Aerocool Integrator Gold,,ATX,gold,750,Full,Black
 Thermalright TB-850,,ATX,bronze,850,Full,Black
 SeaSonic G12 GM,292.64,ATX,gold,850,Semi,Black / Blue
@@ -1177,7 +1176,6 @@ Thermalright AG-850,,ATX,gold,850,Full,Black
 GameMax GT,,TFX,bronze,300,false,Silver
 Lian Li EDGE GOLD,,ATX,gold,750,Full,White
 be quiet! Straight Power 11,,ATX,platinum,650,Full,Black
-Corsair HX750,,ATX,gold,750,Semi,
 SeaSonic X,,ATX,gold,650,Full,
 Gigabyte PB500,,ATX,bronze,500,false,
 Deepcool PN750M WH,,ATX,gold,750,Full,White
@@ -1406,7 +1404,6 @@ be quiet! Straight Power 11 550W,,ATX,gold,550,Full,
 Rosewill HIVE,,ATX,bronze,650,Semi,
 Rosewill HIVE,,ATX,bronze,750,Semi,
 Cooler Master XG650,,ATX,platinum,650,Full,Black
-Thermaltake Toughpower GF A3 - TT Premium Edition,,ATX,gold,1200,Full,Black
 Asus ROG Thor P3 Gaming,,ATX,platinum,1000,Full,Black
 Deepcool DQ750M-V3L,,ATX,gold,750,Full,Black
 GAMDIAS KRATOS E1,,ATX,plus,500,false,Black
@@ -1486,7 +1483,6 @@ Gigabyte GreenMax Plus,,ATX,bronze,550,false,
 Raidmax Cobra,,ATX,bronze,700,false,
 SHARKOON WPM Bronze,,ATX,bronze,600,Semi,
 Cooler Master Elite NEX N700 230V,,ATX,,700,false,Black
-Thermaltake TR2,,ATX,,600,false,
 Rosewill PHOTON-750,,ATX,gold,750,Full,
 EVGA SuperNOVA 1000 G7,,ATX,gold,1000,Full,Black / Blue
 Super Flower Leadex III ARGB Pro,,ATX,gold,850,Full,Black
@@ -1719,7 +1715,6 @@ be quiet! Pure Power 10 CM,,ATX,silver,700,Semi,
 Thermaltake Toughpower iRGB PLUS 850,,ATX,gold,850,Full,Black
 Thermaltake Smart,,ATX,plus,730,false,
 Inter-Tech Argus RGB II,173.8,ATX,bronze,700,false,Black
-Silverstone SFX,,SFX,bronze,450,false,Black
 SeaSonic X,,ATX,gold,400,Full,
 Cooler Master 500W MasterWatt Lite 230V,,ATX,plus,500,false,
 Raidmax RX-700AC,,ATX,bronze,700,Semi,
@@ -1917,7 +1912,7 @@ Cooler Master Elite V2,,ATX,,550,false,
 Cooler Master V1000 Platinum,,ATX,platinum,1000,Full,Black
 EVGA SuperNOVA 1050 GS,,ATX,gold,1050,Full,
 EVGA SuperNOVA 750 P6,,ATX,platinum,750,Full,Black / Silver
-Antec Earthwatts,,ATX,bronze,500,false,
+Antec Earthwatts,124.98,ATX,bronze,500,false,
 Silverstone Nightjar,,ATX,platinum,520,Full,
 Antec Signature,,ATX,titanium,1000,Full,Black / Silver
 be quiet! Straight Power 10,,ATX,gold,600,false,
@@ -1941,11 +1936,9 @@ EVGA 510 BP,,ATX,bronze,510,false,Black
 XFX XTR,,ATX,gold,550,Full,
 SeaSonic PRIME SNOWSILENT,,ATX,gold,550,Full,White
 Deepcool GamerStorm DQ-M,,ATX,gold,750,Full,Black / Silver
-SeaSonic X,,ATX,gold,750,Full,
 NZXT HALE90 V2 1000W,,ATX,gold,1000,Full,
 PC Power & Cooling Silencer MK III,,ATX,bronze,500,Semi,
 Cougar SL600,,ATX,,600,false,
-NZXT HALE90 V2 1000W,,ATX,gold,1000,Full,
 Vetroo G5,,ATX,gold,850,Full,White
 Antec NeoECO,,ATX,bronze,520,false,
 Apevia ATX-JV650W,,ATX,,650,false,
@@ -1958,7 +1951,6 @@ be quiet! Dark Power Pro 10,,ATX,gold,750,Semi,
 Thermaltake Toughpower DPS G RGB Titanium,,ATX,titanium,850,Full,
 Cooler Master i500,,ATX,bronze,500,false,
 Thermaltake Toughpower GX1 RGB,,ATX,gold,600,false,Black
-Thermaltake Smart,,ATX,bronze,650,Semi,
 FSP Group Hydro PTM PRO,,ATX,platinum,1200,Full,Black
 FSP Group Berzerker,,ATX,bronze,500,false,
 FSP Group Dagger 600,,SFX,gold,600,Full,Black
@@ -1974,7 +1966,6 @@ PC Power & Cooling Silencer Mk II,,ATX,silver,950,false,
 FSP Group Hydro X,,ATX,gold,550,false,
 Cooler Master GX,,ATX,plus,650,false,
 Antec NeoECO Classic,,ATX,bronze,550,false,Black
-Corsair TX850 V2,,ATX,bronze,850,false,
 Cooler Master Elite NEX N700,,ATX,,700,false,Black
 Silverstone Strider Titanium,,ATX,titanium,1500,Full,Black / Blue
 XFX Core Edition,,ATX,bronze,750,false,
@@ -2034,7 +2025,6 @@ FSP Group Twins,,ATX,gold,700,false,
 SeaSonic SSP-350SE,,ATX,bronze,350,false,
 In Win Classic,,ATX,platinum,900,Full,
 Antec NeoECO V2,,ATX,bronze,550,Semi,Black
-Antec VP PLUS,,ATX,plus,550,false,Black
 LEPA B650-SA,,ATX,bronze,650,false,
 Cooler Master X Silent MAX,,ATX,platinum,1300,Full,Black
 In Win IP-S350CQ2-0T,,ATX,,350,false,
@@ -2060,7 +2050,6 @@ Aerocool P7 Platinum,,ATX,platinum,850,Full,Black
 XFX TS,,ATX,gold,650,false,
 SeaSonic FOCUS SGX (2021),,SFX,gold,550,Full,Black
 FSP Group Berserker 500,,ATX,bronze,500,false,
-EVGA SuperNOVA NEX750B,,ATX,bronze,750,Semi,
 Rosewill HERCULES-1600,,ATX,silver,1600,Semi,
 EVGA SuperNOVA 850 G7,,ATX,gold,850,Full,Black / Blue
 Antec High Current Pro,,ATX,gold,750,Semi,
@@ -2076,11 +2065,9 @@ Antec True Power,,ATX,gold,550,false,
 Super Flower Golden Green HX,,ATX,gold,750,false,
 LC-Power LC6650GP3 V2.3 230V,,ATX,silver,650,false,Black
 Rosewill CS-1000M,,ATX,gold,1000,Full,Black
-Antec Earthwatts,124.98,ATX,bronze,500,false,
 Thermaltake Toughpower GF1 - TT Premium,,ATX,gold,1200,Full,Black
 PC Power & Cooling Silencer MK III,118.49,ATX,gold,750,Semi,
 Thermalright AG-750,,ATX,gold,750,Full,Black
-SeaSonic X,,ATX,gold,650,Full,
 SeaSonic PRIME Ultra Gold 850,,ATX,gold,850,Full,Black
 SeaSonic SS-850HT Silver,169,ATX,silver,850,false,
 Deepcool PN550D,,ATX,gold,550,false,Black
@@ -2101,8 +2088,6 @@ Antec True Power,,ATX,bronze,550,Full,
 Apevia ITX-AP250W,,Mini ITX,,250,false,Black
 HEC HEC350TEWX,,ATX,plus,350,false,
 Rosewill RBR1000-M,,ATX,bronze,1000,Semi,
-Thermaltake TR2,,ATX,bronze,500,false,
-Thermaltake TR2,,ATX,,500,false,
 be quiet! System Power 8,,ATX,plus,400,false,
 Antec EarthWatts Platinum,,ATX,platinum,550,false,
 FSP Group Hydro G,,ATX,gold,750,Full,
@@ -2140,7 +2125,6 @@ SeaSonic FOCUS,,ATX,gold,500,Semi,Black
 EVGA SuperNOVA 750 PQ,,ATX,platinum,750,Semi,Black
 Solid Gear SDGR-FLEX220,,Flex ATX,,220,false,Silver
 be quiet! PURE POWER L8 400W,,ATX,bronze,400,false,
-be quiet! Pure Power L8,,ATX,bronze,500,false,
 Cougar CMX550V3,,ATX,bronze,550,Semi,
 SeaSonic S12G,,ATX,gold,650,false,
 Super Flower Leadex Silver,,ATX,silver,550,Full,
@@ -2291,7 +2275,6 @@ Cougar RX500,,ATX,plus,500,false,
 Apevia ATX-TL450W,,ATX,,450,false,
 Apevia ATX-WA750W,,ATX,,750,false,
 Apevia ATX-WA900W,,ATX,,900,false,
-Cooler Master GX,,ATX,plus,650,false,
 Enermax EMG800EWT,,ATX,gold,800,Full,
 OCZ Fatal1ty,,ATX,plus,550,Semi,
 Rosewill Green,,ATX,plus,630,false,
@@ -2308,7 +2291,6 @@ Silverstone Strider Platinum,,ATX,platinum,850,Full,
 Antec VP PLUS,,ATX,plus,550,false,
 Cooler Master i700,,ATX,bronze,700,false,
 Thermaltake Toughpower XT,,ATX,bronze,875,Full,
-Thermaltake Toughpower GF A3 - TT Premium Edition,,ATX,gold,850,Full,Black
 Super Flower Leadex Platinum,,ATX,platinum,1600,Full,Black
 Super Flower Leadex III Super Pro,,ATX,bronze,850,Full,Black
 Super Flower Leadex V Pro,,ATX,gold,1000,Full,Black / Gold
@@ -2345,7 +2327,6 @@ Cougar GX-F,,ATX,gold,750,Full,Black / Orange
 Cooler Master Hyper White,,ATX,plus,500,false,Black
 Fractal Design Tesla R2,,ATX,gold,1000,false,
 FSP Group Hydro PTM,,ATX,platinum,550,Full,Black
-Apevia Prestige,,ATX,gold,1000,false,Black
 FSP Group Raider S 650,,ATX,silver,650,false,
 Antec Earthwatts Green,,ATX,bronze,750,false,
 Antec High Current Pro,,ATX,gold,850,Semi,
@@ -2457,7 +2438,6 @@ Raidmax RX-500AF,,ATX,bronze,500,false,
 FSP Group VITA-650GM,,ATX,gold,650,Full,White
 SeaSonic 850FX WHITE,,ATX,gold,850,Full,White
 Xilence Performance A+ III,,ATX,bronze,550,false,Black / Red
-Corsair TX750 V2,300,ATX,bronze,750,false,
 EVGA SuperNOVA 850 PQ,,ATX,platinum,850,Semi,Black
 Phanteks PH-P750GS,,ATX,gold,750,false,Black
 Zalman TeraMax II,,ATX,gold,1200,Full,White
@@ -2468,7 +2448,6 @@ Silverstone Strider,,ATX,plus,400,false,
 FSP Group Hydro PTM,,ATX,platinum,750,Full,Black
 Rosewill ARC M650,,ATX,bronze,650,Semi,
 Nfortec Sagitta RGB,,ATX,gold,750,Full,Black
-Thermaltake TR2,,ATX,bronze,450,false,
 Xilence XP730R8,,ATX,bronze,730,false,Black / Red
 Mistel MX650 FANLESS,,ATX,platinum,650,Full,Black
 Athena Power AP-P4ATX80FEP8,,ATX,bronze,800,false,
@@ -2532,7 +2511,6 @@ EVGA Classified SR-2,,ATX,silver,1200,Full,
 OCZ Z Series Gold,,ATX,gold,1000,Semi,
 Silverstone Strider,,ATX,gold,1200,Full,
 Silverstone OP1000-E,,ATX,,1000,false,
-Thermaltake TR2,,ATX,bronze,600,false,
 Thermaltake TR2,,ATX,plus,1200,Semi,
 Zalman ZM770-XT,,ATX,bronze,770,Full,
 SeaSonic SS-350ET Bronze,,ATX,bronze,350,false,
@@ -2573,7 +2551,6 @@ Zalman zm-650-XG,,ATX,gold,650,Semi,
 Zalman zm-500-LE,,ATX,,500,false,
 XClio DIAMONDPOWER 880W,,ATX,,880,false,
 StarTech ATX2POWER350,,ATX,,350,false,
-Fractal Design Newton R3,,ATX,platinum,1000,Semi,
 EVGA 450 GD,,ATX,gold,450,false,Black
 SeaSonic PRIME Gold,,ATX,gold,750,Full,
 Segotep GF,,SFX,gold,750,Full,White
@@ -2602,7 +2579,6 @@ Tacens AP II,,ATX,,500,false,Black / Green
 Enermax REVOLUTION DUO,,ATX,gold,500,false,
 Enermax REVOLUTION DUO,,ATX,gold,600,false,
 Cooler Master XG850,,ATX,platinum,850,Full,Black
-SeaSonic Platinum,,ATX,platinum,760,Full,
 LEPA MaxBron,,ATX,bronze,1000,Semi,
 LEPA MaxBron,,ATX,bronze,800,Semi,
 LEPA MX-F1,,ATX,,400,false,
@@ -2620,7 +2596,6 @@ Rosewill ARC M550,,ATX,bronze,550,Semi,
 Rosewill SMG750,,ATX,gold,750,Full,Black
 Nfortec Sagitta RGB,,ATX,gold,1050,Full,Black
 Thermaltake Toughpower Grand,,ATX,gold,1050,Full,
-Fractal Design Newton R3,,ATX,platinum,600,Semi,
 Xilence XP530R8,,ATX,bronze,530,false,Black / Red
 Fractal Design Integra R2,,ATX,bronze,750,false,
 Cougar CMX1200V3,,ATX,bronze,1200,Semi,
@@ -2632,7 +2607,6 @@ Apevia Astro,,ATX,,500,false,Black
 SeaSonic PRIME Gold,,ATX,gold,1000,Full,
 Xilence XP850MR9,,ATX,gold,850,Semi,Black / Red
 SeaSonic ECO,,ATX,bronze,430,false,
-SeaSonic Platinum,,ATX,platinum,520,Full,
 Super Flower Amazon,,ATX,bronze,550,false,
 LC-Power LC6460GP3 V2.3 230V,,ATX,silver,460,false,Black
 Super Flower Leadex Gold,,ATX,gold,1300,Full,
@@ -2667,7 +2641,6 @@ Cougar POWERX,,ATX,bronze,700,false,
 be quiet! Pure Power 10,,ATX,bronze,350,false,
 OCZ ZT,,ATX,bronze,650,Full,
 Thermaltake EVO_Blue,,ATX,,650,Full,
-Corsair CS550M,,ATX,gold,550,Semi,
 VIVO 24K,,ATX,gold,650,Full,
 Rosewill RD-Z,,ATX,plus,500,false,Black
 Antec EDGE,,ATX,gold,550,Full,
@@ -2701,7 +2674,6 @@ Rosewill Lightning,,ATX,gold,800,Semi,
 Silverstone OP800,,ATX,,800,false,
 Thermaltake Toughpower Grand,,ATX,gold,750,Semi,
 Thermaltake Toughpower XT,,ATX,bronze,575,Full,
-Thermaltake TR2,,ATX,,430,false,
 Thermaltake Toughpower,,ATX,bronze,1000,Full,
 Thermaltake EVO_Blue,,ATX,,550,Full,
 Zalman ZM500-HP,,ATX,,500,Semi,
@@ -2721,7 +2693,6 @@ Enermax CYBERBRON,,ATX,bronze,700,false,Black / Silver
 be quiet! Dark Power Pro 10,,ATX,gold,1200,Semi,
 FSP Group AU-1000PRO,,ATX,gold,1000,false,
 Topower TOP-800WB,,ATX,bronze,800,false,
-EVGA SuperNOVA NEX1500 Classified,,ATX,gold,1500,Full,
 XFX XT,,ATX,bronze,400,false,
 Cooler Master Extreme 2,,ATX,,525,false,
 Segotep CP-PSU-ST-P750F,,ATX,gold,750,Full,Black
@@ -2730,15 +2701,12 @@ Thermaltake TR2,,ATX,gold,600,false,
 Raidmax Scorpio,,ATX,bronze,735,Semi,
 Thermaltake TR2,,ATX,gold,450,false,
 BitFenix Whisper M,,ATX,gold,450,Full,
-Thermaltake Toughpower DPS G RGB,,ATX,titanium,1250,Full,
 Super Flower Leadex V Pro,,ATX,gold,850,Full,Black
 Sparkle FSP300-60THA,,ATX,,300,false,
 Silverstone Strider Platinum,,ATX,platinum,1000,Full,
 FSP Group HEXA 85+,,ATX,bronze,450,false,Black
-Silverstone Strider,,ATX,gold,850,Full,
 Cougar DX500,,ATX,plus,500,false,
 Antec EA-750 Platinum,,ATX,platinum,750,false,
-Silverstone Strider,,ATX,bronze,600,false,
 Athena Power AP-TFX30,,TFX,,300,false,
 Cooler Master GX,,ATX,plus,750,Semi,
 Diablotek PHD550,,ATX,,550,false,
@@ -2757,7 +2725,6 @@ NZXT HALE 90,,ATX,gold,850,Full,
 LC-Power LC8550 V2.31 Prophet,,ATX,bronze,550,Semi,Black / Blue
 Aerocool GT-1050SG,,ATX,gold,1050,Semi,
 SeaSonic PRIME Platinum,,ATX,platinum,650,Full,
-Silverstone Strider,,ATX,gold,650,Full,
 Sentey MBP HM,,ATX,bronze,550,Semi,Black
 Sentey MBP HM,,ATX,bronze,850,Semi,Black
 KOLINK Continuum,,ATX,platinum,850,Full,Black
@@ -2770,7 +2737,6 @@ Cooler Master V Gold,,ATX,gold,750,Full,Black
 FSP Group Raider 450,,ATX,bronze,450,false,
 be quiet! Pure Power 9,,ATX,silver,400,false,
 KOLINK KL-SFX350,,SFX,bronze,350,false,Black / Green
-Thermaltake Toughpower GF A3 - TT Premium Edition,,ATX,gold,750,Full,Black
 Lian Li PE,,SFX,gold,550,Full,
 FSP Group SAGA+ 500R,,ATX,,500,false,
 PC Power & Cooling Silencer MK III,,ATX,platinum,1200,Semi,
@@ -2813,8 +2779,6 @@ Enermax MaxTytan,,ATX,titanium,1050,Full,
 Topower TOP-500WB,,ATX,bronze,500,false,
 OCZ ZS,,ATX,bronze,550,false,
 Raidmax Cobra,,ATX,gold,1200,Semi,Black / Gold
-Thermaltake Toughpower DPS G,,ATX,gold,750,Full,
-Fractal Design Integra R2,,ATX,bronze,500,false,
 BitFenix Fury,,ATX,gold,650,Semi,
 Xilence XP630R8,,ATX,bronze,630,false,Black / Red
 Thermaltake Toughpower DPS G,,ATX,gold,850,Full,
@@ -2828,7 +2792,6 @@ Thortech Thunderbolt,,ATX,gold,1000,Full,
 PC Power & Cooling Silencer MK III,,ATX,gold,850,Semi,
 Sparkle SPI300GLS-B204,,SFX,,300,false,Silver
 Diablotek PSUL675,,ATX,,675,false,
-Cooler Master New GX,,ATX,bronze,450,false,
 XFX ProSeries,,ATX,bronze,450,false,
 Cooler Master GXII,,ATX,bronze,550,false,
 Raidmax Cobra,,ATX,bronze,500,false,
@@ -2840,7 +2803,6 @@ Super Flower SF-1200F14MP White,,ATX,platinum,1200,Full,
 Rosewill Tachyon 1200,,ATX,platinum,1200,Full,Black
 Thermaltake German,,ATX,gold,650,Semi,
 Thermaltake Toughpower DPS G,,ATX,gold,1050,Full,
-Thermaltake Toughpower DPS G,,ATX,gold,850,Full,
 Thermalright TGFX550,,SFX,gold,550,Full,White
 FSP Group FSP300-60LG-5K,113.74,Flex ATX,bronze,300,false,Silver
 iTek GF EVO,,ATX,gold,1000,Full,Black
@@ -2872,21 +2834,16 @@ In Win Commander III,,ATX,gold,700,Semi,
 TUNIQ PSU-POT750-BK,,ATX,bronze,750,false,
 Cougar VTE X2,,ATX,plus,700,false,Black
 XFX ProSeries,,ATX,gold,1250,Full,
-Thermaltake EVO_Blue,,ATX,gold,650,Semi,
 Thermaltake EVO_Blue,,ATX,gold,850,Semi,
 FSP Group PT1000FM,,ATX,platinum,1000,Full,
 E-Power EP-600NE-XV,,ATX,,600,false,
 LEPA G,,ATX,gold,1600,Full,
 LEPA G,,ATX,gold,650,Semi,
-Cooler Master Elite,,ATX,,460,false,
-Cooler Master Elite,,ATX,,400,false,
 "FSP Group Hydro PTM X PRO,Gen5",,ATX,platinum,850,Full,White
 "FSP Group Hydro PTM X PRO,Gen5",,ATX,platinum,1200,Full,White
-Silverstone Strider,,ATX,plus,400,false,
 Zalman ACRUX,,ATX,platinum,850,Full,Black / Silver
 Sparkle SPI460PFB2-MC2,,ATX,plus,460,false,
 NZXT HALE82N 550W,,ATX,bronze,550,false,
-NZXT HALE82N 650W,,ATX,bronze,650,false,
 NZXT HALE82N 750W,,ATX,bronze,750,false,
 Vetroo G5,,ATX,gold,850,Full,Black
 Antec True Power,,ATX,silver,1200,Semi,
@@ -2902,7 +2859,6 @@ CoolMax ZP-1000B,,ATX,bronze,1000,Semi,
 VisionTek 900349,,ATX,bronze,800,false,
 CoolMax CUL-650B,,ATX,,650,Semi,
 CoolMax NW-650B,,ATX,,650,false,
-Corsair HX650,,ATX,gold,650,Semi,
 Enermax EES400AWT_II,,ATX,plus,400,false,
 Enermax EMG700AWT,,ATX,gold,700,Full,
 Enermax EPG500AWT,,ATX,gold,500,false,
@@ -2913,16 +2869,13 @@ Sparkle R-SPI750ACAG,,ATX,gold,750,false,
 SeaSonic SSP-350ST,,ATX,bronze,350,false,
 FSP Group FSP300-60GHS(85),,SFX,bronze,300,false,Silver
 Rosewill Stallion,,ATX,,500,false,
-Rosewill Stallion,,ATX,,500,false,
 Rosewill Green,,ATX,bronze,700,false,
 Rosewill RP600V2-S-SL,,ATX,,600,false,
 Rosewill RV2-700,,ATX,,700,false,
 Silverstone DA750,,ATX,,750,Full,
 XClio STABLEPOWER GOLD 1000W,,ATX,gold,1000,Full,
-Silverstone Strider,,ATX,bronze,600,false,
 Silverstone Strider,,ATX,silver,850,Full,
 Thermaltake TR2,,ATX,plus,1000,Semi,
-Silverstone Strider,,ATX,gold,750,Full,
 Sparkle R-SPI900GCM,,ATX,plus,900,Semi,
 SeaSonic SS-350SFE,,SFX,plus,350,false,Silver
 Deepcool PM600D,,ATX,gold,600,false,Black
@@ -2981,7 +2934,6 @@ Deepcool PN750D WH,,ATX,gold,750,false,White
 Silverstone Strider,,ATX,bronze,700,false,
 StarTech ATX2PW430PRO,,ATX,bronze,430,false,
 Thermaltake Rome,,ATX,gold,750,Semi,Black
-Thermaltake Toughpower GF A3 - TT Premium Edition,,ATX,gold,650,Full,Black
 CoolMax CX-550B,,ATX,,550,false,
 CoolMax RM-750B,,ATX,,750,false,
 NZXT HALE 90,,ATX,gold,750,Full,
@@ -3009,7 +2961,6 @@ XFX P1-750S-CAB9,,ATX,bronze,750,false,
 PC Power & Cooling Silencer,,ATX,silver,910,false,
 SeaSonic SS-300TGW,,TFX,gold,300,false,Silver
 SeaSonic SS-350TGM Retail,,TFX,gold,350,Full,Silver
-NZXT HALE82N 750W,,ATX,bronze,750,false,
 Silverstone Strider,,ATX,gold,850,Semi,
 In Win IP-P300BN7-2,,ATX,plus,300,false,
 FSP Group FSP300-60GHS-R,,SFX,plus,300,false,Silver
@@ -3136,28 +3087,22 @@ Thermaltake Toughpower,,ATX,plus,1200,Full,
 HEC XPOWER780,,ATX,,600,false,
 Thermaltake Toughpower Grand,,ATX,platinum,1050,Full,
 Rosewill Glacier 1200M,,ATX,bronze,1200,Semi,
-Cooler Master eXtreme Power Plus,,ATX,,500,false,
 CoolMax CUL-850B,,ATX,,850,Semi,
 Chieftec Polaris,,ATX,gold,1250,Full,Black
 In Win Commander III,,ATX,gold,800,Semi,
 Zalman 1250 Platinum,,ATX,platinum,1250,Semi,
 Thermaltake EVO_Blue,,ATX,gold,750,Semi,
-Thermaltake EVO_Blue,,ATX,gold,750,Semi,
 RAIJINTEK AMPERE,,ATX,platinum,1000,Full,White
 NZXT HALE90 V2,,ATX,gold,1200,Full,
 NZXT HALE90 V2,,ATX,gold,1000,Full,
-Thermaltake EVO_Blue,,ATX,gold,850,Semi,
 NZXT HALE82,,ATX,bronze,650,Semi,
 LEPA G1000-MA,,ATX,gold,1000,Semi,
 SeaSonic SS-300SFD,,SFX,plus,300,false,Silver
 "FSP Group Hydro PTM X PRO,Gen5",,ATX,platinum,1000,Full,White
 E-Power EP-500LS-1,,ATX,,500,false,
-NZXT HALE90 V2 850W,,ATX,gold,850,Full,
-NZXT HALE90 V2 1200W,,ATX,gold,1200,Full,
 Enermax RevoBron TGA,,ATX,bronze,500,Semi,Black
 Enermax RevoBron TGA,,ATX,bronze,700,Semi,Black
 Antec Basiq,,ATX,,500,false,
-Thermaltake Toughpower DPS G,,ATX,platinum,1050,Full,
 Apevia ATX-AS500W-BL,,ATX,,500,false,
 Apevia ATX-AS500W-GN,,ATX,,500,false,
 Apevia ATX-AS520W-BK,,ATX,,520,false,
@@ -3193,15 +3138,12 @@ Dynapower EJ-750A80,,ATX,bronze,750,Full,
 Dynapower EP-45X.0562B,,ATX,,450,false,
 Enermax EGX1250EWT,,ATX,bronze,1250,Semi,
 Enermax EPG600AWT,,ATX,gold,600,false,
-OCZ EliteXStream,,ATX,plus,1000,false,
 OCZ StealthXstream II,,ATX,plus,500,false,
 OCZ StealthXstream II,,ATX,plus,700,false,
 OCZ EliteXStream,,ATX,plus,800,false,
 Rosewill Libertas,,ATX,bronze,800,Full,
 Rosewill Libertas,,ATX,plus,650,Full,
 Rosewill LP-6100C,,ATX,,300,false,
-Rosewill Stallion,,ATX,,400,false,
-Rosewill Stallion,,ATX,,450,false,
 Rosewill RV2-500,,ATX,,500,false,
 Rosewill RV350,,ATX,,350,false,
 Rosewill RV350-2,,ATX,,350,false,
@@ -3234,12 +3176,9 @@ Enermax ERV1000EWT-G,,ATX,gold,1000,Semi,
 Sparkle ATX-450PN,,ATX,,450,false,
 Sparkle SCC-850AF,,ATX,gold,850,Semi,
 Sparkle SCC-750AF,,ATX,gold,750,Full,
-LEPA B550-SA,,ATX,bronze,550,false,
-LEPA B650-SA,,ATX,bronze,650,false,
 VisionTek 900346,,ATX,,500,false,
 E-Power EP-550P5-T1,,ATX,,550,Full,
 Topower ZU-950,,ATX,,950,false,
-Cooler Master Elite,,ATX,,400,false,
 Topower ZU-450W,,ATX,,450,false,
 Sparkle FSP300THAR-MC,,ATX,,300,false,
 Sparkle ATX-400PA,,ATX,,400,false,
@@ -3265,11 +3204,9 @@ Enermax ETL450AWT-M,,ATX,bronze,450,Semi,
 Enermax ETL550AWT-M,,ATX,bronze,550,Semi,
 Enermax ETL650AWT-M,,ATX,bronze,650,Semi,
 Silverstone Strider,,ATX,gold,1000,Full,
-Silverstone Strider,,ATX,gold,1200,Full,
 Logisys PS550AC,,ATX,,550,false,
 Topower ZU-1050W,,ATX,,1050,false,
 CoolMax ZP-850B,,ATX,bronze,850,Semi,
-Silverstone Strider,,ATX,gold,750,Full,
 Topower TOP-1200W,,ATX,plus,1200,Full,
 Diablotek PHD650,,ATX,,650,false,
 Athena Power AP-P4ATX55FEC,,ATX,,550,false,
@@ -3316,7 +3253,6 @@ LEPA G1200-MA,,ATX,gold,1200,Semi,
 Sentey MBP HM,,ATX,bronze,1000,Semi,Black
 KOLINK KL-400,,ATX,bronze,400,false,Black
 XClio STABLEPOWER 500W,,ATX,,500,false,
-OCZ EliteXStream,,ATX,plus,800,false,
 Kingwin Lazer,,ATX,plus,750,Full,
 Kingwin ABT-1050MM,,ATX,,1050,false,
 PC Power & Cooling S47ATX-B,,ATX,,470,false,
@@ -3325,7 +3261,6 @@ PC Power & Cooling S61EPS-B,,ATX,plus,610,false,
 Kingwin Mach 1,,ATX,bronze,1220,Full,
 Kingwin Lazer Gold,,ATX,gold,1000,Full,
 PC Power & Cooling Silencer,,ATX,silver,760,false,
-Corsair TX650 V2,,ATX,bronze,650,false,
 Kingwin MK,,ATX,,850,false,
 Kingwin MK,,ATX,,650,false,
 Kingwin MK,,ATX,,750,false,
@@ -3334,7 +3269,6 @@ Kingwin MKX,,ATX,,850,Semi,
 XClio STABLEPOWER 1000W,,ATX,,1000,false,
 XFX P1-850S-CAB9,,ATX,bronze,850,false,
 XFX P1-650S-CAB9,,ATX,bronze,650,false,
-NZXT HALE82N 550W,,ATX,bronze,550,false,
 Sparkle Magna GOLD PRO,,ATX,gold,850,Semi,
 FSP Group FSP300-60GHT,,TFX,plus,300,false,Silver
 XClio GreatPower,,ATX,plus,500,Full,
@@ -3344,8 +3278,6 @@ FSP Group SAGA+ 400R,,ATX,,400,false,
 Noua Hyper ZR55,,ATX,bronze,550,false,Black
 Noua Hyper ZR65,,ATX,bronze,650,false,Black
 Broadway Com Corp OKIA-BLACK-550,,ATX,,550,false,
-Silverstone Strider,,ATX,gold,1000,Full,
-Silverstone Strider,,ATX,gold,1200,Full,
 Broadway Com Corp P4-OKIA-550-RB,,ATX,,550,false,
 XClio GreatPower,,ATX,plus,850,Full,
 PC Power & Cooling T12W,,ATX,,1200,false,
@@ -3395,7 +3327,6 @@ Logisys PS550E12BK,,ATX,,550,false,
 Logisys PS480D-BK,,ATX,,480,false,
 Logisys PS480E12,,ATX,,480,false,
 KOLINK Core RGB,,ATX,plus,500,false,Black
-Thermaltake Toughpower DPS G,,ATX,gold,1050,Full,
 Topower GAPS-500LX,,ATX,,500,false,
 Topower TOP-1000WG,,ATX,gold,1000,false,
 Topower TOP-500PM,,ATX,,500,false,
@@ -3403,11 +3334,6 @@ Xion EN-600F12,,ATX,,600,false,
 Xion EN-450F12BK,,ATX,,450,false,
 Thermaltake Toughpower Grand,,ATX,gold,1200,Full,
 Topower ZU-550W,,ATX,,550,false,
-Fractal Design Tesla R2,,ATX,gold,650,false,
-Fractal Design Integra R2,,ATX,bronze,650,false,
-Fractal Design Tesla R2,,ATX,gold,650,false,
-Fractal Design Tesla R2,,ATX,gold,500,false,
-Fractal Design Tesla R2,,ATX,gold,650,false,
 HEC Zephyr 700 CM,,ATX,plus,700,Semi,
 Linkworld LPK2-30-P4,,ATX,,500,false,
 Cyonic AU-450X,,ATX,gold,450,Full,

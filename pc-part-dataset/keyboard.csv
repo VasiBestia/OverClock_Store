@@ -32,7 +32,6 @@ Corsair K70 CORE,99.99,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
 Logitech G213 PRODIGY,47.97,Gaming,,RGB,false,Wired,Black
 SteelSeries Apex Pro Gen 3,214.95,Gaming,OmniPoint 3.0,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Razer DeathStalker V2 Pro,249.99,Gaming,Razer Purple Low-Profile Optical Clicky,RGB,false,"Wired, Wireless, Bluetooth Wireless",White
-SteelSeries Apex Pro TKL (2023),381.07,Gaming,SteelSeries OmniPoint 2.0,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Keychron K2 HE,129.99,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Green
 SteelSeries Apex 3,49.99,Gaming,,RGB,false,Wired,Black
 Razer BlackWidow V3,94.99,Gaming,Razer Green,RGB,true,Wired,Black
@@ -73,7 +72,7 @@ HP HyperX Alloy Origins Core,104.99,Gaming,HyperX Red,RGB,true,Wired,Black
 SteelSeries Apex 100,29.99,Gaming,,Blue,false,Wired,Black
 Logitech G213,59.99,Gaming,,RGB,false,Wired,Black
 Logitech PRO X,199,Gaming,Logitech GX Blue Clicky,RGB,true,"Wired, Wired, Wireless, Bluetooth Wireless",Black
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Black
+Corsair K55 CORE RGB,49.99,Gaming,,RGB,false,Wired,Black
 Logitech K400 Plus,34.99,Mini,,,true,Wireless,Black / Yellow
 Corsair K70 RGB MK.2,278,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 HP HyperX Alloy Origins Core,80.98,Gaming,HyperX Aqua,RGB,true,Wired,Black
@@ -111,7 +110,6 @@ Razer Huntsman V2,149.99,Gaming,Razer Purple Optical Clicky,RGB,false,Wired,Blac
 Keychron C3 Pro,44.99,Standard,Keychron K Pro Brown,Red,true,Wired,Black / Red
 Logitech MK295 Silent,32.99,Standard,,,false,"Wired, Wireless",Black
 Corsair K70 PRO TKL PBT,189.99,Gaming,Corsair MGX V2,RGB,true,Wired,White
-Corsair K55 CORE RGB,49.99,Gaming,,RGB,false,Wired,Black
 Logitech K845,53.99,Standard,TTC Red,White,false,Wired,Black
 Ducky ONE 3,129,Gaming,Cherry MX Blue RGB,RGB,false,Wired,Black
 RK Royal Kludge RK61,49.99,Mini,RK Blue,White,true,"Wired, Wireless, Bluetooth Wireless",White
@@ -153,29 +151,26 @@ Keychron Q5 HE QMK,249.99,Standard,Gateron Magnetic Nebula,RGB,false,"Wired, Wir
 Razer BlackWidow V3 Pro,,Gaming,Razer Yellow,RGB,false,Wireless,Black
 Wooting One,,Gaming,Flaretech Red,RGB,true,Wired,Black
 Razer Ornata V3,58.98,Gaming,,RGB,false,Wired,Black
-Razer Ornata V3 X,,Gaming,,RGB,false,Wired,Black
 iBuypower MEK 4,55,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 Logitech G915 LIGHTSPEED TKL,229.99,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Keychron Lemokey X3,49.99,Standard,Keychron Red,Red,false,"Wired, Wired",Black / Red
 Logitech G815 Lightsync RGB,109.99,Gaming,GL Clicky,RGB,false,Wired,Black
 Razer Cynosa V2,99.83,Gaming,,RGB,false,Wired,Black
 Logitech G610,145,Gaming,Cherry MX Red,White,false,Wired,Black
-NZXT Function 2,54.94,Gaming,NZXT Swift Optical 40g,RGB,false,"Wired, Wired",Black
+NZXT Function 2,49.99,Gaming,NZXT Swift Optical 40g,RGB,false,"Wired, Wired",Black
 Razer BlackWidow V3 Mini HyperSpeed,129.9,Gaming,Razer Green,RGB,true,Wireless,Black
 8BitDo Retro Fami,79.98,Gaming,Kailh Box White V2,,false,"Wired, Wireless, Bluetooth Wireless",White / Red
 Razer Huntsman Mini,99.99,Mini,Razer Red Optical Linear,RGB,true,Wired,White
 Logitech G915 X LIGHTSPEED,249.3,Gaming,Logitech Low-Profile GL Clicky,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 Womier SK75,109.99,Mini,Womier Mint Blizzard Linear,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 Razer Huntsman V2,159.49,Gaming,Razer Red Optical Linear,RGB,true,Wired,Black
-SteelSeries Apex 3,,Gaming,,RGB,true,Wired,Black
+SteelSeries Apex 3,48.99,Gaming,,RGB,true,Wired,Black
 Logitech MX Keys Advanced,119.99,Slim,,White,false,Wireless,Black
-SteelSeries Apex Pro Mini Wireless,357.33,Gaming,SteelSeries OmniPoint 2.0,RGB,true,"Wireless, Bluetooth Wireless",Black
 GMMK Glorious Modular Mechanical Gaming Keyboard,176.48,Gaming,Gateron Brown,RGB,true,Wired,Black
 Asus ROG Falchion,145.99,Gaming,ROG NX Red,RGB,true,"Wired, Wireless",Black
 be quiet! Dark Mount,,Gaming,be quiet! Silent Black Tactile,RGB,false,Wired,Black
 Corsair Vengeance K70,,Gaming,Cherry MX Red,Red,false,Wired,Black
 Logitech G815 Lightsync RGB,159.99,Gaming,GL Tactile,RGB,false,Wired,Black
-SteelSeries Apex 3,48.99,Gaming,,RGB,true,Wired,Black
 Keychron Q1 HE QMK PBT,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
 Logitech G Pro,128.34,Gaming,Romer-G Tactile,RGB,true,Wired,Black
 Razer Ornata Chroma,192.31,Gaming,,RGB,false,Wired,Black
@@ -220,9 +215,7 @@ Corsair K70 CORE SE RGB w/Palmrest,79.98,Gaming,Corsair MLX Red Linear,RGB,false
 Logitech G512 CARBON,99.99,Gaming,Kailh GX Blue,RGB,false,Wired,Black
 Logitech MK470,31.74,Slim,,,false,"Wired, Wireless",Black / Gray
 Logitech ERGO K860,142.49,Ergonomic,,,false,Bluetooth Wireless,Black
-Razer Huntsman V3 Pro,,Gaming,Razer Analog Optical Switch Gen-2,RGB,false,Wired,Black
 Logitech PRO X 60,167.1,Mini,Logitech GX Red Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-NZXT Function 2,89.99,Gaming,NZXT Swift Optical 40g,RGB,false,"Wired, Wired",White
 Corsair K60 RGB Pro SE,109.99,Gaming,Cherry Viola,RGB,false,Wired,Black
 Logitech G715,175.3,Gaming,GX Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Ducky ONE 3,134,Gaming,Cherry MX Silent Red RGB,RGB,false,Wired,White
@@ -232,7 +225,6 @@ SteelSeries Apex 3 (2020),51.99,Gaming,,RGB,false,Wired,Black
 matias Mini Quiet Pro for PC,198.5,Mini,ALPS White,,true,Wired,Black
 Logitech G815,319.99,Gaming,Logitech GL Tactile,RGB,false,Wired,White / Silver
 Razer BlackWidow V4 X,129.99,Gaming,Razer Yellow,RGB,false,Wired,Black
-SteelSeries Apex Pro Mini Wireless,,Gaming,SteelSeries OmniPoint 2.0,RGB,true,"Wireless, Bluetooth Wireless",Black
 Corsair K70 PRO TKL PBT,,Gaming,Corsair MGX V2,RGB,true,Wired,Black
 NZXT Function 2,54.94,Gaming,NZXT Swift Optical 40g,RGB,true,"Wired, Wired",White
 Ducky One 3 Matcha,99,Standard,Cherry MX Brown,,true,Wired,Beige / Green
@@ -240,7 +232,6 @@ Keychron K3 V2 Ultra-slim,71.39,Standard,Gateron Low-Profile Brown,White,true,"W
 Corsair K55 RGB PRO XT,79.99,Gaming,,RGB,false,Wired,Black
 Keychron K4 V2,99.99,Standard,Gateron G Pro Red,RGB,false,"Wired, Bluetooth Wireless",Black / Gray
 Redragon K580 VATA,,Gaming,Outemu Blue,RGB,false,Wired,Black
-Logitech K120,17.48,Standard,,,false,Wired,Black
 Corsair K70 CORE,99.99,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Gray / Black
 Corsair K65 PRO MINI,99.99,Gaming,Corsair OPX,RGB,true,,Black
 Redragon K552-RGB,,Gaming,Outemu Blue,RGB,true,Wired,Black
@@ -251,9 +242,8 @@ Logitech G513 Carbon,129.99,Gaming,GX Brown,RGB,false,Wired,Black
 Corsair K70 RGB PRO,134.99,Gaming,Cherry MX Blue,RGB,false,Wired,Black
 Razer Blackwidow Ultimate 2013,251.66,Gaming,Cherry MX Blue,Green,false,Wired,Black
 Logitech MK540 Advanced,49.99,Standard,,,false,"Wired, Wireless",Black
-SteelSeries Apex Pro TKL (2023),323.46,Gaming,SteelSeries OmniPoint 2.0,RGB,true,Wired,Black
 Logitech G613,69.98,Standard,Romer-G Tactile,,false,Wireless,Black
-Glorious GMMK,176.48,Gaming,Gateron Brown,RGB,true,Wired,Black
+Glorious GMMK,145.19,Gaming,Gateron Brown,RGB,true,Wired,Black
 HP USB Keyboard,14.99,Standard,,,false,Wired,Black
 HP 230,18.99,Standard,,,false,"Wired, Wireless",Black
 Razer Pro Type Ultra - US,,Standard,Razer Yellow,White,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
@@ -269,19 +259,15 @@ Keychron Q6 HE QMK,249.99,Standard,Gateron Magnetic Nebula,RGB,false,"Wired, Wir
 HP 150,12.99,Standard,,,false,Wired,Black
 Keychron Q1 QMK V2 Knob,169.99,Mini,Gateron G Pro Brown,,true,Wired,White
 Redragon K550-W RGB Yama,,Gaming,Outemu Purple,RGB,false,Wired,White
-Logitech G413 SE,,Gaming,Kailh LT Brown,White,true,Wired,Black
 Corsair K63,,Gaming,Cherry MX Red,Red,true,Wired,Black
 Corsair K68,,Gaming,Cherry MX Red,Red,false,Wired,Black
 Keychron K2 HE Special Edition,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Brown
 Aula SHIHUNZAN,,Gaming,,Blue,false,Wired,Black
-Logitech G715,,Gaming,GX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Logitech Signature MK650,64.98,Standard,,,false,"Wired, Wireless, Bluetooth Wireless",Black
 Asus TUF Gaming K1,111.28,Gaming,,RGB,false,Wired,Black
 HP HyperX Alloy Origins,99.99,Gaming,HyperX Aqua,RGB,false,Wired,Black
-Logitech G413 SE,,Gaming,Kailh LT Brown,White,true,Wired,Black
 Logitech K830,457.86,Slim,,White,true,Wireless,Black
 Ducky Ducky One 2 SF RGB,,Gaming,Cherry MX Black,RGB,true,Wired,Black
-Wooting Two HE,,Gaming,Lekker linear60,RGB,false,Wired,Black
 Inland ProHT,33.59,Gaming,Outemu Blue,Multicolor,false,,Black
 Logitech G915 X,199.99,Gaming,Logitech GL Tactile,RGB,false,Wired,Black
 Razer BlackWidow V3 Mini HyperSpeed - Phantom Edition,132.46,Gaming,Razer Green,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
@@ -298,19 +284,15 @@ Ducky Zero 6108 Classic,99,Standard,Cherry MX2A Brown,RGB,false,"Wired, Wireless
 be quiet! Light Mount,149.9,Gaming,be quiet! Silent Orange Linear,RGB,false,Wired,Black
 Logitech MK295 Silent,29.95,Standard,,,false,"Wired, Wireless",White
 Corsair K63 Special Edition (MX Red),109.99,Gaming,Cherry MX Red,Blue,true,Wireless,
-HP HyperX Alloy Core,,Gaming,,RGB,false,Wired,Black
 Logitech G413 SE,,Gaming,Kailh LT Brown,White,false,Wired,Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",Black
 Corsair K70 RGB RAPIDFIRE,,Gaming,Cherry MX Speed Silver,RGB,false,Wired,Black
 Keychron C2 Pro V1 Hotswap,,Standard,Keychron K Pro Red,RGB,false,Wired,Black / Gray
 Logitech G915 LIGHTSPEED TKL,229.99,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
 Asus ROG Falchion RX,163.19,Slim,ROG RX Blue Optical,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Keychron V3 Max QMK/VIA,,Standard,Gateron Jupiter Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Blue
-Corsair K65 PLUS,,Gaming,Corsair MLX Red Linear,RGB,true,"Wired, Wireless",Black
 Lenovo 300,15.99,Slim,,,false,Wired,Black
 Keychron C2,65.98,Standard,Gateron G Pro Brown,White,false,Wired,Black / White
 NZXT Function 2,54.94,Gaming,NZXT Swift Optical 40g,RGB,true,"Wired, Wired",Black
-Logitech G413 SE,,Gaming,Kailh LT Brown,White,false,Wired,Black
 Keychron K4 V2,99.99,Standard,Gateron G Pro Brown,RGB,false,"Wired, Bluetooth Wireless",Black / Gray
 Logitech MX KEYS S,199.99,Slim,,White,false,"Wired, Wired, Wireless, Bluetooth Wireless",Gray
 SteelSeries Apex 7 TKL Ghost,149.99,Gaming,SteelSeries QX2 Red,RGB,true,Wired,Silver
@@ -319,7 +301,7 @@ Razer Ornata V2,,Gaming,,RGB,false,Wired,Black
 RK Royal Kludge RK61,49.99,Mini,RK Brown,White,true,"Wired, Wireless, Bluetooth Wireless",White
 Corsair K55 CORE RGB,47.14,Gaming,,RGB,false,Wired,Gray / Black
 Corsair K70 RGB PRO UK,,Gaming,Cherry MX Red,RGB,false,Wired,Black
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
+Cooler Master CK721,94.95,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
 Corsair K70 MAX RGB UK,,Gaming,Corsair MGX Steel Grey,RGB,false,Wired,Black
 Logitech G515 LIGHTSPEED,159.99,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
 Corsair K57 RGB,,Gaming,,RGB,false,Bluetooth Wireless,Black
@@ -330,7 +312,6 @@ Logitech G413 Carbon,,Gaming,Romer-G Tactile,Red,false,Wired,Black
 Corsair K70 RGB MK.2 SE,,Gaming,Cherry MX Speed Silver,RGB,false,Wired,White / Silver
 SteelSeries Apex 9 TKL,144.99,Gaming,SteelSeries OptiPoint Linear,RGB,true,Wired,Black
 Razer TARTARUS V2,79.98,Ergonomic,,RGB,true,Wired,Black
-NZXT Function 2,,Gaming,NZXT Swift Optical 40g,RGB,true,"Wired, Wired",White
 Adesso AKB-137CB,27.41,Gaming,,RGB,false,Wired,Black
 Keychron K2 Plastic,59.99,Standard,Gateron G Pro Brown,White,true,Wireless,Black / Gray
 Logitech PRO X 60,156.32,Mini,Logitech GX Red Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
@@ -347,11 +328,8 @@ Logitech G13,478,Gaming,,RGB,true,Wired,Black
 Asus TUF Gaming K3 Gen II Hatsune Miku Edition,,Gaming,ROG RX Red Optical,RGB,true,Wired,Green / White
 Corsair K70 RGB MK.2,,Gaming,Cherry MX Red,RGB,false,Wired,Black
 Logitech G515,119.99,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,Black
-Logitech G413 SE,,Gaming,Kailh LT Brown,White,false,Wired,Black
 Logitech G915 X,199.99,Gaming,Logitech GL Linear,RGB,false,Wired,Black
 Logitech K845,65.98,Standard,TTC Brown,White,false,Wired,Black
-be quiet! Dark Mount,,Gaming,be quiet! Silent Black Tactile,RGB,false,Wired,Black
-SteelSeries Apex 9 TKL,,Gaming,SteelSeries OptiPoint Linear,RGB,true,Wired,Black
 Logitech MX KEYS S,129.99,Standard,,,false,"Wired, Wireless, Bluetooth Wireless",White
 Womier SK75,79.79,Mini,Womier Mint Blizzard Linear,RGB,false,"Wired, Wireless, Bluetooth Wireless",Blue / White
 Asus ROG Strix Flare (Cherry MX Red),,Gaming,Cherry MX Red,RGB,false,Wired,Black
@@ -362,7 +340,6 @@ Corsair K70 RGB PRO,179.99,Gaming,Corsair OPX,RGB,false,Wired,Black
 Cherry STREAM,21.99,Slim,Cherry SX,,true,Wired,Black
 Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
 Microsoft Natural Desktop 7000,908.83,Ergonomic,,,false,Wireless,Black / Silver
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Black
 Logitech Pebble 2,42.99,Standard,,,true,"Wired, Wireless, Bluetooth Wireless",Black
 Logitech MK320,25.99,Standard,,,false,Wireless,Black
 Keychron K3 Max,119.99,Standard,Gateron Low-Profile Red,RGB,true,"Wired, Bluetooth Wireless",Gray
@@ -381,14 +358,10 @@ Ducky ONE 3 AURA,129,Gaming,Cherry MX Brown RGB,RGB,false,Wired,Black
 Cooler Master Devastator 3 (2022),,Gaming,,RGB,false,Wired,Black
 AZIO KB512,24.96,Gaming,,Multicolor,false,Wired,Black
 Corsair K55 + HARPOON RGB,,Gaming,,RGB,false,Wired,Black
-Glorious GMMK,145.19,Gaming,Gateron Brown,RGB,true,Wired,Black
-Corsair K70 CORE w/Palmrest,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
 ADATA XPG Sorcerer Mini,49.99,Mini,XPG Red,RGB,true,Wired,Black
 Cooler Master CM Storm Devastator Gaming Bundle,87.69,Gaming,,Blue,false,Wired,Black
 Razer Huntsman V2,109.99,Gaming,Razer Red Optical Linear,RGB,true,Wired,Pink
-Logitech G515,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,Black
 Corsair K70 PRO MINI,,Mini,Cherry MX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Black
 Verbatim 70724,18.8,Slim,,,false,Wireless,Black
 Cooler Master MS110,,Gaming,,RGB,false,Wired,Black
 Deepcool KG722,,Gaming,Gateron Red,RGB,true,Wired,Black
@@ -405,7 +378,6 @@ Corsair K68 RGB,,Gaming,Cherry MX Red,RGB,false,Wired,Black
 Dell Alienware AW510K Dark side of the moon,154,Gaming,Cherry MX Low Profile Red,RGB,false,Wired,Black / Silver
 Razer BlackWidow 2019,,Gaming,Razer Green,RGB,false,Wired,Black
 Corsair K95 RGB PLATINUM XT,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
 AUKEY KM-G12,,Gaming,Outemu Blue,RGB,false,Wired,Black
 Thermaltake W1,109.99,Standard,Cherry MX Red,,false,"Wired, Wireless, Bluetooth Wireless",Black
 ROCCAT Magma,37.89,Gaming,,RGB,false,Wired,Black
@@ -422,18 +394,13 @@ Dell KM5221W,43.98,Standard,,,false,"Wired, Wireless",Black
 Corsair STRAFE RGB,,Gaming,Cherry MX Silent,RGB,false,Wired,Black / White
 Ducky Zero 6108 Classic,99,Standard,Cherry MX2A Red,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 Tecware Phantom 104,39.99,Gaming,Outemu Blue,RGB,false,Wired,Black
-HP HyperX Alloy Origins,,Gaming,HyperX Red,RGB,false,Wired,Black
-Logitech G413 SE,,Gaming,Kailh LT Brown,White,false,Wired,Black
 HP 320K,15.99,Standard,,,false,Wired,Black
 Cooler Master SK620,,Gaming,TTC Blue,RGB,true,Wired,Gray / Black
 Perixx PERIBOARD-407W,18.07,Mini,,,false,Wired,White
 Logitech PRO X,148,Gaming,Logitech GX Brown Tactile,RGB,true,,Black
 Logitech K845,59.99,Standard,TTC Blue,White,false,Wired,Black
 Razer DeathStalker V2 Pro,199.99,Gaming,Razer Purple Low-Profile Optical Clicky,RGB,false,Wireless,Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 Logitech MX KEYS MINI,99.99,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Gray
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 MCHOSE Ace 60 Pro,,Gaming,TTC Uranus Magnetic,RGB,true,Wired,White
 Keychron V3 Max QMK/VIA,,Standard,Gateron Jupiter Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Blue
 SHARKOON Skiller,,Gaming,,,false,Wired,Black
@@ -442,25 +409,20 @@ Redragon K551,,Gaming,Outemu Blue,Red,false,Wired,Black / Red
 RK Royal Kludge RK71,,Gaming,RK Brown,RGB,true,Bluetooth Wireless,Black
 Logitech K845,,Standard,Cherry MX Blue,White,false,Wired,Black
 Akko 5087S Shine-Through,,Standard,Akko CS Jelly Pink Linear,RGB,true,Wired,White
-Logitech G915 Lightspeed,,Gaming,Logitech GL Tactile,RGB,false,"Wireless, Bluetooth Wireless",Black
 Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Banana,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
 HP Pavilion 500,129.97,Gaming,Gateron Red,Multicolor,false,Wired,Black
 Cooler Master CK720 US,49.95,Gaming,Kailh Box White V2,RGB,true,Wired,Gray / Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",Black
 ENDORFY Thock,,Gaming,Kailh Blue,RGB,true,Wired,Black
 HP HyperX Alloy Rise,128.97,Gaming,HyperX Red,RGB,false,Wired,Black
 Tecware Phantom+,59.99,Gaming,Tecware Wraith Red,RGB,true,Wired,Black
 GameMax Strike,,Gaming,Outemu Red,Multicolor,false,Wired,Black
 Razer BlackWidow V3 Mini HyperSpeed,140.37,Gaming,Razer Yellow,RGB,true,Wireless,Black
-SteelSeries Apex 3,,Gaming,,RGB,true,Wired,Black
-Logitech G515 LIGHTSPEED,,Gaming,GL Linear V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Montech MK75DY,89.9,Mini,Gateron G Pro 3.0 Yellow,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Cherry JK-0800,20.64,Standard,,,false,Wired,Black
 Asus TUF Gaming K3,,Gaming,Kailh Red,RGB,false,Wired,Black
 Keychron V1 Max,,Mini,Gateron Jupiter Banana,,true,"Wired, Wired, Wireless, Bluetooth Wireless",Black / Blue
 Logitech G512 CARBON,,Gaming,GX Red,RGB,false,Wired,Black
 ROCCAT Vulcan TKL,,Gaming,Roccat Titan Red,RGB,true,Wired,Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Linear,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 Redragon K550 RGB YAMA,,Gaming,Outemu Purple,RGB,false,Wired,Black
 Razer Huntsman,,Gaming,Razer Purple,RGB,false,Wired,Black
 Corsair K95 RGB PLATINUM XT,,Gaming,Cherry MX Speed Silver,RGB,false,Wired,Black
@@ -468,12 +430,9 @@ MSI VIGOR GK50 LOW PROFILE,,Gaming,Kailh Blue Low Profile,RGB,false,Wired,Silver
 HP HyperX Alloy Elite 2,,Gaming,HyperX Red,RGB,false,Wired,Black
 Redragon K615 Elise,,Mini,Outemu Blue Low Profile,RGB,true,Wired,Black
 Asus ROG Strix Scope RX EVA-02 Edition,,Gaming,ROG RX Red Optical,RGB,false,Wired,Red / Black
-Logitech G515,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,Black
 Keychron Q3 HE QMK,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
 Tripp Lite IN3010KB,14.99,Slim,,,false,Wireless,White
-be quiet! Dark Mount,,Gaming,be quiet! Silent Orange Linear,RGB,false,Wired,Black
 Tecware Phantom RGB,49.99,Gaming,Outemu Blue,RGB,true,Wired,Black
-HP 230,24.99,Standard,,,false,"Wired, Wireless",Black
 IOGEAR GKM571R,199,Mini,,,true,Wireless,Black
 Razer Pro Type Ultra - UK,,Standard,Razer Yellow,White,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 Kensington K72402US,25.99,Ergonomic,,,false,Wired,Black
@@ -484,7 +443,6 @@ Ducky One 3 w/ Quack Mechanics,119,Gaming,Cherry MX Red,RGB,true,Wired,Black
 MCHOSE Ace68 E-sport,,Gaming,TTC Uranus Magnetic eSports,RGB,true,Wired,Black / Translucent Gray
 Perixx PERIBOARD-407B,19.23,Mini,,,false,Wired,Black
 Razer Huntsman V2,,Gaming,Razer Red Optical Linear,RGB,false,Wired,Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Montech MKey,77.19,Gaming,Gateron G Pro 2.0 Yellow,RGB,true,Wired,Black
 Logitech MX Mechanical Mini,141.44,Slim,Kailh Choc V2 Brown,White,true,Wireless,
 Dell Alienware Pro,199.99,Gaming,Alienware Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
@@ -500,20 +458,16 @@ Ducky Zero 6108 Classic,99,Standard,Cherry MX2A Blue,RGB,false,"Wired, Wireless,
 Keychron K10,84.99,Standard,Gateron G Pro Brown,White,false,"Wired, Bluetooth Wireless",Gray / Black
 Cooler Master SK650,,Gaming,Cherry MX Low Profile Red,RGB,false,Wired,Black
 Logitech G15,508.68,Standard,,Red,false,Wired,Black / Gray
-Corsair K70 CORE w/Palmrest,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
 Adesso AKB-111UB,17.98,Mini,,,true,Wired,Black
 SteelSeries Apex 7,149.99,Gaming,SteelSeries QX2 Blue,RGB,false,Wired,Black
 Asus ROG Falchion Ace,108.47,Gaming,ROG NX Red,RGB,true,Wired,Black
 YEYIAN Spark 2000,39.99,Gaming,Outemu Blue,RGB,true,Wired,Black
-Logitech G413 SE,,Gaming,Kailh LT Brown,White,true,Wired,Black
 Das Keyboard 4 Ultimate,199,Standard,Cherry MX Blue,,false,Wired,Black
 Razer Tartarus Pro,129.99,Ergonomic,Razer Red Optical Linear,RGB,true,Wired,White / Gray
 Corsair K70 PRO MINI,,Mini,Cherry MX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-SteelSeries Apex Pro TKL (2023),,Gaming,SteelSeries OmniPoint 2.0,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 IOGEAR GKB740,29.99,Gaming,,RGB,false,Wired,Black
 Keychron K3 V2 Ultra-slim,,Standard,Keychron Optical Brown Low Profile (Hot-Swappable),RGB,true,"Wired, Wired, Bluetooth Wireless",Black / Gray
 Cooler Master CK720 UK,,Gaming,Kailh Box White V2,RGB,true,Wired,Gray / Black
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Black
 Corsair K70,,Gaming,Cherry MX Blue,Red,false,Wired,Black
 Microsoft Desktop 900,99.99,Standard,,,false,Wireless,Black
 HP 320MK,19.98,Standard,,,false,Wired,Black
@@ -531,18 +485,13 @@ Keychron K3 V2 Ultra-slim,,Standard,Gateron Low-Profile Red,White,true,"Wired, W
 Asus ROG Falchion,149.99,Gaming,Cherry MX Blue RGB,RGB,true,"Wired, Wireless",Black
 Razer Huntsman Mini Analog,149.94,Mini,Razer Analog Optical,RGB,true,Wired,Black
 Razer Pro Type Ultra - DE,,Standard,Razer Yellow,White,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
-Cooler Master CK721,94.95,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
 Logitech MX KEYS S,179.49,Slim,,White,false,"Wired, Wired, Wireless, Bluetooth Wireless",Black
 Logitech PRO X,209.99,Gaming,Logitech GX Red Linear,RGB,true,,Black
-SteelSeries Apex Pro Gen 3,,Gaming,OmniPoint 3.0,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Logitech K740,349.99,Slim,,White,false,Wired,Black
 Cooler Master CK720 US,49.95,Gaming,Kailh Box Brown V2,RGB,true,Wired,Silver / White
-Razer Huntsman V3 Pro,,Gaming,Razer Analog Optical Switch Gen-2,RGB,false,Wired,Black
 Targus AKB862US,17.98,Slim,,,true,Bluetooth Wireless,Black
 Logitech G915 Lightspeed,,Gaming,Logitech GL Clicky,RGB,false,"Wireless, Bluetooth Wireless",Black
 Logitech MX Keys Gen 2,199.99,Slim,,,false,"Wired, Wired, Wireless, Bluetooth Wireless",
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech G915 X,,Gaming,Logitech GL Tactile,RGB,false,Wired,Black
 Tecware Phantom+ Elite,69.98,Gaming,Tecware Wraith Pink,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
 WOBKEY Crush 80 Reboot Pro,,Standard,Kailh Cocoa,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Red
 Cooler Master Storm QuickFire Rapid,,Gaming,Cherry MX Blue,,true,Wired,Gray / Black
@@ -557,7 +506,6 @@ YEYIAN Flare 2000,45.99,Gaming,Outemu Red,RGB,false,Wired,Black
 Montech MKey,99.9,Gaming,Gateron G Pro 2.0 Yellow,RGB,false,Wired,Teal / White
 NZXT Function MiniTKL,,Gaming,Gateron Red,RGB,true,Wired,White / Black
 Asus ROG Falchion,143.88,Gaming,Cherry MX Brown RGB,RGB,true,"Wired, Wireless",Black
-SteelSeries Apex 3,,Gaming,,RGB,true,Wired,Black
 Keychron K10,,Standard,Gateron G Pro Brown,RGB,false,"Wired, Bluetooth Wireless",Gray / Black
 Adesso WKB-1100CB,26.99,Mini,,,false,Wireless,Black
 HP OMEN 1100,106,Gaming,Greetech Blue,Red,false,Wired,Black / Red
@@ -567,7 +515,6 @@ Womier SK75,109.99,Mini,Womier Mint Blizzard Linear,RGB,false,"Wired, Wireless, 
 Tecware Phantom+,59.99,Gaming,Tecware Wraith Brown,RGB,true,Wired,Black
 Montech MK75DB,89.9,Mini,Gateron G Pro 3.0 Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Razer Blackwidow Ultimate 2014,199,Gaming,Razer Green,Green,false,Wired,Black
-SteelSeries Apex 9 TKL,,Gaming,SteelSeries OptiPoint Linear,RGB,true,Wired,Black
 Logitech K780,59.99,Slim,,,false,Wireless,Black
 CyberPowerPC Skorpion K2,131.07,Gaming,CP Kontact Blue,RGB,false,Wired,Black
 Keychron K3 Max,,Standard,Gateron Low-Profile Brown,RGB,true,"Wired, Bluetooth Wireless",Gray
@@ -587,7 +534,6 @@ MSI VigorGK30W,,Gaming,,RGB,false,Wired,White
 MCHOSE G75 PRO,,Gaming,Huano Matcha Latte V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Montech MKey,95.6,Gaming,Gateron G Pro 2.0 Red,RGB,false,Wired,Black
 Montech MKey,79.98,Gaming,Gateron G Pro 2.0 Red,RGB,true,Wired,Black
-Logitech G715,,Gaming,GX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Logitech POP Keys Blast,64.98,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Yellow / Black
 ROCCAT Pyro,94.99,Gaming,TTC Red,RGB,false,Wired,Black
 Ducky One 3 w/ Quack Mechanics,124,Gaming,Cherry MX Silent Red,RGB,true,Wired,Black
@@ -598,7 +544,6 @@ Keychron K2 V2 Aluminum,,Standard,Gateron G Pro Brown,RGB,true,Wireless,Black / 
 Corsair K70 PRO MINI,,Mini,Cherry MX Speed Silver,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Keychron Q1 Pro,,Standard,Keychron K Pro Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Dell KM300C,22.99,Standard,,,false,Wired,Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",Black
 Corsair STRAFE,,Gaming,Cherry MX Red,Red,false,Wired,Black
 A4Tech Bloody Gaming B975,125.99,Gaming,LK Light Strike Libra,RGB,false,Wired,Black / Red
 MSI VIGOR,115.19,Gaming,Kailh BOX White,RGB,false,Wired,Black / Gray
@@ -610,19 +555,13 @@ Corsair K70 LUX RGB,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 MSI VIGOR GK80,,Gaming,Cherry MX Red,RGB,false,Wired,Black
 Ducky One 2 RGB TKL,,Standard,Cherry MX Brown,RGB,true,Wired,Black
 Ducky ONE 3,,Gaming,Cherry MX Blue RGB,RGB,false,Wired,White
-Razer Huntsman V3 Pro Mini,,Mini,Razer Analog Optical Switch Gen-2,RGB,true,Wired,Black
 Corsair K60 RGB Pro,,Gaming,Cherry MX Low Profile Speed Silver,RGB,false,Wired,Black
 Logitech PRO X 60,179.99,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech G515 LIGHTSPEED,,Gaming,GL Linear V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Keychron Q3 Max QMK/VIA,,Standard,Gateron Jupiter Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Gray
 Keychron K10 Hotswap,109.99,Standard,Gateron G Pro Red Hot-swappable,RGB,false,"Wired, Bluetooth Wireless",Black / Gray
 SteelSeries Apex 7,159.99,Gaming,SteelSeries QX2 Brown,RGB,false,Wired,Black
-Cherry MX 10.0N,,Slim,Cherry MX Low Profile Speed Silver,RGB,false,Wired,Black
-NZXT Function 2,49.99,Gaming,NZXT Swift Optical 40g,RGB,false,"Wired, Wired",Black
-Razer BlackWidow V4 Pro,,Gaming,Razer Green,RGB,false,Wired,Black
 Ducky One 3 w/ Quack Mechanics,114.99,Gaming,Cherry MX Brown,RGB,true,Wired,Black
 Keychron K4 V2,99.99,Standard,Gateron G Pro Blue,RGB,false,"Wired, Bluetooth Wireless",Black / Gray
-SteelSeries Apex 3,,Gaming,,RGB,true,Wired,Black
 Das Keyboard 4 Ultimate,199,Standard,Cherry MX Brown,,false,Wired,Black
 Corsair K65 RGB MINI,,Mini,Cherry MX Red,RGB,true,Wired,Black
 Asus ROG Falchion,134.97,Gaming,ROG NX Blue,RGB,true,"Wired, Wireless",Black
@@ -630,7 +569,6 @@ Montech MK75FY,89.9,Mini,Gateron G Pro 3.0 Yellow,RGB,true,"Wired, Wireless, Blu
 Logitech G105,252.66,Gaming,,Blue,false,Wired,Black
 Tecware Phantom RGB,49.99,Gaming,Outemu Brown,RGB,true,Wired,Black
 Ducky One 3 Matcha,114,Standard,Cherry MX Silent Red,,true,Wired,Beige / Green
-NZXT Function 2,,Gaming,NZXT Swift Optical 40g,RGB,false,"Wired, Wired",White
 Topre Realforce R3HD11,242,Standard,Topre 30g,,true,"Wired, Bluetooth Wireless",Black
 Keychron K5 Max,114.99,Standard,Gateron Low-Profile Red,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / Gray
 Tecware Phantom+ Elite,69.98,Gaming,Tecware Wraith Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Gray
@@ -639,11 +577,7 @@ Kinesis Gaming Freestyle Edge,199,Ergonomic Split,Cherry MX Red,RGB,true,Wired,B
 Logitech MX KEYS MINI,99.99,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Black
 Dell KM5221W,34,Standard,,,false,"Wired, Wireless",White
 Logitech Wave Keys,69.98,Ergonomic,,,false,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech G413 SE,,Gaming,Kailh LT Brown,White,true,Wired,Black
 Ducky One 3 Matcha,99,Standard,Cherry MX Blue,,true,Wired,Beige / Green
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Gray
-Razer Ornata V3,,Gaming,,RGB,false,Wired,Black
-be quiet! Light Mount,,Gaming,be quiet! Silent Black Tactile,RGB,false,Wired,Black
 Logitech G19,,Standard,,Multicolor,false,Wired,Black
 Adesso Multimedia Desktop Keyboard,12.59,Standard,,,false,Wired,Black
 Corsair K70 RAPIDFIRE,,Gaming,Cherry MX Speed Silver,Red,false,Wired,Black
@@ -662,39 +596,27 @@ Wooting Two Lekker Edition,,Gaming,Lekker linear65,RGB,false,Wired,Blue / White
 Asus TUF Gaming Combo K1 & M3,,Gaming,,RGB,false,Wired,Gunmetal
 Ducky One 3 Matcha,99,Standard,Cherry MX Speed Silver,,true,Wired,Beige / Green
 Logitech MK120,19.99,Standard,,,false,Wired,Black
-SteelSeries Apex Pro Gen 3,,Gaming,OmniPoint 3.0,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 MCHOSE Jet75,,Gaming,Suofei Starburst Magnetic,RGB,true,Wired,White
 Thermaltake TT Premium X1 RGB,134.97,Gaming,Cherry MX Blue,RGB,false,Wired,Black
 Cooler Master Devastator 3,,Gaming,,Multicolor,false,Wired,Black
 Corsair K70 RGB TKL CHAMPION SERIES,,Gaming,Cherry MX Red,RGB,true,Wired,Black
 Ducky ONE 3,129,Gaming,Cherry MX Red RGB,RGB,false,Wired,Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",Black
 Das Keyboard 4 Professional,199,Standard,Cherry MX Brown,,false,Wired,Black / Red
 Logitech MK470,36.99,Slim,,,false,"Wired, Wireless",White / Gray
-be quiet! Light Mount,,Gaming,be quiet! Silent Orange Linear,RGB,false,Wired,Black
 Kensington K72357USA,29.83,Slim,,,false,Wired,Black
 Verbatim 99789,22.69,Standard,,White,false,Wired,Black
 Logitech Wave Keys,69.98,Ergonomic,,,false,"Wired, Wireless, Bluetooth Wireless",White
-Corsair K65 PLUS,,Gaming,Corsair MLX Red Linear,RGB,true,"Wired, Wireless",Black
 Keychron K10 Hotswap,99.99,Standard,Gateron G Pro Brown Hot-swappable,RGB,false,"Wired, Bluetooth Wireless",Gray / Black
 Logitech G915 TKL,219.99,Gaming,GL Clicky,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Keychron K2 Plastic,67.48,Standard,Gateron G Pro Red,RGB,true,Wireless,Black / Gray
-Logitech K120,16.98,Standard,,,false,Wired,Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",Black
-Corsair K65 PLUS,,Gaming,Corsair MLX Red Linear,RGB,true,"Wired, Wireless",Black
 Keychron K10,104.99,Standard,Gateron G Pro Red,RGB,false,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K10 Hotswap,89.99,Standard,Gateron G Pro Red Hot-swappable,White,false,"Wired, Bluetooth Wireless",Gray / Black
 Logitech G710,350,Gaming,Cherry MX Blue,White,false,Wired,Black / Blue
 MSI VIGOR GK50 ELITE LL,79.94,Gaming,Kailh Blue,RGB,false,Wired,Silver / Black
 HP HyperX Alloy Origins,235.36,Gaming,HyperX Blue,RGB,false,Wired,Black
-Logitech G413 SE,,Gaming,Kailh LT Brown,White,false,Wired,Black
-be quiet! Dark Mount,,Gaming,be quiet! Silent Orange Linear,RGB,false,Wired,Black
 Logitech G513 Carbon,,Gaming,GX Blue,RGB,false,Wired,Black
 Microsoft 600,49,Standard,,,false,Wired,Black
 Asus M601 ROG FALCHION/RD/US,,Gaming,Cherry MX Red,RGB,true,Wireless,Black
-Logitech G715,,Gaming,GX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Razer Ornata V3,,Gaming,,RGB,false,Wired,Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 Keychron Q3 HE QMK,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Green
 Tecware Phantom+ Elite,84.99,Gaming,Tecware Wraith Pink,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Gray
 Keychron K5 QMK V2,,Gaming,Keychron Brown Low Profile MX 2.0 (Hot-Swappable),RGB,false,"Wired, Bluetooth Wireless",Black / Gray
@@ -717,31 +639,22 @@ Logitech MX Mechanical Mini,159.99,Slim,Kailh Choc V2 Red,White,true,Wireless,
 Keychron K8,,Standard,Gateron G Pro Brown,White,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K8,,Standard,Gateron G Pro Red,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron Q1 Pro,,Standard,Keychron K Pro Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Razer Huntsman V3 Pro,,Gaming,Razer Analog Optical Switch Gen-2,RGB,false,Wired,Black
 Keychron K5 Pro,,Gaming,Gateron Low-Profile Brown (Hot-Swappable),RGB,false,"Wired, Bluetooth Wireless",Black / Red
 Keychron K5 Pro,,Gaming,Gateron Low-Profile Brown,White,false,"Wired, Bluetooth Wireless",White
-Razer Ornata V3,130.1,Gaming,,RGB,true,Wired,Black
-SteelSeries Apex Pro Mini,,Gaming,SteelSeries OmniPoint 2.0,RGB,true,Wired,Black
-Logitech MK540 Advanced,,Standard,,,false,"Wired, Wireless",Black
 MSI Vigor GK50 Elite,,Gaming,Kailh Red,RGB,true,Wired,Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 NuPhy Air96 V2,,Mini,Gateron Low-Profile Brown 2.0,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 Rosewill NEON K85 RGB BR,111,Gaming,Kailh Brown,RGB,false,Wired,Black
 Logitech K840,,Standard,Romer-G Tactile,,false,Wired,Black
 Corsair K60 RGB Pro,,Gaming,Cherry Viola,RGB,false,Wired,Black
-Razer Ornata V3,,Gaming,,RGB,false,Wired,Black
 Microsoft 21Y-00001,38.04,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Black
 Rosewill NEON K75 RGB BR,162.49,Gaming,Kailh Brown,RGB,false,Wired,Black
 Logitech MK540 ADVANCED,172.36,Standard,,,false,"Wired, Wireless",Black
 Razer DeathStalker V2,199.99,Gaming,Razer Purple Low-Profile Optical Clicky,RGB,false,Wired,Black
-Razer Huntsman V3 Pro,,Gaming,Razer Analog Optical Switch Gen-2,RGB,true,Wired,Black
 Asus ROG Falchion,139.99,Gaming,ROG NX Brown,RGB,true,"Wired, Wireless",Black
 Thermaltake W1,117.63,Standard,Cherry MX Blue,,false,"Wired, Wireless, Bluetooth Wireless",Black
 Verbatim 99793,17.28,Slim,,,false,Wireless,Black
 Logitech MX Mechanical,179.99,Slim,Kailh Choc V2 Blue,White,false,Wireless,
-Logitech MK540 Advanced,,Standard,,,false,"Wired, Wireless",Black
 MCHOSE Jet75,,Gaming,Kailh Magnetic God,RGB,true,Wired,Black / Translucent Gray
-be quiet! Dark Mount,,Gaming,be quiet! Silent Black Tactile,RGB,false,Wired,Black
 Thermaltake Knucker Team DK Edition,34.98,Gaming,,,false,Wired,Red / White
 Logitech K380,45.99,Mini,,,true,Bluetooth Wireless,Black
 Keychron K2 V2 Aluminum,,Standard,Gateron G Pro Red,RGB,true,Wireless,Black / Gray
@@ -768,41 +681,28 @@ Corsair K70 RGB TKL CHAMPION SERIES,,Gaming,Cherry MX Speed Silver,RGB,true,Wire
 Razer BlackWidow V3,125.99,Gaming,Razer Yellow,RGB,false,Wired,Black
 Akko 5087S Shine-Through,,Standard,Akko CS Jelly Purple Tactile,RGB,true,Wired,White
 Keychron V6 QMK,,Standard,Keychron K Pro Red,,false,"Wired, Wired",Translucent Black
-Razer BlackWidow V4 Pro,,Gaming,Razer Yellow,RGB,false,Wired,Black
 DROP MDX-31827-10,99,Gaming,Kailh BOX White,RGB,true,"Wired, Wired",Black
 Keychron K8 Aluminum Frame,,Standard,Gateron G Pro Brown Hot-swappable,,true,"Wired, Bluetooth Wireless",Black / Gray
 Ducky ONE 3,,Gaming,Cherry MX Brown RGB,RGB,false,Wired,White
-SteelSeries Apex Pro TKL (2023),,Gaming,SteelSeries OmniPoint 2.0,RGB,true,Wired,Black
-Razer Huntsman V3 Pro,,Gaming,Razer Analog Optical Switch Gen-2,RGB,true,Wired,Black
 Logitech G Pro League of Legends,118.99,Gaming,GX Brown,RGB,true,Wired,Blue / Black
-Logitech MK540 Advanced,150.49,Standard,,,false,"Wired, Wireless",Black
 Keychron K5 Max,129.99,Standard,Gateron Low-Profile Brown (Hot-Swappable),RGB,false,,Black / Gray
 WOBKEY Crush 80 Reboot Pro,,Standard,Kailh Cocoa,RGB,true,"Wired, Wireless, Bluetooth Wireless",Blue / White
 Montech MKey,77.28,Gaming,Gateron G Pro 2.0 Brown,RGB,true,Wired,Black
-Razer BlackWidow V4 Pro,,Gaming,Razer Green,RGB,false,Wired,Black
 Razer BlackWidow Elite,,Gaming,Razer Orange,RGB,false,Wired,Black
 Kensington Pro Fit Ergo,36.52,Ergonomic,,,false,Wireless,Black
-ENDORFY Thock,,Gaming,Kailh Red,RGB,true,Wired,Black
 Adesso EasyTouch 132,19.98,Standard,,,false,Wired,Black / Yellow
 Adesso AKB-160UB,32.88,Ergonomic,,,false,Wired,Black
 ROCCAT Suora,64.98,Gaming,TTC Brown,Blue,false,Wired,Black
-Logitech G915 Lightspeed,,Gaming,Logitech GL Tactile,RGB,false,"Wireless, Bluetooth Wireless",Black
 Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
 YEYIAN Akil 3500,42.99,Standard,Outemu Red,RGB,true,"Wired, Wired",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
 DrunkDeer G65,44,Gaming,,RGB,true,Wired,Black / Red
 Montech MKey,95.6,Gaming,Gateron G Pro 2.0 Brown,RGB,false,Wired,Teal / White
 Cooler Master CK720 US,49.95,Gaming,Kailh Box White V2,RGB,true,Wired,Silver / White
 Logitech Signature MK650,69.98,Standard,,,false,"Wired, Wireless, Bluetooth Wireless",White
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Ducky One 3 w/ Quack Mechanics,119,Gaming,Cherry MX Black,RGB,true,Wired,Black
 Ducky One 3 w/ Quack Mechanics,119,Gaming,Cherry MX Speed Silver,RGB,true,Wired,Black
-Logitech G413 SE,,Gaming,Kailh LT Brown,White,true,Wired,Black
 Cooler Master CK720 FR,,Gaming,Kailh Box Red V2,RGB,true,Wired,Gray / Black
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Gray / Black
 Keychron K3 Max,,Standard,Gateron Low-Profile Brown,White,true,"Wired, Bluetooth Wireless",Gray
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",White
-Logitech MK295 Silent,71.34,Standard,,,false,"Wired, Wireless",White
 Keychron Q6 Pro,219.99,Gaming,Keychron K Pro Banana,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / Blue
 Logitech G915 LIGHTSPEED TKL,229.99,Gaming,Logitech Low-Profile GL Clicky,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Keychron Q3 Max QMK/VIA,,Standard,Gateron Jupiter Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
@@ -815,7 +715,6 @@ Cooler Master MasterKeys Pro M White (MX Red),250.14,Standard,Cherry MX Red,Whit
 ROCCAT Vulcan Pro,149.99,Gaming,Roccat Titan Red,RGB,false,Wired,Black
 Corsair K65 RGB MINI,,Mini,Cherry MX Red,RGB,true,Wired,White
 Ducky ONE 3 Daybreak,,Gaming,Cherry MX Red RGB,RGB,false,Wired,Blue
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
 Cooler Master CK550 V2,,Gaming,TTC Red,RGB,false,Wired,Black
 IQUNIX F97 Hitchhiker,,Gaming,Cherry MX Red,,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 Keychron Q3 Pro Special Edition,,Standard,Keychron K Pro Red,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
@@ -848,25 +747,19 @@ Asus ROG Azoth,,Mini,ROG NX Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",
 Keychron Q6,,Gaming,Gateron G Pro Brown,RGB,false,Wired,Blue
 Keychron C1 Pro V1 Hotswap,,Standard,Keychron K Pro Brown,RGB,true,Wired,Black / Gray
 Ducky ONE 3,,Gaming,Cherry MX Brown RGB,RGB,false,Wired,Black
-Logitech G915 Lightspeed,,Gaming,Logitech GL Tactile,RGB,false,"Wireless, Bluetooth Wireless",Black
-Logitech POP Keys Heartbreaker,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Black
+Logitech POP Keys Heartbreaker,87.9,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
 Das Keyboard 6 Professional,219,Standard,Cherry MX Blue,White,false,Wired,Black
 HP 300,23.99,Standard,,,false,"Wired, Wireless",Black
 HP 450,44.99,Standard,,,false,"Wired, Wireless",Black
 Logitech K380,49.99,Standard,,,true,Bluetooth Wireless,White
 IQUNIX ZX75 Dark Side,,Gaming,TTC Speed Silver,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Womier SK75,,Mini,Womier Mint Blizzard Linear,RGB,false,"Wired, Wireless, Bluetooth Wireless",White
 Keychron Q6 Pro,,Gaming,Keychron K Pro Brown,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / Blue
-Logitech G915 X,,Gaming,Logitech GL Tactile,RGB,false,Wired,Black
 MCHOSE K99,,Gaming,KTT Hyacinth,RGB,false,"Wired, Wireless, Bluetooth Wireless",Green / White
 Montech MK75FB,89.9,Mini,Gateron G Pro 3.0 Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Blue / White
 MSI CK Series,67.54,Standard,Cherry MX Red,,false,Wired,Black
 Cooler Master SK653,,Gaming,TTC Red Low Profile,RGB,false,Bluetooth Wireless,Gray / Black
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Gray / Black
 Rosewill BLITZ K50 RGB,69,Gaming,Outemu Blue,RGB,false,Wired,Black / Silver
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Logitech Desktop MK120-TAA LOG920004218,45,Standard,,,false,Wired,Black
 Logitech Wireless All-in-One Keyboard TK820,307.93,Slim,,,true,Wireless,Black
 Razer Orbweaver Chroma Elite RGB Gaming Keypad,,Gaming,Razer Green,RGB,true,Wired,Black
@@ -874,22 +767,16 @@ Dell KB522,29.99,Standard,,,false,Wired,Black
 Adesso AKB-139EB,31.96,Gaming,,Blue,false,Wired,Black
 IOGEAR IKON II,31.99,Gaming,,RGB,false,Wired,Black
 Logitech MK335,39.99,Standard,,,false,"Wired, Wireless",Black
-NZXT Function 2,,Gaming,NZXT Swift Optical 40g,RGB,false,"Wired, Wired",Black
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Black
 Tecware Phantom+ Elite,84.99,Gaming,Tecware Wraith Orange,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
 Logitech Fold-Up Keyboard,15,Mini,,,true,Bluetooth Wireless,Black
 Logitech K120-TAA Keyboard,33.33,Standard,,,false,Wired,Black
 Cooler Master Lite L,,Gaming,,RGB,false,Wired,Black
 Adesso WKB-1600CB,49,Ergonomic,,,false,Wireless,Black
-Corsair K70 RGB PRO,,Gaming,Corsair OPX,RGB,false,Wired,Black
 ROCCAT Vulcan TKL Pro,182.69,Gaming,Roccat Titan Optical,RGB,true,Wired,White / Silver
 Corsair K70 MAX RGB DE,,Gaming,Corsair MGX Steel Grey,RGB,false,Wired,Black
-Razer Huntsman V3 Pro Mini,,Mini,Razer Analog Optical Switch Gen-2,RGB,true,Wired,Black
 Logitech POP Keys Mist,99.99,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Gray
 Adesso SlimTouch,29.99,Standard,,,true,Wireless,Black
 YEYIAN Asward 3000,54.99,Gaming,Outemu Red,RGB,false,Wired,Black
-Logitech G915 X,,Gaming,Logitech GL Tactile,RGB,false,Wired,Black
 Keychron K10 Hotswap,109.99,Standard,Gateron G Pro Brown Hot-swappable,RGB,false,"Wired, Bluetooth Wireless",Black / Gray
 Montech MKey,103.8,Gaming,Gateron G Pro 2.0 Red,RGB,false,Wired,Teal / White
 Logitech K750,309.99,Slim,,,false,Wireless,Black
@@ -899,20 +786,14 @@ EVGA Z20,,Gaming,LK Light Strike Clicky,RGB,false,Wired,Black
 Keychron K2 Plastic,67.48,Standard,Gateron G Pro Brown,RGB,true,Wireless,Black / Gray
 Logitech MK295 SILENT,,Standard,,,false,"Wired, Wireless",Black
 DROP MDX-31827-12,109,Gaming,Cherry MX Blue,RGB,true,"Wired, Wired",Black
-Razer Huntsman V3 Pro Mini,,Mini,Razer Analog Optical Switch Gen-2,RGB,true,Wired,Black
 Cooler Master CK721,144.99,Gaming,TTC Brown,RGB,true,"Wired, Wireless",Black / Gray
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Black
 Cooler Master CK530 V2,77.45,Gaming,TTC Blue,RGB,true,Wired,Black
 Asus ROG Strix Scope Deluxe,,Gaming,Cherry MX Red RGB,RGB,false,Wired,
 AZIO IZO,84.99,Standard,Gateron Blue,,true,"Wired, Bluetooth Wireless",White / Gold
 Targus AKB863US,24.09,Slim,,,false,Bluetooth Wireless,Black
-SteelSeries Apex Pro Mini,,Gaming,SteelSeries OmniPoint 2.0,RGB,true,Wired,Black
 IQUNIX OG80 Dark Side,,Gaming,TTC Gold Pink,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 YEYIAN Spark 2000,,Gaming,Outemu Red,RGB,true,Wired,Black
-Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Red,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
 Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech G915 X,,Gaming,Logitech GL Linear,RGB,false,Wired,Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 DrunkDeer G65,53.49,Gaming,,RGB,true,Wired,Black / Purple
 DrunkDeer G65,85,Gaming,,RGB,true,Wired,Black
 Keychron K5 QMK V2,94.99,Gaming,Keychron Red Low Profile MX 2.0,White,false,"Wired, Bluetooth Wireless",Black / Gray
@@ -944,30 +825,16 @@ EVGA Z15,,Gaming,Kailh Bronze Speed,RGB,false,Wired,Black
 Cooler Master SK620,,Gaming,TTC Red,RGB,true,Wired,Gray / Black
 Asus TUF Gaming K7,,Gaming,Optical-mech Tactile,RGB,false,Wired,Black
 Logitech K845,,Standard,Cherry MX Red,White,false,Wired,Black
-Logitech G715,,Gaming,GX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Keychron V6 QMK Knob,,Standard,Keychron K Pro Brown,,false,"Wired, Wired",Black
-Razer BlackWidow V4 Pro,,Gaming,Razer Yellow,RGB,false,Wired,Black
 Redragon KALA K557,,Gaming,Outemu Blue,RGB,false,Wired,Black
 Keychron K8,,Standard,Gateron G Pro Red Hot-swappable,White,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K8,,Standard,Gateron G Pro Brown Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
-Logitech G915 Lightspeed,,Gaming,Logitech GL Tactile,RGB,false,"Wireless, Bluetooth Wireless",Black
-SteelSeries Apex Pro TKL (2023),,Gaming,SteelSeries OmniPoint 2.0,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Razer Huntsman V3 Pro,,Gaming,Razer Analog Optical Switch Gen-2,RGB,true,Wired,Black
 Keychron K3 Pro,,Standard,Gateron Low-Profile Red (Hot-Swappable),RGB,true,"Wired, Bluetooth Wireless",Black
-Razer Ornata V3,,Gaming,,RGB,true,Wired,Black
 Asus ROG Strix Scope,109.99,Gaming,Cherry MX Brown RGB,RGB,true,Wired,
 Asus ROG Strix Scope,,Gaming,ROG NX Red,RGB,true,Wired,Black
 Asus ROG Strix Scope GUNDAM EDITION,,Gaming,Cherry MX Red RGB,RGB,true,Wired,White / Blue
 HP 330,29.99,Standard,,,false,"Wired, Wireless",Black
-SteelSeries Apex 3 (2020),127.55,Gaming,,RGB,false,Wired,Black
-SteelSeries Apex 3 (2020),,Gaming,,RGB,false,Wired,Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",White
 MSI VIGOR GK20,,Gaming,,RGB,false,Wired,Black
-NZXT Function 2,,Gaming,NZXT Swift Optical 40g,RGB,true,"Wired, Wired",White
-Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Banana,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,White
 Keychron K2 HE Special Edition ISO,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Brown
 Keychron Q1 QMK V2 Knob SE,,Mini,Gateron G Pro Brown,,true,Wired,Red
 Keychron Lemokey P1 QMK/VIA Knob Pro,,Mini,Keychron Super Red,,true,"Wired, Wireless, Bluetooth Wireless",Black / Red
@@ -977,15 +844,10 @@ MCHOSE X75 V2,,Gaming,Kailh Icy Creamsicle,RGB,true,"Wired, Wireless, Bluetooth 
 MCHOSE K87,,Gaming,KTT Hyacinth,RGB,true,"Wired, Wireless, Bluetooth Wireless",Blue / White
 MCHOSE K99,,Gaming,Kailh Icy Creamsicle,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Blue
 Cherry G80-3000LSCEU-2,87.99,Standard,Cherry MX Blue,,false,Wired,Black
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
-Logitech MK540 Advanced,,Standard,,,false,"Wired, Wireless",Black
 Thermaltake Level 20 RGB,82.22,Gaming,Cherry MX Blue,RGB,false,Wired,Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Montech MKey,,Gaming,Gateron G Pro 2.0 Brown,RGB,false,Wired,Black
 AZIO MK RETRO,109.99,Standard,Kailh Blue,,false,Wired,Black / Silver
 Razer Pro Type Ultra - FR,,Standard,Razer Yellow,White,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
-SteelSeries Apex 3 (2020),,Gaming,,RGB,false,Wired,Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",Black
 Logitech G515,119.99,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,White
 Kensington 64370,17.99,Standard,,,false,Wired,Black
 KeyTronic KT400U1,34.99,Standard,,,false,Wired,Beige
@@ -997,10 +859,6 @@ Thermaltake Poseidon Z Plus,104.98,Standard,Kailh Blue,Blue,false,Wired,Black
 Logitech MX Mechanical,179.99,Slim,Kailh Choc V2 Red,White,false,Wireless,
 Rii RK105,,Gaming,,RGB,false,Wired,Black
 Adesso WKB-1320CB,25.99,Standard,,,false,Wireless,Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Linear,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G515,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,Black
-SteelSeries Apex Pro Gen 3,,Gaming,OmniPoint 3.0,RGB,true,Wired,Black
 KeyTronic KT800U2,40,Standard,,,false,Wired,Black
 Microsoft Sculpt Ergonomic Keyboard For Business,299.95,Ergonomic,,,false,Wireless,Black
 Das Keyboard 4 Professional,199,Standard,Cherry MX Blue,,false,Wired,Black / Red
@@ -1010,30 +868,20 @@ Keychron K2 Hot-swappable,,Gaming,Gateron Brown,White,true,Wireless,Black / Whit
 Asus ROG Strix Scope RX EVA Edition,,Gaming,ROG RX Blue Optical,RGB,false,Wired,Purple / Green
 Cooler Master CK720 US,70.3,Gaming,Kailh Box Red V2,RGB,true,Wired,Silver / White
 Corsair K70 MAX RGB FR,,Gaming,Corsair MGX Steel Grey,RGB,false,Wired,Black
-Razer Huntsman V3 Pro Mini,,Mini,Razer Analog Optical Switch Gen-2,RGB,true,Wired,Black
-Razer Ornata V3,,Gaming,,RGB,false,Wired,Black
-Logitech POP Keys Heartbreaker,87.9,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Gray / Black
 Asus ROG Strix Scope,109.99,Gaming,Cherry MX Red RGB,RGB,true,Wired,Black
 Das Keyboard 6 Professional,199,Standard,Cherry MX Brown,White,false,Wired,Black
 Adesso AKB-150UB-TAA,33.99,Ergonomic,,,false,Wired,Black
 Lenovo 4Y41K04031,58.23,Standard,,,false,"Wired, Wired, Wireless, Bluetooth Wireless",Black
 Lenovo 510,39.99,Standard,,,false,"Wired, Wireless",White
-SteelSeries Apex 3 (2020),,Gaming,,RGB,false,Wired,Black
-Corsair K65 PLUS,,Gaming,Corsair MLX Red Linear,RGB,true,"Wired, Wireless",Black
-ENDORFY Thock,,Gaming,Kailh Brown,RGB,true,Wired,Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
 Topre Realforce R3HD13,242,Standard,Topre 45g,,true,"Wired, Bluetooth Wireless",Black
 ADATA XPG Sorcerer,,Gaming,XPG Red,RGB,false,Wired,Black
 DrunkDeer G65,94,Gaming,,RGB,true,Wired,Gray / Purple
 Keychron Q1 QMK V2 Knob,,Mini,Gateron G Pro Brown,,true,Wired,Silver / Yellow
-SteelSeries Apex Pro Gen 3,,Gaming,OmniPoint 3.0,RGB,true,Wired,Black
 MCHOSE G98 Pro,,Gaming,TTC Flame Orange,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / Purple
 Kensington K72357US,29.83,Slim,,,false,Wired,Black
 Logitech G510,,Gaming,,Multicolor,false,Wired,Black
 Razer BlackWidow Ultimate,,Gaming,Cherry MX Blue,Blue,false,Wired,Black
 Adesso PCK-308UB,169.95,Ergonomic,,,false,Wired,Black
-Logitech MK550,,Ergonomic,,,false,Wireless,Black
 Corsair Vengeance K90,,Gaming,Cherry MX Red,Blue,false,Wired,Black / Gray
 Ergoguys My-Lil Kids Computer,,Standard,,,false,Wired,Blue
 Cherry G83-6104,94.01,Standard,,,false,Wired,Gray
@@ -1096,11 +944,8 @@ Keychron V6 QMK Knob,,Standard,Keychron K Pro Red,,false,"Wired, Wired",Black
 Cooler Master CK720 IT,,Gaming,Kailh Box Red V2,RGB,true,Wired,Gray / Black
 MSI VIGOR GK71 SONIC,,Gaming,MSI Sonic Blue,RGB,false,Wired,Black
 Ducky ONE 3 AURA,,Gaming,Cherry MX Silent Red RGB,RGB,false,Wired,Black
-Logitech G915 Lightspeed,,Gaming,Logitech GL Clicky,RGB,false,"Wireless, Bluetooth Wireless",Black
-Logitech G915 Lightspeed,,Gaming,Logitech GL Clicky,RGB,false,"Wireless, Bluetooth Wireless",Black
 Keychron K6 Aluminum Frame,,Standard,Gateron G Pro Red Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron Q1 Pro,,Standard,Keychron K Pro Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Razer Huntsman V3 Pro,,Gaming,Razer Analog Optical Switch Gen-2,RGB,true,Wired,Black
 Keychron K1 Pro,,Standard,Gateron Low-Profile Red (Hot-Swappable),RGB,true,"Wired, Bluetooth Wireless",Black / Red
 Keychron K17 Pro,,Standard,Gateron Low-Profile Brown (Hot-Swappable),RGB,false,"Wired, Bluetooth Wireless",Black / Red
 Asus ROG Strix Scope RX EVA-02 Edition,,Gaming,ROG RX Blue Optical,RGB,false,Wired,Red / Black
@@ -1114,18 +959,9 @@ HP 650,67.81,Standard,,,false,"Wired, Wireless",Brown
 Logitech G513 Carbon,129.97,Gaming,GX Red,RGB,false,Wired,Black
 Logitech Wave Keys MK670,79.99,Ergonomic,,,false,"Wired, Wireless, Bluetooth Wireless",Black
 Ducky PowerColor x Ducky One 2 SF RGB,,Gaming,Kailh Box Brown,RGB,true,Wired,Black
-NZXT Function 2,,Gaming,NZXT Swift Optical 40g,RGB,true,"Wired, Wired",Black
 IQUNIX F97 Graffiti Diary,,Gaming,TTC Speed Silver,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Multicolor
 IQUNIX L80 Formula,,Gaming,Cherry MX Brown,,true,"Wired, Wireless, Bluetooth Wireless",White / Black
 LTC NB681,,Standard,Huano Red,RGB,true,Wired,Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech G515 LIGHTSPEED,,Gaming,GL Linear V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 DrunkDeer G65,93,Gaming,,RGB,true,Wired,Black / Orange
 Keychron Q1 QMK V2 Knob,,Mini,Gateron G Pro Red,,true,Wired,Black
 Keychron Lemokey P1 QMK/VIA Knob Pro,,Mini,Keychron Super Brown,,true,"Wired, Wireless, Bluetooth Wireless",Blue / Yellow
@@ -1138,11 +974,8 @@ Favi FE01-BL,27.99,Mini,,,true,Wireless,Black
 EagleTec KG011-N,,Standard,Outemu Blue,,false,Wired,White
 Deco Gear DGMECHBRD100,59.99,Gaming,Outemu Blue,RGB,false,Wired,Black
 iKBC CD87 V2,,Standard,Cherry MX Blue,,true,Wired,Black
-Corsair K55 CORE RGB,92.66,Gaming,,RGB,false,Wired,Black
 Cooler Master SK622,103.69,Gaming,TTC Red Low Profile,RGB,true,"Wired, Bluetooth Wireless",Black
 Keychron Lemokey X0 QMK,,Gaming,Keychron Red,Red,true,Wired,Black
-be quiet! Dark Mount,,Gaming,be quiet! Silent Orange Linear,RGB,false,Wired,Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 MCHOSE G75 PRO,,Gaming,KTT Cabbage Tofu V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Cherry G84-4100LCMUS-2,65.37,Slim,Cherry ML,,false,Wired,Black
 Logitech Y-UY95,349.99,Gaming,,,false,Wired,Black
@@ -1155,14 +988,10 @@ Logitech K310,257.65,Standard,,,false,Wired,Black
 Logitech MK710,84.99,Standard,,,false,Wireless,Black
 Corsair RGB MK.2 Low Profile RAPIDFIRE,,Gaming,Cherry MX Low Profile Speed Silver,RGB,false,Wired,Black
 Kensington Pro Fit Ergo Bundle,54.1,Ergonomic,,,false,Wireless,Black
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Gray
 Targus AKM619AMUS,53.99,Slim,,,false,Bluetooth Wireless,Black
-SteelSeries Apex 9 TKL,,Gaming,SteelSeries OptiPoint Linear,RGB,true,Wired,Black
 Logitech K380,,Standard,,,true,Bluetooth Wireless,Pink
 IQUNIX ZX75 Gravity Wave,,Gaming,Cherry MX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Yellow
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Keychron Q1 QMK V2 Knob,94.99,Mini,Gateron G Pro Blue,,true,Wired,Silver / Yellow
-SteelSeries Apex Pro Gen 3,,Gaming,OmniPoint 3.0,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 HP DT528A#ABA,39.99,Standard,,,false,Wired,Black / Silver
 Microsoft 3RA-00022,199.99,Ergonomic,,,false,Bluetooth Wireless,Gray
 Inland 70119,39.99,Standard,,,false,Wireless,Black
@@ -1171,17 +1000,11 @@ Thermaltake Tt eSports Meka Pro,94.98,Gaming,Cherry MX Blue,Red,false,Wired,Blac
 V7 KU200US,,Standard,,,false,Wired,Black
 SIIG JK-WR0T12-S1,24.63,Standard,,,false,Wireless,Black
 DROP MDX-31827-8,196.08,Gaming,Kailh Halo Clear,RGB,true,"Wired, Wired",Black
-Razer Ornata V3,,Gaming,,RGB,false,Wired,Black
 Targus AKB864US,41.33,Slim,,,false,Bluetooth Wireless,Black
-SteelSeries Apex 3 (2020),,Gaming,,RGB,false,Wired,Black
 IQUNIX ZX75 Gravity Wave,,Gaming,TTC Speed Silver,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Yellow
 Logitech G515 LIGHTSPEED,159.99,Gaming,GL Linear V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
 Logitech MX Mechanical,,Slim,Kailh Choc V2 Brown,White,false,Wireless,Black / Gray
 WOBKEY Crush 80 Reboot Pro,,Standard,Kailh Cocoa,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Pink
-SteelSeries Apex Pro Gen 3,,Gaming,OmniPoint 3.0,RGB,true,Wired,Black
 MCHOSE GX87,,Gaming,KTT Vintage White,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Translucent Gray
 MCHOSE G87,,Gaming,TTC Cabbage Tofu V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Microsoft Keyboard 200,,Standard,,,false,Wired,White
@@ -1220,7 +1043,6 @@ Corsair Vengeance K70,,Gaming,Cherry MX Red,Red,false,Wired,Black / Silver
 Cooler Master CM Storm Devastator Gaming Bundle,,Gaming,,Red,false,Wired,Black
 Cherry G80-1800 Keyboard,,Standard,Cherry MX Black,,false,Wired,Gray
 Corsair K95 RGB,,Gaming,Cherry MX Blue,RGB,false,Wired,Black
-Corsair K95 RGB,,Gaming,Cherry MX Red,RGB,false,Wired,Black
 Corsair K65 RGB UK,,Gaming,Cherry MX Red,RGB,true,Wired,Black
 HP QY776AA,,Standard,,,false,Wired,Black
 Vortex POK3R,,Mini,Cherry MX Brown,,false,Wired,Black
@@ -1276,7 +1098,6 @@ Ducky Ducky One 2 SF RGB,,Gaming,Cherry MX Silent Red,RGB,true,Wired,Black
 Ducky Ducky One 2 SF RGB,,Gaming,Cherry MX Brown,RGB,true,Wired,Black
 Ducky Shine 7 Blackout RGB,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 ROCCAT Suora FX,248.11,Gaming,Cherry MX Brown,RGB,false,Wired,Black
-Wooting One,,Gaming,Flaretech Blue,RGB,true,Wired,Black
 Wooting Wooting Two,,Gaming,Flaretech Black,RGB,false,Wired,Black
 Wooting Wooting Two,,Gaming,Flaretech Blue,RGB,false,Wired,Black
 Wooting Wooting Two,,Gaming,Flaretech Red,RGB,false,Wired,Black
@@ -1292,9 +1113,7 @@ Keychron K2 Hot-swappable,,Gaming,Gateron Red,White,true,Wireless,Black / White
 Keychron C2,,Standard,Gateron G Pro Blue,White,false,Wired,Black / White
 Keychron K2 Plastic,,Standard,Gateron G Pro Red,White,true,Wireless,Black / Gray
 Razer BlackWidow V3 - Halo Infinite,,Gaming,Razer Green,RGB,false,Wired,Green / Black
-Corsair K70 RGB PRO,,Gaming,Corsair OPX,RGB,false,Wired,White
 Razer Huntsman Gears of War 5 Edition,,Gaming,Razer Purple Optical Clicky,RGB,false,Wired,Gray / Black
-Logitech G715,,Gaming,GX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Keychron K5 SE,,Slim,Keychron Optical Red Low Profile,White,false,"Wired, Bluetooth Wireless",Black / Gray
 Kinesis Gaming Freestyle Pro Quiet,169,Ergonomic Split,Cherry MX Silent Red,,true,Wired,Black
 MSI ‎VIGOR GK71 SONIC BLUE,,Gaming,MSI Sonic Blue,RGB,false,Wired,Black
@@ -1308,7 +1127,6 @@ Ducky ONE 3,,Gaming,Cherry MX Speed Silver RGB,RGB,false,Wired,White
 Ducky ONE 3 AURA,,Gaming,Cherry MX Speed Silver RGB,RGB,false,Wired,Black
 Ducky ONE 3 AURA,129,Gaming,Cherry MX Red RGB,RGB,false,Wired,Black
 Logitech G915 Lightspeed,,Gaming,Logitech GL Linear,RGB,false,"Wireless, Bluetooth Wireless",Black
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
 Keychron Lemokey L3,,Standard,Gateron Jupiter Banana,,true,Wireless,Blue / Yellow
 Keychron K3 Pro,,Standard,Gateron Low-Profile Brown (Hot-Swappable),RGB,true,"Wired, Bluetooth Wireless",Black
 Keychron K7 Pro,,Standard,Gateron Low-Profile Brown (Hot-Swappable),RGB,true,"Wired, Bluetooth Wireless",Black / Red
@@ -1316,17 +1134,10 @@ Keychron K13 Pro,,Standard,Gateron Low-Profile Brown,RGB,true,"Wired, Bluetooth 
 Keychron K17 Pro,,Standard,Gateron Low-Profile Red,RGB,false,"Wired, Bluetooth Wireless",Black / Red
 Keychron K1 V5,,Standard,Gateron Low-Profile Red,White,true,"Wired, Bluetooth Wireless",Black / Gray
 Asus ROG Strix Flare II,,Gaming,ROG NX Red,RGB,false,Wired,Black
-Razer Ornata V3,,Gaming,,RGB,true,Wired,Black
-Logitech POP Keys Blast,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Yellow / Black
 AZIO IZO,89.99,Standard,Gateron Blue,,true,"Wired, Bluetooth Wireless",Blue / Gold
 HP 235,47.99,Standard,,,false,"Wired, Wireless",Black
 HP 350,34.99,Standard,,,true,Bluetooth Wireless,Black
-SteelSeries Apex 9 Mini,,Gaming,SteelSeries OptiPoint Linear,RGB,true,Wired,Black
-SteelSeries Apex Pro Mini Wireless,,Gaming,SteelSeries OmniPoint 2.0,RGB,true,"Wireless, Bluetooth Wireless",Black
 Lenovo 300,34.99,Standard,,,false,"Wired, Wireless",Black
-SteelSeries Apex 3 (2020),,Gaming,,RGB,false,Wired,Black
-SteelSeries Apex 3 (2020),,Gaming,,RGB,false,Wired,Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",White
 Microsoft Desktop for Business,152.93,Slim,,,false,"Wired, Wireless, Bluetooth Wireless",Black
 Microsoft LXN-00001,308.66,Ergonomic,,,false,Wired,Black
 MSI Vigor GK50 Elite,,Gaming,Kailh Blue,RGB,true,Wired,Black
@@ -1334,24 +1145,10 @@ IQUNIX OG80 Wormhole,,Gaming,TTC Speed Silver,RGB,true,"Wired, Wireless, Bluetoo
 IQUNIX ZX75 Dark Side RS,,Gaming,TTC Gold Pink,RGB,true,"Wired, Wireless, Bluetooth Wireless",Translucent Black
 IQUNIX ZX75 Dark Side RS,,Gaming,TTC Speed Silver,RGB,true,"Wired, Wireless, Bluetooth Wireless",Translucent Black
 IQUNIX A80 Explorer,,Gaming,Cherry MX Brown,,true,"Wired, Wireless, Bluetooth Wireless",Black / Orange
-ENDORFY Thock,,Gaming,Kailh Red,RGB,true,Wired,Black
-ENDORFY Thock,,Gaming,Kailh Red,RGB,true,Wired,Black
 Keychron Q3 Pro Special Edition,,Standard,Keychron K Pro Brown,RGB,true,"Wired, Bluetooth Wireless",Green / Yellow
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
 Womier SK75,,Mini,Womier Mint Blizzard Linear,RGB,false,"Wired, Wireless, Bluetooth Wireless",Green / White
 JLab Epic,69.98,Standard,,,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
 Keychron K5 Max,,Standard,Gateron Low-Profile Brown,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Clicky,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Clicky,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Black
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Black
-Keychron Q1 HE QMK PBT,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
-Keychron K2 HE Special Edition ISO,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Brown
-Logitech MX Mechanical,,Slim,Kailh Choc V2 Brown,White,false,Wireless,Black / Gray
-Logitech MX Mechanical,,Slim,Kailh Choc V2 Brown,White,false,Wireless,Black / Gray
 Logitech MX Mechanical,,Slim,Kailh Choc V2 Red,White,false,Wireless,Black / Gray
 DrunkDeer G65,99,Gaming,,RGB,true,Wired,White / Purple
 Keychron K10 Hotswap,,Standard,Gateron G Pro Red Hot-swappable,RGB,false,"Wired, Bluetooth Wireless",Gray / Black
@@ -1360,7 +1157,6 @@ NZXT KB-101NB-US,199.99,Gaming,,RGB,true,Wired,Black
 WOBKEY Crush 80 Reboot Pro,,Standard,Kailh Cocoa,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Gray
 WOBKEY Crush 80 Reboot Pro,,Standard,Kailh Cocoa,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Black
 MCHOSE Ace68 E-sport,,Gaming,Outemu Ice Blue Magnetic,RGB,true,Wired,Black
-MCHOSE Ace68 E-sport,,Gaming,TTC Uranus Magnetic eSports,RGB,true,Wired,Black / Translucent Gray
 MCHOSE G75 PRO,,Gaming,KTT Matcha Latte V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Blue / White
 MCHOSE G87,,Gaming,TTC Cabbage Tofu V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Cyan / White
 MCHOSE G87,,Gaming,TTC Speed Gold,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Translucent Gray
@@ -1368,31 +1164,20 @@ NuPhy Air96 V2,,Mini,Gateron Cowberry,RGB,false,"Wired, Wireless, Bluetooth Wire
 NuPhy Air96 V2,,Mini,Gateron Moss,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 NuPhy Air96 V2,,Mini,Gateron Moss,RGB,false,"Wired, Wireless, Bluetooth Wireless",Gray
 Cherry Compact 11900 Series,226.99,Standard,,,false,Wired,Gray
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
 Thermaltake POSEIDON Z RGB,94.99,Gaming,Kailh Brown,RGB,false,Wired,Black
 Cherry G80-11900LUMEU-0,67.68,Mini,Cherry MX Black,,false,Wired,Gray
 Thermaltake Poseidon Z Forged,94.96,Gaming,Kailh Blue,Blue,false,Wired,Black
 Lenovo Preferred Pro II,,Standard,,,false,Wired,Black
-Razer Ornata V3,,Gaming,,RGB,false,Wired,Black
 Cooler Master SK622,91.62,Gaming,TTC Blue Low Profile,RGB,true,"Wired, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
 Cherry G84-4100LCMUS-0,69.98,Mini,Cherry ML,,false,Wired,White
 Perixx 10165,49.99,Slim,,,false,Wired,Black
 Das Keyboard 4 Professional for Mac,199,Standard,Cherry MX Brown,,false,Wired,Black / Purple
 Verbatim 99788,27.59,Standard,,,false,Wireless,Black
 Kensington Pro Fit Ergo Bundle,61.95,Ergonomic,,,false,Wireless,Gray
-Logitech G715,,Gaming,GX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Logitech MX KEYS MINI,99.99,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Corsair K70 CORE w/Palmrest,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
 Asus ROG Falchion Ace,,Gaming,ROG NX Red,RGB,true,Wired,White
 Kensington K755,39.99,Standard,,,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",White
 IQUNIX OG80 Wormhole,,Gaming,Cherry MX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Green
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-SteelSeries Apex Pro Gen 3,,Gaming,OmniPoint 3.0,RGB,true,Wired,Black
-be quiet! Dark Mount,,Gaming,be quiet! Silent Black Tactile,RGB,false,Wired,Black
 HP FK218AA#ABA,254.82,Mini,,,false,Wired,Black
 Lenovo Keyboard,65,Standard,,,false,Wired,Black
 Kensington Pro Fit Wireless Media Desktop Set,42.57,Ergonomic,,,false,Wireless,Black
@@ -1403,33 +1188,19 @@ Zalman ZM-K380 Combo,34.99,Standard,,,false,Wired,Black
 Ducky One 2 RGB TKL,,Standard,Cherry MX Silent,RGB,true,Wired,Black
 HP Sequencer,,Gaming,,RGB,false,Wired,Black
 Adesso AKB-636UB,138.97,Standard,Kailh Blue,,false,Wired,Black
-Kensington Pro Fit Ergo,49.41,Ergonomic,,,false,Wireless,Black
 Thermaltake Level 20 RGB Titanium,139.99,Gaming,Cherry MX Blue,RGB,false,Wired,Silver / Black
 Kinesis Gaming Freestyle Edge,199,Ergonomic Split,Cherry MX Blue,RGB,true,Wired,Black
 NZXT Function MiniTKL,,Gaming,Gateron Red,RGB,true,Wired,Black
 Corsair K60 RGB Pro,,Gaming,Corsair OPX,RGB,true,Wired,Black
-Logitech G715,,Gaming,GX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Silver
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Silver
 Cooler Master CK720 UK,,Gaming,Kailh Box White V2,RGB,true,Wired,Silver / White
 Ducky ONE 3,,Gaming,Cherry MX Silent Red RGB,RGB,false,Wired,Gray / White
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Gray / Black
-Logitech POP Keys Heartbreaker,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
 AZIO IZO,94.08,Standard,Gateron Red,,true,"Wired, Bluetooth Wireless",Black / Gray
 AZIO IZO,81.99,Standard,Gateron Red,,true,"Wired, Bluetooth Wireless",Pink / White
 Thermaltake Level 20 GT,118.74,Gaming,Razer Green,RGB,false,Wired,Black
 Lenovo 4X31K03931,91.89,Standard,,,false,"Wired, Wired, Wireless, Bluetooth Wireless",Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",Black
 IQUNIX ZX75 Gravity Wave,,Gaming,Cherry MX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Yellow
-Cherry MX 10.0N,,Slim,Cherry MX Low Profile Speed Silver,RGB,false,Wired,Black
-Cherry MX 10.0N,,Slim,Cherry MX Low Profile Speed Silver,RGB,false,Wired,Black
-Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Banana,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
 Keychron Lemokey X0 QMK,,Gaming,Keychron Brown,Red,true,Wired,Black
 Keychron Q6 Pro,219.99,Gaming,Keychron K Pro Banana,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Red
-Logitech G515,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,Black
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,White
-SteelSeries Apex Pro Gen 3,,Gaming,OmniPoint 3.0,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-be quiet! Light Mount,,Gaming,be quiet! Silent Orange Linear,RGB,false,Wired,Black
 Microsoft JWD-00046,89.99,Standard,,,false,Wired,Black
 SolidTek KB-260ABU-SP,17.98,Standard,,,false,Wired,Black
 Razer Anansi,,Gaming,,,false,Wired,Black
@@ -1444,7 +1215,6 @@ Apple MC184LL/B,,Mini,,,true,Bluetooth Wireless,Silver
 Microsoft Natural Keyboard Elite,279.95,Ergonomic,,,false,Wired,Beige
 Microsoft Natural 4000,,Ergonomic,,,false,Wired,Black
 Kensington Pro Fit,26.99,Standard,,,false,Wired,Black
-Logitech K800,,Slim,,White,false,Wireless,Black
 Microsoft YMC-00001,,Standard,,,false,Wireless,Black
 Acer Iconia Tab,,Mini,,,true,Bluetooth Wireless,Black
 Microsoft Wireless Desktop 3000,,Standard,,,false,Wireless,Black
@@ -1547,7 +1317,6 @@ Topre Realforce 87U EK Edition,,Slim,Topre 45g,Red,true,Wired,Black / Gray
 Topre Realforce 104UB,,Standard,Topre Variable,,false,Wired,Black
 Cooler Master Novatouch TKL,,Standard,Topre 45g,,true,Wired,Black
 Corsair K95 RGB,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
-Corsair K70 RGB,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 Corsair K95,,Gaming,Cherry MX Red,White,false,Wired,Black
 Thermaltake KNUCKER Plunger,,Standard,,,false,Wired,Black
 Ducky Shine 4,,Gaming,Cherry MX Green,Red / Blue,false,Wired,Black
@@ -1563,7 +1332,6 @@ Adesso EasyTouch 635,,Gaming,Kailh Blue,,false,Wired,Black
 Lenovo Preferred Pro USB Keyboard,129,Standard,,,false,Wired,Black
 ROCCAT RYOS TKL PRO,,Gaming,Cherry MX Brown,Blue,true,Wired,Beige / Gray
 Rosewill RK-9000V2,,Standard,Cherry MX Blue,,false,Wired,Black
-Corsair K70 RGB,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 Kensington Pro Fit,27.32,Standard,,,false,Wireless,Black
 UtechSmart Saturn,,Gaming,,Multicolor,false,Wired,Black
 Cooler Master MECH,,Gaming,Cherry MX Blue,White,false,Wired,Black / Silver
@@ -1574,9 +1342,7 @@ Thermaltake Commander Bundle,,Gaming,,Blue,false,Wired,Black / Silver
 Kensington K72402US,25.99,Standard,,,false,Wired,Black
 Belkin Keyboard,19.98,Mini,,,true,Wired,Black
 Cougar 600K,,Gaming,Cherry MX Red,Orange,false,Wired,Black
-Corsair K70,,Gaming,Cherry MX Blue,Red,false,Wired,Black
 Corsair K70,,Gaming,Cherry MX Red,Blue,false,Wired,Black
-Corsair K95 RGB,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 Microsoft Desktop 3050,,Standard,,,false,Wireless,Black
 Microsoft 850,75.9,Standard,,,false,Wireless,Black
 Gigabyte AORUS Thunder K7,,Gaming,Cherry MX Red,Blue,false,Wired,Black
@@ -1608,7 +1374,6 @@ G.Skill Ripjaws KM570 RGB,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 Creative Labs Vanguard K08,,Gaming,PRES,RGB,false,Wired,Black
 ROCCAT SOVA,,Gaming,,Blue,true,Wired,Black
 AZIO Armato,,Gaming,Cherry MX Brown,Red,false,Wired,Black
-Logitech K780,69.98,Slim,,,false,Wireless,Black
 Razer Blackwidow Tournament Edition Stealth,,Gaming,Razer Orange,White,true,Wired,Black
 Cooler Master MasterKeys S (MX Brown),,Gaming,Cherry MX Brown,,true,Wired,Black
 Cooler Master MasterKeys S (MX Blue),,Gaming,Cherry MX Blue,,true,Wired,Black
@@ -1642,7 +1407,6 @@ Adesso AKB-425UB,49.99,Standard,,,false,Wired,Black
 iKBC CD108,,Gaming,Cherry MX Brown,,false,Wired,Black
 G.Skill KM360,,Standard,Cherry MX Red,White,true,Wired,Black
 Trust GXT 285,,Gaming,,Multicolor,false,Wired,Black / Red
-Kensington Pro Fit,67.17,Standard,,,false,Wireless,Black
 Aula Dzi SI-862,,Gaming,,Multicolor,false,Wired,Black
 Kensington K75231US,29.73,Standard,,,false,Wireless,Black
 Evoluent R3K Reduced Reach Right-Hand Keyboard,54.95,Ergonomic,,,false,Wired,Black
@@ -1670,19 +1434,12 @@ Leopold FC750R Black PD,,Standard,Cherry MX Brown,,false,Wired,Black
 Leopold FC750R Black PD,,Standard,Cherry MX Silent Red,,false,Wired,Black
 Mistel BAROCCO MD770,,Ergonomic,Cherry MX Red,RGB,true,Wired,Black
 Corsair K60 Pro,,Gaming,Cherry Viola,Red,false,Wired,Black
-matias FK318PCLBB,,Standard,,Multicolor,false,Wired,Black
+matias FK318PCLBB,129,Standard,,Multicolor,false,Wired,Black
 Asus ROG Strix Flare PNK LTD,,Gaming,Cherry MX Brown,RGB,false,Wired,Pink / White
 Asus ROG Strix Flare PNK LTD,,Gaming,Cherry MX Blue,RGB,false,Wired,Pink / White
-Cherry Strait Black 3.0,,Standard,,,false,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Silent Red,White,false,Wired,Black
 Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Silent Red,White,false,Wired,Black
 Cooler Master SK620,,Gaming,TTC Brown,RGB,true,Wired,Gray / Black
 Tempest Diablo,,Gaming,Content Red,RGB,false,Wired,Black
-Wooting One,,Gaming,Flaretech Red,RGB,true,Wired,Black
-Wooting One,,Gaming,Flaretech Blue,RGB,true,Wired,Black
-Wooting Wooting Two,,Gaming,Flaretech Red,RGB,false,Wired,Black
-Wooting Wooting Two,,Gaming,Flaretech Black,RGB,false,Wired,Black
-Wooting Two Lekker Edition,,Gaming,Lekker linear65,RGB,false,Wired,Blue / White
 Corsair K65 RGB MINI BUBBLEGUM POP,,Gaming,Cherry MX Speed Silver,RGB,true,Wired,Pink / White
 Corsair K70 RGB PRO UK,,Gaming,Cherry MX Speed Silver,RGB,false,Wired,Black
 Corsair K70 RGB PRO UK,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
@@ -1691,20 +1448,10 @@ Cooler Master SK653,,Gaming,TTC Brown Low Profile,RGB,false,Bluetooth Wireless,G
 Cooler Master SK653,,Gaming,TTC Red Low Profile,RGB,false,Bluetooth Wireless,White / Silver
 Keychron K2 Hot-swappable,,Gaming,Gateron Blue,White,true,Wireless,Black / White
 Keychron K2 Hot-swappable,,Gaming,Gateron Brown,RGB,true,Wireless,Black / White
-Corsair K60 RGB Pro,,Gaming,Corsair OPX,RGB,true,Wired,Black
 Corsair K65 RGB MINI Ethereal Blue,,Gaming,Cherry MX Speed Silver,RGB,true,Wired,Blue / White
 Corsair K65 RGB MINI Purple Rune,,Gaming,Cherry MX Speed Silver,RGB,true,Wired,Purple / White
 Razer Pro Type Ultra - ES,,Standard,Razer Yellow,White,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 Razer Pro Type Ultra - NO,,Standard,Razer Yellow,White,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
-Logitech G715,,Gaming,GX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech G715,,Gaming,GX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech G715,,Gaming,GX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Gray
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Gray
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Silver
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Silver
 Keychron K5 SE,,Slim,Keychron Optical Banana Low Profile,White,false,"Wired, Bluetooth Wireless",Black / Gray
 Keychron Q6,,Gaming,Gateron G Pro Red,RGB,false,Wired,Blue
 Keychron K1 SE,,Standard,Keychron Optical Blue Low Profile,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
@@ -1730,9 +1477,7 @@ Keychron C2 Pro V2 Hotswap,,Standard,Keychron K Pro Brown,RGB,false,Wired,Black 
 Ducky ONE 3,129,Gaming,Cherry MX Speed Silver RGB,RGB,false,Wired,Black
 Ducky ONE 3,,Gaming,Cherry MX Clear RGB,RGB,false,Wired,Black
 Ducky ONE 3,,Gaming,Cherry MX Silent Red RGB,RGB,false,Wired,Black
-Logitech G915 Lightspeed,,Gaming,Logitech GL Clicky,RGB,false,"Wireless, Bluetooth Wireless",Black
 Keychron K6,,Standard,Gateron G Pro Red,White,true,"Wired, Bluetooth Wireless",Black / Gray
-SteelSeries Apex Pro TKL (2023),,Gaming,SteelSeries OmniPoint 2.0,RGB,true,Wired,Black
 Keychron Q1 Pro,,Standard,Keychron K Pro Banana,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Keychron Q1 Pro,,Standard,Keychron K Pro Banana,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Keychron K1 Pro,,Standard,Gateron Low-Profile Red,White,true,"Wired, Bluetooth Wireless",Black / Red
@@ -1744,18 +1489,10 @@ Keychron K5 Pro,,Gaming,Gateron Low-Profile Red (Hot-Swappable),RGB,false,"Wired
 Keychron K5 Pro,,Gaming,Gateron Low-Profile Blue (Hot-Swappable),RGB,false,"Wired, Bluetooth Wireless",White
 Keychron K5 Pro,,Gaming,Gateron Low-Profile Brown (Hot-Swappable),RGB,false,"Wired, Bluetooth Wireless",White
 Keychron K17 Pro,,Standard,Gateron Low-Profile Red (Hot-Swappable),RGB,false,"Wired, Bluetooth Wireless",Black / Red
-Keychron K3 V2 Ultra-slim,,Standard,Keychron Optical Brown Low Profile (Hot-Swappable),RGB,true,"Wired, Wired, Bluetooth Wireless",Black / Gray
-Keychron K3 V2 Ultra-slim,,Standard,Gateron Low-Profile Red,White,true,"Wired, Wired, Bluetooth Wireless",Black / Gray
-Razer Ornata V3,,Gaming,,RGB,false,Wired,Black
-Razer Ornata V3,,Gaming,,RGB,false,Wired,Black
 Logitech POP Keys Daydream,59.99,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",White / Green
-Logitech POP Keys Daydream,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",White / Green
-Logitech POP Keys Heartbreaker,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
 Keychron K7,,Slim,Gateron Low-Profile Brown,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K7,,Slim,Gateron Low-Profile Red,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K7,,Slim,Gateron Low-Profile Brown (Hot-Swappable),White,true,"Wired, Bluetooth Wireless",Black / Gray
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Gray / Black
 Cooler Master CK530 V2,81.29,Gaming,TTC Brown,RGB,true,Wired,Black
 Cooler Master CK550 V2,,Gaming,TTC Brown,RGB,false,Wired,Black
 Cooler Master SK622,,Gaming,TTC Brown Low Profile,RGB,true,"Wired, Bluetooth Wireless",Black
@@ -1773,46 +1510,20 @@ HP 355,32.01,Standard,,,true,Bluetooth Wireless,Black
 iKBC CD87 V2,,Standard,Cherry MX Red,,true,Wired,Black
 Kensington K755,33.11,Standard,,,true,"Wired, Wireless, Bluetooth Wireless",Silver
 Kensington K70316US,49.99,Standard,,,false,Wired,Black
-SteelSeries Apex 9 TKL,,Gaming,SteelSeries OptiPoint Linear,RGB,true,Wired,Black
 Logitech MX Keys Mini for Business,99.99,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
 Logitech MX Keys Mini for Business,84.99,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Black / Silver
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",White
 Microsoft 21Y-00031,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",White
 IQUNIX F97 Hitchhiker,,Gaming,TTC Speed Silver,,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 IQUNIX F97 Graffiti Diary,,Gaming,TTC Gold Pink,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Multicolor
 IQUNIX L80 Formula,,Gaming,Cherry MX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Black
 IQUNIX L80 Formula,,Gaming,Cherry MX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Black
 LTC NB681,,Standard,Huano Red,RGB,true,Wired,White
-ENDORFY Thock,,Gaming,Kailh Brown,RGB,true,Wired,Black
 Keychron Q3 Pro Special Edition,,Standard,Keychron K Pro Brown,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron Q3 Pro,,Standard,Keychron K Pro Red,RGB,true,"Wired, Bluetooth Wireless",Silver / Gray
 Keychron Q3 Pro,,Standard,Keychron K Pro Red,RGB,true,"Wired, Bluetooth Wireless",White / Red
 Keychron Q3 Pro,,Standard,Keychron K Pro Brown,RGB,true,"Wired, Bluetooth Wireless",White / Red
 Logitech PRO X 60,179.99,Mini,Logitech GX Red Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Brown,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech G915 X,,Gaming,Logitech GL Tactile,RGB,false,Wired,Black
-Logitech G915 X,,Gaming,Logitech GL Tactile,RGB,false,Wired,Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Clicky,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Clicky,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Clicky,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G515,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,Black
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Pink
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Pink
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Pink
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,White
 Keychron Q3 Max QMK/VIA Side-Printed,,Standard,Gateron Jupiter Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Red
-Keychron Q1 HE QMK PBT,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
-Keychron K2 HE Special Edition ISO,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Brown
-Logitech MX Mechanical,,Slim,Kailh Choc V2 Red,White,false,Wireless,Black / Gray
 Keychron K10,,Standard,Gateron G Pro Blue,RGB,false,"Wired, Bluetooth Wireless",Gray / Black
 Keychron K10 Hotswap,,Standard,Gateron G Pro Blue Hot-swappable,RGB,false,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K10,,Standard,Gateron G Pro Brown,RGB,false,"Wired, Bluetooth Wireless",Black / Gray
@@ -1845,7 +1556,6 @@ MCHOSE G98,,Gaming,TTC Ice,RGB,false,"Wired, Wireless, Bluetooth Wireless",Blue 
 MCHOSE G98,,Gaming,KTT Hyacinth,RGB,false,"Wired, Wireless, Bluetooth Wireless",Green / Black
 MCHOSE G98 Pro,,Gaming,Kailh Snow Tiger,RGB,false,"Wired, Wireless, Bluetooth Wireless",Orange / Blue
 Keychron Q14 Pro (Alice Layout),,Ergonomic,Keychron K Pro Red,RGB,false,"Wired, Bluetooth Wireless",White
-be quiet! Light Mount,,Gaming,be quiet! Silent Orange Linear,RGB,false,Wired,Black
 Montech MKey,,Gaming,Gateron G Pro 2.0 Yellow,RGB,false,Wired,Black
 NuPhy Air96 V2,,Mini,Gateron Low-Profile Brown 2.0,RGB,false,"Wired, Wireless, Bluetooth Wireless",White
 NuPhy Air96 V2,,Mini,Gateron Low-Profile Brown 2.0,RGB,false,"Wired, Wireless, Bluetooth Wireless",Gray
@@ -1854,12 +1564,9 @@ NuPhy Air96 V2,,Mini,Gateron Wisteria,RGB,false,"Wired, Wireless, Bluetooth Wire
 NuPhy Air96 V2,,Mini,Gateron Moss,RGB,false,"Wired, Wireless, Bluetooth Wireless",White
 NZXT Function Tenkeyless,,Gaming,Gateron Red,RGB,true,Wired,Black
 Corsair K65 RGB MINI,,Mini,Cherry MX Brown,RGB,true,Wired,Black
-Logitech G915 X,,Gaming,Logitech GL Tactile,RGB,false,Wired,Black
 MCHOSE G98 Pro,,Gaming,TTC Flame Orange,RGB,false,"Wired, Wireless, Bluetooth Wireless",Gray / Blue
-be quiet! Light Mount,,Gaming,be quiet! Silent Black Tactile,RGB,false,Wired,Black
 Cherry G83-6644LUAEU-2,,Standard,,,false,Wired,Black
 Corsair STRAFE,,Gaming,Cherry MX Blue,Red,false,Wired,Black
-Logitech K750,,Slim,,,false,Wireless,Black
 Nixeus MK-BN15,,Gaming,Kailh Brown,,true,Wired,Black / Gray
 Filco Ninja Majestouch-2 TKL,,Standard,Cherry MX Red,,true,Wired,Black
 Redragon K582-BA,,Standard,Outemu Red,RGB,false,Wired,Black
@@ -1869,10 +1576,7 @@ AZIO MK MAC USB,,Standard,Kailh Brown,White,false,Wired,White
 AOC AGK700,,Gaming,Cherry MX Red,RGB,false,Wired,Black / Red
 Ducky ONE 3,134,Gaming,Cherry MX Speed Silver RGB,RGB,false,Wired,Gray / White
 Ducky ONE 3 AURA,129,Gaming,Cherry MX Blue RGB,RGB,false,Wired,Black
-Logitech POP Keys Heartbreaker,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
 Thermaltake ARGENT K6,191.99,Gaming,Cherry MX Low Profile Red,RGB,false,Wired,
-Logitech MK540 Advanced,,Standard,,,false,"Wired, Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
 MCHOSE Ace68 E-sport,,Gaming,TTC Uranus Magnetic eSports,RGB,true,Wired,Red
 MCHOSE G75 PRO,,Gaming,Huano Matcha Latte V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Blue / Multicolor
 MCHOSE K99,,Gaming,KTT Hyacinth,RGB,false,"Wired, Wireless, Bluetooth Wireless",Blue / Black
@@ -1914,7 +1618,6 @@ Kinesis Gaming Freestyle Edge,209,Ergonomic Split,Cherry MX Speed Silver,RGB,tru
 Keychron K2 Plastic,,Standard,Gateron G Pro Blue,RGB,true,Wireless,Black / Gray
 Kinesis Gaming Freestyle2 Blue,110,Ergonomic Split,,,true,"Wired, Bluetooth Wireless",Black
 Keychron Lemokey L3,,Standard,Gateron Jupiter Brown,,true,Wireless,Blue / Yellow
-Logitech POP Keys Blast,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Yellow / Black
 Cooler Master SK622,,Gaming,TTC Blue Low Profile,RGB,true,"Wired, Bluetooth Wireless",White / Silver
 Verbatim 70739,39.6,Mini,,,true,Wireless,Black
 HP 950MK,112.99,Standard,,,false,"Wired, Wireless",Black
@@ -1922,14 +1625,12 @@ IOGEAR HVER,39.94,Gaming,,RGB,false,Wired,Black
 IQUNIX F97 Hitchhiker,,Gaming,Cherry MX Brown,,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 IQUNIX F97 Hitchhiker,,Gaming,Cherry MX Blue,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 LTC NB681,,Standard,Huano Blue,RGB,true,Wired,White
-Cherry MX 10.0N,,Slim,Cherry MX Low Profile Speed Silver,RGB,false,Wired,Black
 Keychron Q3 Max QMK/VIA Side-Printed,,Standard,Gateron Jupiter Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Gray
 MCHOSE G75 PRO,,Gaming,Huano Matcha Latte V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Gray / Yellow
 MCHOSE G75 PRO,,Gaming,Huano Matcha Latte V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Pink
 MCHOSE X75,,Gaming,SWK Hyacinth,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 MCHOSE X75 V2,,Gaming,SWK Whale Sea,RGB,true,"Wired, Wireless, Bluetooth Wireless",Blue / White
 MCHOSE X75 V2,,Gaming,Kailh Icy Creamsicle,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink / White
-be quiet! Light Mount,,Gaming,be quiet! Silent Black Tactile,RGB,false,Wired,Black
 Lite-On SK-9020,,Slim,,,false,Wired,Black
 Gigabyte GK-K8100-YEL,,Gaming,,,false,Wired,Yellow
 SolidTek KB-4200BU,,Mini,,,false,Wired,Black
@@ -1946,7 +1647,6 @@ SolidTek KB-P3100SP,,Mini,,,false,Wired,Silver / Black
 Apevia KU-COMBO-GN,,Standard,,,false,Wired,Green / Black
 SolidTek KB-595U,,Mini,,,false,Wired,White
 HP DT528AT#ABA,,Standard,,,false,Wired,Black / Silver
-Kensington Pro Fit,,Standard,,,false,Wired,Black
 Lite-On SK2352/B,,Standard,,,false,Wired,Black
 SolidTek KB-730BU,,Mini,,,false,Wired,Black
 Lite-On SK-2355/B,,Standard,,,false,Wired,Black
@@ -2087,7 +1787,6 @@ SolidTek KB-730BP,,Mini,,,false,Wired,Black
 Logitech K360,,Standard,,,false,Wireless,Black / Gold
 Razer BlackWindow Ultimate Mac Edition,,Gaming,Cherry MX Blue,Blue,false,Wired,Black
 Cherry G84-4101PPAUS,,Slim,Cherry ML,,false,Wired,Gray
-Razer Anansi,,Gaming,,,false,Wired,Black
 Cherry J82-16001LUNEU-2,,Standard,,,false,Wired,Black
 Jetway J05-KB9039ATCB-LF,,Mini,,,false,Wireless,Black
 Lite-On SK-2030/B,,Slim,,,false,Wired,Black
@@ -2153,12 +1852,10 @@ Ergoguys CD-1038,,Ergonomic,,,false,Wired,Black
 Adesso MKB-135B,,Standard,Cherry MX Blue,,false,Wired,Black
 Das Keyboard DASK3PROMS1,,Standard,Cherry MX Blue,,false,Wired,Black
 Adesso ACK-595PB,,Mini,,,true,Wired,Black
-Das Keyboard Model S Professional,,Standard,Cherry MX Brown,,false,Wired,Black
 Adesso ACK-573UB,,Mini,,,true,Wireless,Black
 Ergoguys Arabic 101 and English Bilingual,,Standard,,,false,Wired,Black
 Adesso ACK-595PW,,Mini,,,true,Wired,White
 Das Keyboard Model S Ultimate Silent,,Standard,Cherry MX Brown,,false,Wired,Black
-Das Keyboard Model S Ultimate,,Standard,Cherry MX Blue,,false,Wired,Black
 Adesso AKB-901,,Mini,,,true,Wired,Black / Silver
 Ergoguys KB-OR-1500BT,,Mini,,,false,Bluetooth Wireless,Black
 Adesso AKB-630B,,Standard,,,false,Wired,Black
@@ -2307,7 +2004,6 @@ Qumax Scorpius V6,,Mini,,,false,Wired,Black
 Grandtec FLX-7000,,Standard,,,false,Wired,White
 Qumax Xarmor U9Plus,,Gaming,Cherry MX Blue,,false,Wired,Black
 Grandtec GLW-1000,,Slim,,,false,Wired,White
-Logitech Wireless Combo MK260,,Standard,,,false,Wireless,Black
 Kensington 64338,,Ergonomic,,,false,Wired,Black
 SIIG JK-BT0112-S1,,Mini,,,true,Bluetooth Wireless,Black
 Qumax Scorpius N1T,,Slim,,,false,Wired,Silver / Black
@@ -2353,12 +2049,9 @@ Saitek Eclipse II,,Standard,,Blue,false,Wired,Silver / Black
 Logitech Wireless Solar Keyboard K760,197.16,Mini,,,true,Bluetooth Wireless,Silver / Black
 Cooler Master Storm Quick Fire Pro,,Gaming,Cherry MX Brown,,false,Wired,Black
 A4Tech KLS-5,,Slim,,,true,Wired,Black
-Microsoft SideWinder X6,,Standard,,Red / Amber,false,Wired,Black
 Cherry INITIAL Corded Multimedia Keyboard,,Standard,,,false,Wired,Black
 KeyTronic E03600U1,,Standard,,,false,Wired,Beige
-Logitech K360,,Mini,,,false,Wireless,Black
 Cherry G84-4400PUBUS-0,,Standard,Cherry ML,,false,Wired,Gray
-Gear Head KB1700U,,Mini,,,false,Wired,Black
 Logitech K320,,Standard,,,false,Wireless,Black
 Rosewill RK-9000I,,Standard,Cherry MX Blue,,false,Wired,White / Black
 Microsoft Comfort Desktop 5000 for Business,,Ergonomic,,,false,Wireless,Black
@@ -2374,7 +2067,6 @@ VisionTek Candyboard Keyboard with Touchpad and Built in IR Remote,,Mini,,White,
 I/O Magic I012K01BS,,Mini,,,true,Bluetooth Wireless,Black
 Mionix Zibal 60,,Gaming,Cherry MX Black,Green,false,Wired,Black
 I/O Magic I012K02BS,,Slim,,,true,Bluetooth Wireless,Black
-Cherry G83-6104,,Standard,,,false,Wired,Gray
 SolidTek KB-5331B-PF Keyboard,,Mini,,,true,Bluetooth Wireless,Black
 A4Tech KL-5BK,,Slim,,,true,Wired,Black
 Cherry Classic Line G83-6101 PC Keyboard,,Standard,,,false,Wired,Black
@@ -2401,7 +2093,6 @@ Logitech K750 Keyboard,,Slim,,,false,Wireless,Silver / Black
 KeyTronic E03601P2M5PK,,Standard,,,false,Wired,Black
 Unitech K595U-B Mini POS Keyboards,,Mini,,,false,Wired,Black
 SteelSeries 7G,,Gaming,,,false,Wired,Black
-Lenovo Preferred Pro USB Keyboard,,Standard,,,false,Wired,Black
 Ergoguys Wireless Keyboard Space Saver Optical Trackball,,Standard,,,false,Wireless,Black / Silver
 Logitech Keyboard,,Mini,,,true,Bluetooth Wireless,Black
 KeyTronic F-SCAN-KSC01US Keyboard,,Standard,,,false,Wired,Beige
@@ -2462,7 +2153,6 @@ Interlink VP6342,,Mini,,,false,Wireless,Black
 Interlink VP6310,,Mini,,,false,Wireless,Black
 Kensington KeyFolio Pro 2 39515 Keyboard,,Mini,,,false,Bluetooth Wireless,Black
 Interlink VP6220,,Slim,,,false,Bluetooth Wireless,Black
-Gear Head KB4200NPU Keyboard,,Standard,,,false,Wired,Black
 Motorola Wireless Keyboard With Trackpad,,Mini,,,true,Bluetooth Wireless,Black
 Buslink KR-6402-BK,,Slim,,,false,Wired,Black
 Genius Slimstar 8000,,Slim,,,false,Wireless,Black
@@ -2488,8 +2178,6 @@ Cherry eVolution CONTROL XT,,Standard,,,false,Wireless,Silver / Black
 Buslink KR-6170M Full Size X-Slim Keyboard,,Standard,,,false,Wired,White
 SolidTek Keyboard,,Mini,,,false,Wired,Black
 Chester Creek Technologies LessonBoard,,Standard,,,false,Wired,Black
-SolidTek Keyboard,,Mini,,,false,Wired,Black
-Cyborg S.T.R.I.K.E. 7,,Gaming,,,false,Wired,Black
 SolidTek Keyboard,105.49,Standard,,,false,Wired,Black
 Rosewill RK-9000BRI,,Standard,Cherry MX Brown,,false,Wired,White / Black
 V7 KC0A2-4L3P Keyboard,19.48,Standard,,,false,Wired,Black
@@ -2575,7 +2263,6 @@ Cooler Master CM Storm Trigger,,Gaming,Cherry MX Blue,Red,false,Wired,Black
 Cooler Master CM Storm Trigger,,Gaming,Cherry MX Red,Red,false,Wired,Black
 Razer BlackWidow Tournament Edition,,Gaming,Cherry MX Blue,,true,Wired,Black
 Razer BlackWidow Ultimate 2013 Mac,,Gaming,Cherry MX Blue,Green,false,Wired,Black
-Das Keyboard Model S Ultimate Silent,,Standard,Cherry MX Brown,,false,Wired,Black
 Max Keyboard Nighthawk X7,,Standard,Cherry MX Blue,White,false,Wired,Black
 Max Keyboard Nighthawk X8,,Standard,Cherry MX Brown,White,false,Wired,Black
 Max Keyboard Nighthawk X9,,Standard,Cherry MX Red,White,false,Wired,Black
@@ -2791,7 +2478,6 @@ Logitech MK560,,Ergonomic,,,false,Wireless,Black
 Ducky Shine II,,Gaming,Cherry MX Black,Orange,false,Wired,White / Black
 Ducky Shine II special version,,Gaming,Cherry MX Brown,Orange,false,Wired,White / Black
 Razer Orbweaver Elite Mechanical Gaming Keypad,,Gaming,Cherry MX Blue,Green,true,Wired,Black
-Razer Orbweaver Elite Mechanical Gaming Keypad,,Gaming,Cherry MX Blue,Green,true,Wired,Black
 Cooler Master Storm Quickfire TK Mechanical Keyboard,,Standard,Cherry MX Brown,Red,false,Wired,Black
 Max Keyboard Nighthawk-X8 White LED,,Standard,Cherry MX Brown,White,false,Wired,Black
 Favi FE02RF-BL,,Mini,,,true,Wireless,Black
@@ -2872,8 +2558,6 @@ Keycool 87,,Mini,Cherry MX Black,Multicolor,true,Wired,Black
 Keycool 87,,Mini,Cherry MX Black,White,true,Wired,Black
 Keycool 87,,Mini,Cherry MX Blue,Multicolor,true,Wired,Black
 Keycool 87,,Mini,Cherry MX Blue,Green,true,Wired,Black
-Keycool 87,,Mini,Cherry MX Blue,Multicolor,true,Wired,Black
-Keycool 87,,Mini,Cherry MX Blue,Multicolor,true,Wired,Black
 Keycool 87,,Mini,Cherry MX Brown,Multicolor,true,Wired,Black
 Thermaltake MEKA G-Unit Battle Edition,,Gaming,Cherry MX Black,,false,Wired,Green / Black
 Thermaltake eSPORTS MEKA U-UNIT Combat White,,Gaming,Cherry MX Black,,false,Wired,White
@@ -2973,12 +2657,10 @@ Ergoguys CD1122,,Standard,,,false,Wired,Black / Yellow
 Func KB-460,,Gaming,Cherry MX Red,Red,false,Wired,Black
 Genius SlimStar i250,,Standard,,,false,Wired,Black
 HP USB Smart Card CCID Keyboard,,Standard,,,false,Wired,Black / Silver
-HP USB Smart Card CCID Keyboard,,Standard,,,false,Wired,Black / Silver
 Rosewill Micro RK-9000 BL,,Mini,Cherry MX Blue,,true,Wired,Black
 Rosewill Micro RK-9000 BR,,Mini,Cherry MX Brown,,true,Wired,Black / Silver
 SIIG USB Compact Multimedia Keyboard,,Standard,,,false,Wired,Black
 SIIG USB Slim Ergonomic Multimedia Keyboard,,Standard,,,false,Wired,Black
-Zalman ZM-K380 Combo,34.99,Standard,,,false,Wired,Black
 AZIO PRISM,,Slim,,Multicolor,false,Wired,Black
 Cobra Cobra II,,Standard,,Blue,false,Wired,Black
 Genius Imperator Pro White Edition,,Gaming,,RGB,false,Wired,White / Gray
@@ -3016,20 +2698,14 @@ Rosewill Apollo RK-9100xRRE,,Gaming,Cherry MX Red,Red,false,Wired,Black
 Thermaltake POSEIDON ZX,,Standard,Kailh Blue,Blue,true,Wired,Black
 Belkin Compact Keyboard K100,,Standard,,,false,Wired,Black
 Buslink KR-6421-WH Keyboard,,Slim,,,false,Wired,White
-Cherry G83-6104,,Standard,,,false,Wired,Gray
 Chester Creek Technologies TrekKeys,,Mini,,,true,Bluetooth Wireless,White / Silver
-Kensington Pro Fit,,Standard,,,false,Wired,Black
-Lenovo Preferred Pro USB Keyboard,,Standard,,,false,Wired,Black
-Lenovo Preferred Pro USB Keyboard,,Standard,,,false,Wired,Black
 Logitech K400 (920-003070),,Slim,,,true,Wireless,Black
-Logitech K750,,Slim,,,false,Wireless,Black
 Mad Catz S.T.R.I.K.E.M,,Gaming,,White,true,Bluetooth Wireless,Black / White
 Mad Catz S.T.R.I.K.E.M,,Gaming,,White,true,Bluetooth Wireless,Black / Red
 Microsoft Arc,,Slim,,,true,Wireless,Black
 Rosewill BK-500A,,Slim,,,true,Bluetooth Wireless,Black
 Cooler Master QuickFire Rapid-i,,Standard,Cherry MX Blue,White,true,Wired,Black
 Cooler Master CM Storm Trigger Z,,Gaming,Cherry MX Blue,Blue,false,Wired,Black
-Corsair K70,,Gaming,Cherry MX Red,Blue,false,Wired,Black
 Rosewill RGB80 BR,,Gaming,Kailh Brown,Multicolor,true,Wired,Black
 Ducky Shine 4,,Gaming,Cherry MX Black,Red / Blue,false,Wired,Black
 Ducky Shine 4,,Gaming,Cherry MX Brown,Red / Blue,false,Wired,Black
@@ -3104,7 +2780,6 @@ Turtle Beach IMPACT 500,,Standard,Cherry MX Blue,,true,Wired,Black
 Turtle Beach IMPACT 700,,Gaming,Cherry MX Brown,Red,false,Wired,Black
 Cherry JD-0400EU-2,,Standard,,,false,Wireless,Black
 Cougar 700K,,Gaming,Cherry MX Blue,Red,false,Wired,Black / Silver
-Kensington K64370A,,Standard,,,false,Wired,Black
 Lenovo Preferred Pro USB Fingerprint Keyboard -US English,,Standard,,,false,Wired,Black
 Microsoft Designer Bluetooth Desktop,199.99,Slim,,,false,Bluetooth Wireless,Black
 Monoprice K11,,Gaming,,,false,Wired,Black
@@ -3118,9 +2793,6 @@ Monoprice 9433,,Standard,Cherry MX Blue,,false,Wired,Black
 Adesso SlimTouch 510,32.99,Standard,,,false,Wired,Black
 Adesso SlimTouch 510R,,Standard,,,false,Wired,Black
 Cougar 600K,,Gaming,Cherry MX Blue,Orange,false,Wired,Black / Silver
-Kensington K64406US,28.03,Standard,,,false,Wired,White
-Kensington Pro Fit,,Standard,,,false,Wired,Black
-Kensington Pro Fit Wired Media Keyboard,,Standard,,,false,Wired,Black
 Microsoft Wired Desktop 400 UK,,Standard,,,false,Wired,Black
 EagleTec K005 / KS03,,Gaming,,Multicolor,false,Wired,Black
 Nixeus MODA,,Gaming,Kailh Brown,,true,Wired,Black
@@ -3153,9 +2825,7 @@ AZIO MGK1 RGB,,Standard,Kailh Blue,RGB,false,Wired,Black
 Logitech G410 Atlas Spectrum,,Gaming,Romer-G Tactile,RGB,true,Wired,Black
 Filco Majestouch 2,,Standard,Cherry MX Blue,,false,Wired,Black
 Microsoft Digital Media Pro,189.99,Ergonomic,,,false,Wired,Black / Silver
-Corsair K70,,Gaming,Cherry MX Red,Red,false,Wired,Black
 Corsair K70,,Gaming,Cherry MX Brown,Red,false,Wired,Black
-Corsair K70 RGB,,Gaming,Cherry MX Red,RGB,false,Wired,Black
 Corsair K40,,Gaming,,RGB,false,Wired,Black
 Genius Scorpion K5,,Gaming,,RGB,false,Wired,Black / Gray
 HEC HGX300,,Gaming,,,false,Wired,Black
@@ -3166,10 +2836,8 @@ SolidTek KB-3910BL,,Standard,,,true,Wired,Black
 Thermaltake Poseidon Z,,Gaming,Kailh Blue,Blue,false,Wired,Black
 Thermaltake POSEIDON Z RGB,,Gaming,Kailh Blue,RGB,false,Wired,Black
 Feenix Autore,,Standard,Cherry MX Brown,,false,Wired,Black
-Feenix Autore,,Standard,Cherry MX Brown,,false,Wired,Black
 Gigabyte AORUS THUNDER K3,,Gaming,Cherry MX Red,Blue,true,Wired,Black
 Corsair STRAFE RGB,,Gaming,Cherry MX Blue,RGB,false,Wired,Black
-G.Skill RIPJAWS KM780 RGB,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 Razer BlackWidow Ultimate Stealth,,Gaming,Razer Orange,Green,false,Wired,Black
 Adesso SlimTouch 270,,Mini,,,false,Wired,White
 Cougar AttackX3-4IS (MX Brown),,Gaming,Cherry MX Brown,Red,false,Wired,Black / White
@@ -3177,7 +2845,6 @@ IOGEAR GKB632B,42.99,Mini,,,true,Bluetooth Wireless,Black
 Microsoft Comfort Desktop 5050,,Ergonomic,,,false,Wireless,Black
 ROCCAT Isku FX,,Gaming,,Multicolor,false,Wired,White
 Logitech K380,,Mini,,,true,Bluetooth Wireless,Blue
-Adesso ACK-730B,,Standard,,,false,Wired,Black
 G.Skill RIPJAWS KM780 MX,,Gaming,Cherry MX Blue,Red,false,Wired,Black
 HP QY776AA#ABC,,Standard,,,false,Wired,Black
 Logitech K480,,Slim,,,false,Bluetooth Wireless,Black / Green
@@ -3228,18 +2895,10 @@ G.Skill Ripjaws KM570,,Gaming,Cherry MX Brown,Red,false,Wired,Black
 G.Skill Ripjaws KM570,,Gaming,Cherry MX Red,Red,false,Wired,Black
 FNATIC Rush Pro Gaming,,Gaming,Cherry MX Red,Red,false,Wired,Black
 FNATIC Rush Pro Gaming,,Gaming,Cherry MX Blue,Red,false,Wired,Black
-Filco Ninja Majestouch-2 TKL,,Standard,Cherry MX Red,,true,Wired,Black
-Filco Ninja Majestouch-2 TKL,,Standard,Cherry MX Brown,,true,Wired,Black
-Filco Ninja Majestouch-2 TKL,,Standard,Cherry MX Blue,,true,Wired,Black
-Filco Ninja Majestouch-2 TKL,,Standard,Cherry MX Brown,,true,Wired,Black
-Filco Ninja Majestouch-2 TKL,,Standard,Cherry MX Red,,true,Wired,Black
-Filco Ninja Majestouch-2 TKL,,Standard,Cherry MX Red,,true,Wired,Black
-Filco Ninja Majestouch-2 TKL,,Standard,Cherry MX Blue,,true,Wired,Black
 SHARKOON Skiller Pro Plus,,Gaming,,Multicolor,false,Wired,Black
 ROCCAT Skeltr,159.99,Gaming,,RGB,false,Wired,Black
 ROCCAT Skeltr,,Gaming,,RGB,false,Wired,Gray
 ROCCAT Skeltr,,Gaming,,RGB,false,Wired,White
-Corsair K70 LUX RGB,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 Corsair K95 RGB PLATINUM DE,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 Corsair K95 RGB PLATINUM UK,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
 Corsair K95 RGB PLATINUM UK,,Gaming,Cherry MX Speed Silver,RGB,false,Wired,Black
@@ -3382,13 +3041,10 @@ Drevo BladeMaster TE RGB,,Gaming,Gateron Brown,RGB,true,Wired,Black
 Logitech K375s,,Standard,,,false,Bluetooth Wireless,Black
 Rosewill NEON K90 RGB,,Gaming,Kailh Blue,RGB,false,Wired,Black
 Drevo BladeMaster PRO,,Gaming,Cherry MX Silent Red,RGB,true,Wireless,Gray
-Drevo BladeMaster PRO,,Gaming,Cherry MX Silent Red,RGB,true,Wireless,Gray
 Drevo BladeMaster PRO,,Gaming,Cherry MX Black,RGB,true,Wireless,Gray
 Drevo BladeMaster PRO,,Gaming,Cherry MX Blue,RGB,true,Wireless,Gray
 Drevo BladeMaster PRO,,Gaming,Cherry MX Speed Silver,RGB,true,Wireless,Gray
-Drevo BladeMaster PRO,,Gaming,Cherry MX Blue,RGB,true,Wireless,Gray
 Drevo BladeMaster PRO,,Gaming,Cherry MX Brown,RGB,true,Wireless,Gray
-Drevo BladeMaster PRO,,Gaming,Cherry MX Speed Silver,RGB,true,Wireless,Gray
 Qwazar Red Shift,,Gaming,Cherry MX Red,Red,false,Wired,Black
 Adesso AKB-132HB,19.98,Standard,,,false,Wired,Black
 Adesso AKB-133CB,53.84,Standard,,,false,Wired,Black
@@ -3421,11 +3077,9 @@ MSI Vigor GK60,,Gaming,Cherry MX Red,Red,false,Wired,Black
 Mionix Zibal 60,,Standard,Cherry MX Black,,false,Wired,Black
 Microsoft 800,,Slim,,,false,Wireless,Black
 HP Collaboration,,Slim,,,false,Wired,Black
-HP Slim,,Slim,,,false,Wireless,Black
 Genius SlimStar 8008,,Slim,,,false,Wireless,Black
 Razer BlackWidow Ultimate,,Gaming,Razer Green,Green,false,Wired,Black
 Inland 70140,,Slim,,,false,Wired,Black
-HP Link-5,,Slim,,,false,Wireless,Black
 Cougar Aurora,,Gaming,,RGB,false,Wired,Black
 Cougar Aurora S,,Gaming,,RGB,false,Wired,Black
 Targus KB55,,Slim,,,true,Bluetooth Wireless,Black
@@ -3503,18 +3157,6 @@ Ducky Ducky One 2,,Gaming,Cherry MX Red,Blue,true,Wired,White
 Leopold FC750R Black PD,,Standard,Cherry MX Black,,false,Wired,Black
 Leopold FC750R Black PD,,Standard,Cherry MX Clear,,false,Wired,Black
 Mistel BAROCCO MD770,,Ergonomic,Cherry MX Blue,RGB,true,Wired,Black
-matias FK318PCLBB,129,Standard,,Multicolor,false,Wired,Black
-matias FK318PCLBB,,Standard,,Multicolor,false,Wired,Black
-matias FK318PCLBB,,Standard,,Multicolor,false,Wired,Black
-matias FK318PCLBB,,Standard,,Multicolor,false,Wired,Black
-matias FK318PCLBB,,Standard,,Multicolor,false,Wired,Black
-matias FK318PCLBB,,Standard,,Multicolor,false,Wired,Black
-matias FK318PCLBB,,Standard,,Multicolor,false,Wired,Black
-matias FK318PCLBB,,Standard,,Multicolor,false,Wired,Black
-Cherry Strait Black 3.0,,Standard,,,false,Wired,Black
-Cherry Strait Black 3.0,,Standard,,,false,Wired,Black
-Cherry Strait Black 3.0,,Standard,,,false,Wired,Black
-Cherry Strait Black 3.0,,Standard,,,false,Wired,Black
 Ducky Mecha Mini v2,,Mini,Cherry MX Black,RGB,true,Wired,Black
 Ducky Mecha Mini v2,,Mini,Cherry MX Blue,RGB,true,Wired,Black
 Ducky Mecha Mini v2,,Mini,Cherry MX Red,RGB,true,Wired,Black
@@ -3525,15 +3167,6 @@ Ducky Mecha Mini,,Mini,Cherry MX Brown,RGB,true,Wired,Black
 Ducky Mecha Mini,,Mini,Cherry MX Red,RGB,true,Wired,Black
 Ducky Mecha Mini,,Mini,Cherry MX Speed Silver,RGB,true,Wired,Black
 Ducky Mecha Mini,,Mini,Cherry MX Silent Red,RGB,true,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Silent Red,White,false,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Silent Red,White,false,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Silent Red,White,false,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Silent Red,White,false,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Brown,White,false,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Brown,White,false,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Brown,White,false,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Brown,White,false,Wired,Black
-Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Brown,White,false,Wired,Black
 Cherry MX BOARD 1.0 BACKLIGHT,,Standard,Cherry MX Brown,White,false,Wired,Black
 iKBC CD87 V2,,Standard,Cherry MX Clear,,true,Wired,Black
 GameSir GK300-GY,,Gaming,TTC Blue,White,false,Wireless,Black
@@ -3547,18 +3180,6 @@ Tempest Combo 3000,,Gaming,,RGB,false,Wired,Black
 Tempest TGC2000,,Gaming,,Multicolor,false,Wired,Black
 Tempest K8,,Gaming,,Multicolor,false,Wired,Black
 Tempest Doom,,Gaming,H-Mech Red,RGB,false,Wired,Black
-Wooting One,,Gaming,Flaretech Red,RGB,true,Wired,Black
-Wooting One,,Gaming,Flaretech Red,RGB,true,Wired,Black
-Wooting One,,Gaming,Flaretech Blue,RGB,true,Wired,Black
-Wooting One,,Gaming,Flaretech Red,RGB,true,Wired,Black
-Wooting One,,Gaming,Flaretech Blue,RGB,true,Wired,Black
-Wooting Wooting Two,,Gaming,Flaretech Blue,RGB,false,Wired,Black
-Wooting Wooting Two,,Gaming,Flaretech Black,RGB,false,Wired,Black
-Wooting Wooting Two,,Gaming,Flaretech Red,RGB,false,Wired,Black
-Wooting Wooting Two,,Gaming,Flaretech Blue,RGB,false,Wired,Black
-Wooting Wooting Two,,Gaming,Flaretech Red,RGB,false,Wired,Black
-Wooting Wooting Two,,Gaming,Flaretech Black,RGB,false,Wired,Black
-Wooting Wooting Two,,Gaming,Flaretech Blue,RGB,false,Wired,Black
 ROCCAT Vulcan TKL,,Gaming,Roccat Titan Brown,RGB,true,Wired,Black
 Cooler Master SK650 White Limited Edition,,Gaming,Cherry MX RGB Low Profile,RGB,false,Wired,Silver / White
 Das Keyboard 4C,,Gaming,Cherry MX Brown,,true,Wired,Black
@@ -3591,17 +3212,6 @@ Razer BlackWidow V3 - BAPE Edition,,Gaming,Razer Green,RGB,false,Wired,Black / G
 Ducky One 3 Matcha,,Standard,Cherry MX Black,,true,Wired,Beige / Green
 Asus TUF Gaming K3,,Gaming,Kailh Brown,RGB,false,Wired,Black
 Asus ROG Strix Scope,,Gaming,ROG NX Brown,RGB,true,Wired,White / Gray
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Gray
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Gray
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Gray
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Silver
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Silver
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech MX KEYS MINI,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Silver
 Keychron K5 SE,,Slim,Keychron Optical Blue Low Profile,White,false,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K5 SE,,Slim,Keychron Optical Mint Low Profile,White,false,"Wired, Bluetooth Wireless",Black / Gray
 Kinesis Gaming Freestyle Pro,179,Ergonomic Split,Cherry MX Brown,,true,Wired,Black
@@ -3611,10 +3221,6 @@ Keychron K1 SE,,Standard,Keychron Optical Mint Low Profile,RGB,true,"Wired, Blue
 Keychron V6 QMK,,Standard,Keychron K Pro Blue,,false,"Wired, Wired",Translucent Black
 Keychron V6 QMK,,Standard,Keychron K Pro Blue,,false,"Wired, Wired",Black
 Keychron V6 QMK Knob,,Standard,Keychron K Pro Blue,,false,"Wired, Wired",Translucent Black
-Razer BlackWidow V4 Pro,,Gaming,Razer Green,RGB,false,Wired,Black
-Razer BlackWidow V4 Pro,,Gaming,Razer Green,RGB,false,Wired,Black
-Razer BlackWidow V4 Pro,,Gaming,Razer Yellow,RGB,false,Wired,Black
-Razer BlackWidow V4 Pro,,Gaming,Razer Yellow,RGB,false,Wired,Black
 DROP MDX-31827-13,,Gaming,Cherry MX Brown,RGB,true,"Wired, Wired",Black
 DROP MDX-31827-9,,Gaming,Kailh Halo True,RGB,true,"Wired, Wired",Black
 DROP MDX-22176-19,,Gaming,Cherry MX Blue,RGB,true,"Wired, Wired",Gray
@@ -3629,7 +3235,6 @@ Keychron K8,,Standard,Keychron Blue Optical Hot-swappable,White,true,"Wired, Blu
 Keychron K8,,Standard,Gateron G Pro Brown,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K8,,Standard,Gateron Red Optical Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K8,,Standard,Gateron G Pro Blue Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
-Keychron K8,,Standard,Gateron Red Optical Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K8,,Standard,Gateron Blue Optical Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K8,,Standard,Keychron Red Optical Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K8,,Standard,Keychron Blue Optical Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
@@ -3700,7 +3305,6 @@ Ducky ONE 3,,Gaming,Cherry MX Blue RGB,RGB,false,Wired,Blue / Black
 Ducky ONE 3,,Gaming,Cherry MX Red RGB,RGB,false,Wired,Blue / Black
 Ducky ONE 3,,Gaming,Cherry MX Silent Red RGB,RGB,false,Wired,Blue / Black
 Ducky ONE 3,,Gaming,Cherry MX Speed Silver RGB,RGB,false,Wired,Blue / Black
-Logitech G915 Lightspeed,,Gaming,Logitech GL Linear,RGB,false,"Wireless, Bluetooth Wireless",Black
 Keychron K6,,Standard,Gateron G Pro Blue,White,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K6,,Standard,Gateron G Pro Brown,White,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K6,,Standard,LK Optical Red,White,true,"Wired, Bluetooth Wireless",Black / Gray
@@ -3725,14 +3329,6 @@ Keychron K6 Aluminum Frame,,Standard,LK Optical Blue,RGB,true,"Wired, Bluetooth 
 Keychron K6 Aluminum Frame,,Standard,LK Optical Brown,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K6 Aluminum Frame,,Standard,Gateron G Pro Blue Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K6 Aluminum Frame,,Standard,Gateron G Pro Brown Hot-swappable,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
-Corsair K70 CORE SE RGB w/Palmrest,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,White / Gray
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
-Corsair K70 CORE,,Gaming,Corsair MLX Red Linear,RGB,false,Wired,Black
-SteelSeries Apex Pro TKL (2023),,Gaming,SteelSeries OmniPoint 2.0,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-SteelSeries Apex Pro TKL (2023),,Gaming,SteelSeries OmniPoint 2.0,RGB,true,Wired,Black
-SteelSeries Apex Pro TKL (2023),,Gaming,SteelSeries OmniPoint 2.0,RGB,true,Wired,Black
 Keychron Q1 Pro,,Standard,Keychron K Pro Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / Gray
 Keychron Q1 Pro,,Standard,Keychron K Pro Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / Gray
 Keychron Q1 Pro,,Standard,Keychron K Pro Banana,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / Gray
@@ -3741,7 +3337,6 @@ Keychron Q1 Pro Special Edition,,Standard,Keychron K Pro Brown,RGB,true,"Wired, 
 Keychron Q1 Pro Special Edition,,Standard,Keychron K Pro Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 Keychron Q1 Pro Special Edition,,Standard,Keychron K Pro Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
 Keychron Q1 Pro Special Edition,,Standard,Keychron K Pro Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Razer Huntsman V3 Pro,,Gaming,Razer Analog Optical Switch Gen-2,RGB,false,Wired,Black
 Keychron Lemokey L3,,Standard,Gateron Jupiter Red,,true,Wireless,Black / Red
 Keychron Lemokey L3,,Standard,Gateron Jupiter Brown,,true,Wireless,Black / Red
 Keychron Lemokey L3,,Standard,Gateron Jupiter Banana,,true,Wireless,Black / Red
@@ -3751,9 +3346,6 @@ Keychron Lemokey L3,,Standard,Gateron Jupiter Brown,,true,Wireless,Gray / Teal
 Keychron Lemokey L3,,Standard,Gateron Jupiter Banana,,true,Wireless,Gray / Teal
 Keychron K3 Max,,Standard,Gateron Low-Profile Red,White,true,"Wired, Bluetooth Wireless",Gray
 Keychron K3 Max,,Standard,Gateron Low-Profile Blue,White,true,"Wired, Bluetooth Wireless",Gray
-Keychron K3 Max,,Standard,Gateron Low-Profile Red,RGB,true,"Wired, Bluetooth Wireless",Gray
-Keychron K3 Max,,Standard,Gateron Low-Profile Blue,RGB,true,"Wired, Bluetooth Wireless",Gray
-Keychron K3 Max,,Standard,Gateron Low-Profile Brown,RGB,true,"Wired, Bluetooth Wireless",Gray
 Keychron K3 Max,,Standard,Gateron Low-Profile Blue,RGB,true,"Wired, Bluetooth Wireless",Gray
 Keychron K1 Pro,,Standard,Gateron Low-Profile Brown,White,true,"Wired, Bluetooth Wireless",Black / Red
 Keychron K1 Pro,,Standard,Gateron Low-Profile Red,RGB,true,"Wired, Bluetooth Wireless",Black / Red
@@ -3803,8 +3395,6 @@ Keychron K11 Pro,,Ergonomic,Gateron Low-Profile Blue (Hot-Swappable),RGB,true,"W
 Keychron K11 Pro,,Ergonomic,Gateron Low-Profile Brown (Hot-Swappable),RGB,true,"Wired, Bluetooth Wireless",Black / Red
 Keychron K13 Pro,,Standard,Gateron Low-Profile Red,White,true,"Wired, Bluetooth Wireless",Black / Red
 Keychron K13 Pro,,Standard,Gateron Low-Profile Brown,White,true,"Wired, Bluetooth Wireless",Black / Red
-Keychron K13 Pro,,Standard,Gateron Low-Profile Red,RGB,true,"Wired, Bluetooth Wireless",Black / Red
-Keychron K13 Pro,,Standard,Gateron Low-Profile Brown,RGB,true,"Wired, Bluetooth Wireless",Black / Red
 Keychron K15 Pro,,Ergonomic,Gateron Low-Profile Red,White,true,"Wired, Bluetooth Wireless",Black / Red
 Keychron K15 Pro,,Ergonomic,Gateron Low-Profile Blue,Red,true,"Wired, Bluetooth Wireless",Black / Red
 Keychron K15 Pro,,Ergonomic,Gateron Low-Profile Brown,Red,true,"Wired, Bluetooth Wireless",Black / Red
@@ -3835,77 +3425,9 @@ Keychron K1 V5,,Standard,Keychron Optical Brown Low Profile,RGB,true,"Wired, Blu
 Keychron K1 V5,,Standard,Keychron Optical Banana Low Profile,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K1 V5,,Standard,Keychron Optical Mint Low Profile,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K3 V2 Ultra-slim,71.39,Standard,Gateron Low-Profile Blue,White,true,"Wired, Wired, Bluetooth Wireless",Black / Gray
-Keychron K3 V2 Ultra-slim,,Standard,Keychron Optical Red Low Profile (Hot-Swappable),RGB,true,"Wired, Wired, Bluetooth Wireless",Black / Gray
-Keychron K3 V2 Ultra-slim,,Standard,Keychron Optical Blue Low Profile (Hot-Swappable),RGB,true,"Wired, Wired, Bluetooth Wireless",Black / Gray
-Keychron K3 V2 Ultra-slim,,Standard,Gateron Low-Profile Blue,White,true,"Wired, Wired, Bluetooth Wireless",Black / Gray
-Keychron K3 V2 Ultra-slim,,Standard,Gateron Low-Profile Brown,White,true,"Wired, Wired, Bluetooth Wireless",Black / Gray
 Asus ROG Strix Flare II,,Gaming,ROG NX Blue,RGB,false,Wired,Black
 Asus ROG Strix Flare II,,Gaming,ROG NX Brown,RGB,false,Wired,Black
-Logitech POP Keys Daydream,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",White / Green
-Logitech POP Keys Daydream,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",White / Green
-Logitech POP Keys Blast,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Yellow / Black
-Logitech POP Keys Daydream,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",White / Green
 Logitech POP Keys Blast,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
-Logitech POP Keys Heartbreaker,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
-Logitech POP Keys Blast,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Yellow / Black
-Logitech POP Keys Blast,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Yellow / Black
-Logitech POP Keys Heartbreaker,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
-Logitech POP Keys Daydream,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",White / Green
-Logitech POP Keys Blast,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Yellow / Black
-Logitech POP Keys Daydream,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",White / Green
-Logitech POP Keys Daydream,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",White / Green
-Logitech POP Keys Heartbreaker,,Mini,TTC Brown,,true,"Wireless, Bluetooth Wireless",Pink / Red
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
-Cooler Master CK721,,Gaming,TTC Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver / White
 Keychron K7,,Slim,Gateron Low-Profile Brown,White,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K7,,Slim,Gateron Low-Profile Blue,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K7,,Slim,Gateron Low-Profile Blue,White,true,"Wired, Bluetooth Wireless",Black / Gray
@@ -3925,10 +3447,6 @@ Keychron K7,,Slim,Gateron Low-Profile Blue (Hot-Swappable),RGB,true,"Wired, Blue
 Keychron K7,,Slim,Gateron Low-Profile Blue (Hot-Swappable),White,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K7,,Slim,Gateron Low-Profile Red (Hot-Swappable),RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron K7,,Slim,Gateron Low-Profile Red (Hot-Swappable),White,true,"Wired, Bluetooth Wireless",Black / Gray
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Black
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Gray / Black
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Gray / Black
-Corsair K55 CORE RGB,,Gaming,,RGB,false,Wired,Gray / Black
 Cooler Master CK530 V2,,Gaming,TTC Red,RGB,true,Wired,Black
 Cooler Master CK550 V2,,Gaming,TTC Blue,RGB,false,Wired,Black
 Cooler Master SK622,,Gaming,TTC Brown Low Profile,RGB,true,"Wired, Bluetooth Wireless",White / Silver
@@ -3949,8 +3467,6 @@ V7 KW550USBT,,Slim,,,false,"Wireless, Bluetooth Wireless",Black
 Thermaltake Level 20 RGB,149.99,Gaming,Cherry MX Speed Silver,RGB,false,Wired,Black
 HP 125,,Standard,,,false,Wired,Black
 HP 225,,Standard,,,false,Wired,Black
-HP 225,,Standard,,,false,Wired,Black
-HP 950MK,,Standard,,,false,"Wired, Wireless",Black
 HP 200,,Standard,,,false,Wired,Black
 iKBC CD87 V2,,Standard,Cherry MX Black,,true,Wired,Black
 iKBC CD87 V2,,Standard,Cherry MX Brown,,true,Wired,Black
@@ -3964,33 +3480,16 @@ Targus AKB869US,,Slim,,,false,Bluetooth Wireless,Black
 Targus AKM620AMUS,36.2,Slim,,,true,Bluetooth Wireless,Black
 Targus AKM618AMUS,65.31,Slim,,,false,Bluetooth Wireless,Black
 Targus AKF003US,29.99,Mini,,,true,Bluetooth Wireless,Black
-SteelSeries Apex 9 Mini,,Gaming,SteelSeries OptiPoint Linear,RGB,true,Wired,Black
-SteelSeries Apex 9 Mini,,Gaming,SteelSeries OptiPoint Linear,RGB,true,Wired,Black
-SteelSeries Apex 9 Mini,,Gaming,SteelSeries OptiPoint Linear,RGB,true,Wired,Black
-SteelSeries Apex Pro Mini Wireless,,Gaming,SteelSeries OmniPoint 2.0,RGB,true,"Wireless, Bluetooth Wireless",Black
-SteelSeries Apex Pro Mini,,Gaming,SteelSeries OmniPoint 2.0,RGB,true,Wired,Black
-SteelSeries Apex Pro Mini,,Gaming,SteelSeries OmniPoint 2.0,RGB,true,Wired,Black
-Lenovo Preferred Pro II,,Standard,,,false,Wired,Black
 Logitech K380,,Standard,,,true,Bluetooth Wireless,Gray
 Logitech K380,48.9,Standard,,,true,Bluetooth Wireless,Purple
 Logitech MX Keys,239.24,Mini,,,true,"Wired, Wired, Wireless, Bluetooth Wireless",
 SolidTek KB-WKB830,,Slim,,,false,Wireless,Black
 SIIG JK-US0U11-S1,,Standard,,,false,Wired,Black
-Logitech MK540 Advanced,,Standard,,,false,"Wired, Wireless",Black
-Logitech MK540 Advanced,,Standard,,,false,"Wired, Wireless",Black
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",White
-Logitech MK295 Silent,,Standard,,,false,"Wired, Wireless",White
 Rosewill BLITZ K50 RGB,,Gaming,Outemu Brown,RGB,false,Wired,Black / Silver
 Rosewill NEON K91 RGB,,Gaming,Kailh Brown,RGB,false,Wired,Silver / Black
 Rosewill NEON K91 RGB,,Gaming,Cherry MX Speed Silver,RGB,false,Wired,Silver / Black
 Rosewill NEON K91 RGB,,Gaming,Kailh Blue,RGB,false,Wired,Silver / Black
 Rosewill HKM100,,Standard,,,false,Wired,Black
-Ducky PowerColor x Ducky One 2 SF RGB,,Gaming,Kailh BOX White,RGB,true,Wired,Black
-Ducky PowerColor x Ducky One 2 SF RGB,,Gaming,Kailh Box Brown,RGB,true,Wired,Black
-Ducky PowerColor x Ducky One 2 SF RGB,,Gaming,Kailh BOX White,RGB,true,Wired,Black
-Ducky PowerColor x Ducky One 2 SF RGB,,Gaming,Kailh Box Brown,RGB,true,Wired,Black
-Ducky PowerColor x Ducky One 2 SF RGB,,Gaming,Kailh BOX White,RGB,true,Wired,Black
-Ducky PowerColor x Ducky One 2 SF RGB,,Gaming,Kailh Box Brown,RGB,true,Wired,Black
 Ducky PowerColor x Ducky One 2 SF RGB,,Gaming,Kailh BOX White,RGB,true,Wired,Black
 Microsoft QHG-00001,129.49,Slim,,,false,"Wired, Wireless, Bluetooth Wireless",Black
 Microsoft QHG-00031,,Slim,,,false,"Wired, Wireless, Bluetooth Wireless",White
@@ -3998,39 +3497,29 @@ Microsoft RJU-00001,239,Ergonomic Split,,,false,Wired,Black
 Microsoft 22B00001,,Mini,,,true,"Wired, Wireless, Bluetooth Wireless",Black
 Microsoft RJY-00001,,Ergonomic,,,false,Wired,Black
 Monoprice Essential,,Standard,,,false,Wired,Black
-Corsair K65 PLUS,,Gaming,Corsair MLX Red Linear,RGB,true,"Wired, Wireless",Black
-NZXT Function 2,,Gaming,NZXT Swift Optical 40g,RGB,true,"Wired, Wired",Black
 IQUNIX F97 Hitchhiker,,Gaming,IQUNIX Moonstone,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 IQUNIX F97 Hitchhiker,,Gaming,IQUNIX Moonstone Turbo,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 IQUNIX F97 Hitchhiker,,Gaming,TTC Gold Pink,,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 IQUNIX F97 Hitchhiker,,Gaming,Cherry MX Red,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
-IQUNIX F97 Hitchhiker,,Gaming,Cherry MX Blue,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
 IQUNIX F97 Graffiti Diary,,Gaming,IQUNIX Moonstone,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Multicolor
 IQUNIX OG80 Wormhole,,Gaming,Cherry MX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Green
-IQUNIX OG80 Wormhole,,Gaming,Cherry MX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Green
 IQUNIX OG80 Wormhole,,Gaming,Cherry MX Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Green
 IQUNIX OG80 Wormhole,,Gaming,TTC Gold Pink,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Green
 IQUNIX OG80 Dark Side,,Gaming,IQUNIX Moonstone,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 IQUNIX OG80 Dark Side,,Gaming,IQUNIX Moonstone Turbo,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-IQUNIX OG80 Dark Side,,Gaming,TTC Gold Pink,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 IQUNIX ZX75 Gravity Wave,,Gaming,IQUNIX Moonstone,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Yellow
 IQUNIX ZX75 Gravity Wave,,Gaming,IQUNIX Moonstone Turbo,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Yellow
 IQUNIX ZX75 Gravity Wave,,Gaming,TTC Gold Pink,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Yellow
-IQUNIX ZX75 Gravity Wave,,Gaming,TTC Speed Silver,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Yellow
 IQUNIX ZX75 Dark Side RS,,Gaming,IQUNIX Moonstone Turbo,RGB,true,"Wired, Wireless, Bluetooth Wireless",Translucent Black
 IQUNIX ZX75 Dark Side RS,,Gaming,IQUNIX Moonstone,RGB,true,"Wired, Wireless, Bluetooth Wireless",Translucent Black
 IQUNIX ZX75 Dark Side,,Gaming,TTC Gold Pink,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 IQUNIX ZX75 Dark Side,,Gaming,IQUNIX Moonstone,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 IQUNIX F97 Hitchhiker,,Gaming,Cherry MX Brown,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
-IQUNIX F97 Hitchhiker,,Gaming,Cherry MX Red,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Gray
-IQUNIX OG80 Wormhole,,Gaming,Cherry MX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Green
-IQUNIX OG80 Wormhole,,Gaming,Cherry MX Blue,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Green
 IQUNIX OG80 Wormhole,,Gaming,Cherry MX Blue,,true,"Wired, Wireless, Bluetooth Wireless",White / Green
 IQUNIX A80 Explorer,,Gaming,Cherry MX Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Orange
 IQUNIX A80 Explorer,,Gaming,Cherry MX Red,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / Orange
 IQUNIX A80 Explorer,,Gaming,Cherry MX Red,,true,"Wired, Wireless, Bluetooth Wireless",Black / Orange
 IQUNIX L80 Formula,,Gaming,Cherry MX Red,,true,"Wired, Wireless, Bluetooth Wireless",White / Black
-IQUNIX ZX75 Gravity Wave,,Gaming,TTC Gold Pink,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Yellow
 YEYIAN Phoenix 2000,,Gaming,,RGB,false,Wired,Black
 YEYIAN Phoenix 3000,,Gaming,,RGB,false,Wired,Black
 YEYIAN Akil 3500,,Standard,Outemu Blue,RGB,true,"Wired, Wired",Black
@@ -4038,10 +3527,6 @@ YEYIAN Asward 3000,,Gaming,Outemu Blue,RGB,false,Wired,Black
 LTC NB681,,Standard,Huano Blue,RGB,true,Wired,Black
 LTC NB681,,Standard,Huano Brown,RGB,true,Wired,Black
 LTC NB681,,Standard,Huano Brown,RGB,true,Wired,White
-ENDORFY Thock,,Gaming,Kailh Red,RGB,true,Wired,Black
-ENDORFY Thock,,Gaming,Kailh Brown,RGB,true,Wired,Black
-ENDORFY Thock,,Gaming,Kailh Brown,RGB,true,Wired,Black
-Cherry MX 10.0N,,Slim,Cherry MX Low Profile Speed Silver,RGB,false,Wired,Black
 Keychron Q3 Pro Special Edition,,Standard,Keychron K Pro Banana,RGB,true,"Wired, Bluetooth Wireless",Black / Gray
 Keychron Q3 Pro Special Edition,,Standard,Keychron K Pro Red,RGB,true,"Wired, Bluetooth Wireless",Green / Yellow
 Keychron Q3 Pro Special Edition,,Standard,Keychron K Pro Banana,RGB,true,"Wired, Bluetooth Wireless",Green / Yellow
@@ -4051,78 +3536,9 @@ Keychron Q3 Pro,,Standard,Keychron K Pro Banana,RGB,true,"Wired, Bluetooth Wirel
 Keychron Q3 Pro,,Standard,Keychron K Pro Brown,RGB,true,"Wired, Bluetooth Wireless",Silver / Gray
 Keychron Q3 Pro,,Standard,Keychron K Pro Banana,RGB,true,"Wired, Bluetooth Wireless",Silver / Gray
 Keychron Q3 Pro,,Standard,Keychron K Pro Banana,RGB,true,"Wired, Bluetooth Wireless",White / Red
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech PRO X 60,,Mini,Logitech GX Red Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech PRO X 60,,Mini,Logitech GX Red Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech PRO X 60,,Mini,Logitech GX Red Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech PRO X 60,,Mini,Logitech GX Red Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Red Linear,RGB,true,"Wired, Wireless, Bluetooth Wireless",Pink
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",White
-Logitech PRO X 60,,Mini,Logitech GX Brown Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G515 LIGHTSPEED,,Gaming,GL Tactile V2,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Silver
-iBuypower MEK 4,,Gaming,Cherry MX Brown,RGB,false,Wired,Black
-Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Red,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
-Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Red,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
-Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Brown,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
-Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Brown,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
-Keychron Q6 Max QMK/VIA,,Standard,Gateron Jupiter Banana,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / White
 Keychron Q6 Pro,,Gaming,Keychron K Pro Red,RGB,false,"Wired, Wireless, Bluetooth Wireless",Gray / Purple
 Keychron Q6 Pro,,Gaming,Keychron K Pro Banana,RGB,false,"Wired, Wireless, Bluetooth Wireless",Gray / Purple
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",Black
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
-Logitech Signature K650,,Standard,,,false,"Wireless, Bluetooth Wireless",White
 Keychron K5 Max,,Standard,Gateron Low-Profile Brown,White,false,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-Logitech G915 X,,Gaming,Logitech GL Linear,RGB,false,Wired,Black
-Logitech G915 X,,Gaming,Logitech GL Linear,RGB,false,Wired,Black
-Logitech G915 X,,Gaming,Logitech GL Linear,RGB,false,Wired,Black
-Logitech G915 X,,Gaming,Logitech GL Linear,RGB,false,Wired,Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Clicky,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Clicky,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 LIGHTSPEED TKL,,Gaming,Logitech Low-Profile GL Clicky,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Clicky,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Tactile,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G915 X LIGHTSPEED,,Gaming,Logitech Low-Profile GL Clicky,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black
-Logitech G515,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,Black
-Logitech G515,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,Black
-Logitech G515,,Gaming,Logitech Low-Profile GL Tactile,RGB,true,Wired,Black
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Black
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Black
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,White
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Pink
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,White
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,White
-Logitech PRO X RAPID,,Gaming,Logitech Magnetic Analog,RGB,true,Wired,Black
 Keychron Q3 Max QMK/VIA,,Standard,Gateron Jupiter Brown,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Gray
 Keychron Q3 Max QMK/VIA,,Standard,Gateron Jupiter Banana,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
 Keychron Q3 Max QMK/VIA,,Standard,Gateron Jupiter Banana,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Gray
@@ -4132,13 +3548,7 @@ Keychron Q3 Max QMK/VIA Side-Printed,,Standard,Gateron Jupiter Banana,RGB,true,"
 Keychron Q3 Max QMK/VIA Side-Printed,,Standard,Gateron Jupiter Banana,RGB,true,"Wired, Wireless, Bluetooth Wireless",White / Gray
 Ducky One 3 w/ Quack Mechanics,119,Gaming,Cherry MX Blue,RGB,true,Wired,Black
 Ducky One 3 w/ Quack Mechanics,,Gaming,Cherry MX Clear,RGB,true,Wired,Black
-Keychron Q1 HE QMK PBT,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
 Keychron Q1 HE QMK ABS,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
-Keychron Q1 HE QMK ABS,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
-Keychron Q1 HE QMK ABS,,Standard,Gateron Magnetic Nebula,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black / White
-Logitech MX Mechanical,,Slim,Kailh Choc V2 Brown,White,false,Wireless,Black / Gray
-Logitech MX Mechanical,,Slim,Kailh Choc V2 Blue,White,false,Wireless,Black / Gray
-Logitech MX Mechanical,,Slim,Kailh Choc V2 Brown,White,false,Wireless,Black / Gray
 Logitech MX Mechanical,,Slim,Kailh Choc V2 Blue,White,false,Wireless,Black / Gray
 Keychron K10,,Standard,Gateron G Pro Red,RGB,false,"Wired, Bluetooth Wireless",Gray / Black
 Keychron K10,,Standard,Gateron G Pro Blue,White,false,"Wired, Bluetooth Wireless",Gray / Black
@@ -4171,12 +3581,10 @@ Keychron Q1 QMK V2 Knob,,Mini,Gateron G Pro Brown,,true,Wired,Blue / Teal
 Keychron Q1 QMK V2 Knob,,Mini,Gateron Phantom Yellow,,true,Wired,Blue / Teal
 Keychron Q1 QMK V2 Knob,,Mini,Gateron Phantom Silver,,true,Wired,Blue / Teal
 Keychron Q1 QMK V2 Knob,,Mini,Gateron G Pro Red,,true,Wired,White
-Keychron Q1 QMK V2 Knob,,Mini,Gateron G Pro Brown,,true,Wired,White
 Keychron Q1 QMK V2 Knob SE,,Mini,Gateron G Pro Red,,true,Wired,Yellow / White
 Keychron Q1 QMK V2 Knob SE,,Mini,Gateron G Pro Blue,,true,Wired,Yellow / White
 Keychron Q1 QMK V2 Knob SE,,Mini,Gateron G Pro Brown,,true,Wired,Yellow / White
 Keychron Q1 QMK V2 Knob SE,,Mini,Gateron G Pro Red,,true,Wired,Gold / White
-Keychron Q1 QMK V2 Knob SE,,Mini,Gateron G Pro Brown,,true,Wired,Gold / White
 Keychron Q1 QMK V2 Knob SE,,Mini,Gateron G Pro Brown,,true,Wired,Gold / White
 Keychron Q1 QMK V2 Knob SE,,Mini,Gateron G Pro Red,,true,Wired,Red
 Keychron Q1 QMK V2 Knob SE,,Mini,Gateron G Pro Blue,,true,Wired,Red
@@ -4233,7 +3641,6 @@ MCHOSE X75 V2,,Gaming,TTC Ice,RGB,true,"Wired, Wireless, Bluetooth Wireless",Bla
 MCHOSE X75 V2,,Gaming,Kailh Icy Creamsicle,RGB,true,"Wired, Wireless, Bluetooth Wireless",Beige / White
 MCHOSE Z75,,Gaming,KTT Cream Shaft,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver
 MCHOSE Z75,,Gaming,KTT Hyacinth V3,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver
-MCHOSE Z75,,Gaming,KTT Hyacinth V3,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver
 MCHOSE Z75,,Gaming,KTT Hyacinth V3,RGB,true,"Wired, Wireless, Bluetooth Wireless",Black
 MCHOSE Z75,,Gaming,TTC Flame Orange,RGB,true,"Wired, Wireless, Bluetooth Wireless",Silver
 MCHOSE Z75,,Gaming,TTC Flame Orange,RGB,true,"Wired, Wireless, Bluetooth Wireless",Blue / White
@@ -4276,7 +3683,6 @@ MCHOSE K99,,Gaming,KTT Hyacinth,RGB,false,"Wired, Wireless, Bluetooth Wireless",
 MCHOSE K99,,Gaming,Kailh Firefly Night,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Blue
 MCHOSE K99,,Gaming,Kailh Icy Creamsicle,RGB,false,"Wired, Wireless, Bluetooth Wireless",Purple / White
 MCHOSE K99,,Gaming,Kailh Icy Creamsicle,RGB,false,"Wired, Wireless, Bluetooth Wireless",Black / Gray
-MCHOSE K99,,Gaming,KTT Hyacinth,RGB,false,"Wired, Wireless, Bluetooth Wireless",White / Blue
 MCHOSE G98,,Gaming,LEOBOG Graywood V4,RGB,false,"Wired, Wireless, Bluetooth Wireless",Blue / White
 MCHOSE G98,,Gaming,TTC Cabbage Tofu V2,RGB,false,"Wired, Wireless, Bluetooth Wireless",Blue / White
 MCHOSE G98,,Gaming,KTT Hyacinth,RGB,false,"Wired, Wireless, Bluetooth Wireless",Blue / White
