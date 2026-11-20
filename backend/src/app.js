@@ -26,9 +26,9 @@ function limiter(limit) {
     handler: (_req, _res, next) => next(new ApiError(429, "rate_limited", "Prea multe cereri. Reîncearcă după perioada indicată.")) });
 }
 
-export function createApp({ repository, mode = "demo", key, model = "gpt-5.4-mini", client,
+export function createApp({ repository, mode = "demo", key, model, client,
   origins = [], searchLimit = 12, catalogLimit = 90, dailyLimit, maxConcurrent }) {
-  const interpret = createInterpreter({ mode, key, model, client, dailyLimit, maxConcurrent });
+  const interpret = createInterpreter({ mode, key, model: model ?? (mode === "deepseek" ? "deepseek-flash" : "gpt-5.4-mini"), client, dailyLimit, maxConcurrent });
   const app = express();
   app.disable("x-powered-by");
   app.use((_req, res, next) => { res.set("X-Content-Type-Options", "nosniff"); next(); });
