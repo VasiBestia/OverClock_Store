@@ -4,8 +4,8 @@ const dayMs = 24 * 60 * 60 * 1000;
 
 // Count provider attempts before dispatch, including attempts that later time out.
 export function createQuota({ dailyLimit = 100, maxConcurrent = 2, now = Date.now } = {}) {
-  if (!Number.isSafeInteger(dailyLimit) || dailyLimit < 0) throw new Error("OPENAI_DAILY_REQUEST_LIMIT invalid");
-  if (!Number.isSafeInteger(maxConcurrent) || maxConcurrent < 1) throw new Error("OPENAI_MAX_CONCURRENT invalid");
+  if (!Number.isSafeInteger(dailyLimit) || dailyLimit < 0) throw new Error("LLM daily request limit invalid");
+  if (!Number.isSafeInteger(maxConcurrent) || maxConcurrent < 1) throw new Error("LLM max concurrent invalid");
   let currentDay = null;
   let attempts = 0;
   let active = 0;
@@ -18,9 +18,9 @@ export function createQuota({ dailyLimit = 100, maxConcurrent = 2, now = Date.no
     }
     if (attempts >= dailyLimit) {
       const retry = Math.ceil(((day + 1) * dayMs - time) / 1000);
-      throw new ApiError(429, "llm_daily_limit", "Limita zilnică de apeluri OpenAI a fost atinsă.", retry);
+      throw new ApiError(429, "llm_daily_limit", "Limita zilnică de apeluri LLM a fost atinsă.", retry);
     }
-    if (active >= maxConcurrent) throw new ApiError(429, "llm_busy", "Serviciul OpenAI procesează alte căutări. Reîncearcă în câteva secunde.", 2);
+    if (active >= maxConcurrent) throw new ApiError(429, "llm_busy", "Serviciul LLM procesează alte căutări. Reîncearcă în câteva secunde.", 2);
     active++;
     attempts++;
     try {
