@@ -11,12 +11,36 @@ npm start
 
 În PowerShell, comanda de copiere este `Copy-Item .env.example .env`. Deschide [pagina principală](http://127.0.0.1:3000/) sau [magazinul](http://127.0.0.1:3000/shop.html). Câmpul de căutare se află în antet pe desktop și sub navigare pe mobil.
 
+## DeepSeek API (nou)
+
+Modul `demo` nu necesită cheie și nu trimite cereri la furnizori. Pentru căutare prin DeepSeek:
+
+1. Creează o cheie privată în [platforma DeepSeek](https://platform.deepseek.com/api_keys).
+2. Creează local `backend/.env` plecând de la `backend/.env.example`.
+3. Introdu `SEARCH_MODE=deepseek`, `DEEPSEEK_API_KEY=...` și `DEEPSEEK_MODEL=deepseek-flash`.
+4. Rulează `npm start` și deschide `http://127.0.0.1:3000/shop.html`.
+5. Testează „GPU NVIDIA minimum 12 GB VRAM” și verifică `interpretation_source: "deepseek"` în răspunsul API. Unele cereri sunt validate local și nu consumă un apel LLM.
+
+**Atenție:** folosește cheia numai în backend, niciodată în HTML/JS public sau într-un commit Git.
+DeepSeek folosește API-ul său compatibil OpenAI la `https://api.deepseek.com/chat/completions`,
+cu `response_format: {"type":"json_object"}`. JSON-ul rezultat este verificat prin Zod,
+iar componentele sunt selectate doar din CSV. Erorile, răspunsurile incomplete și
+cerințele incompatibile nu generează produse inventate. Limitările zilnice sunt per proces,
+nu reprezintă un plafon financiar global. Păstrați și o limită de buget în contul furnizorului.
+
+Pentru teste fără chei: `npm test` și `npm run test:browser` (după instalarea Chromium).
+Verificarea live DeepSeek necesită credit/cheie validă. Modul anterior
+`SEARCH_MODE=openai` rămâne disponibil, fără modificarea catalogului sau a căutării.
+
+Documentație: [DeepSeek JSON Output](https://api-docs.deepseek.com/guides/json_mode/) ·
+[Chat Completions](https://api-docs.deepseek.com/api/create-chat-completion/).
+
 ## Configurarea modurilor
 
 | Variabilă în `backend/.env` | Valoare implicită | Efect |
 | --- | --- | --- |
-| `SEARCH_MODE` | `demo` | `demo` folosește reguli locale. `openai` solicită interpretare prin Responses API. Un mod necunoscut oprește pornirea. |
-| `OPENAI_API_KEY` | goală | Cheie citită exclusiv de procesul backend în modul OpenAI. |
+| `SEARCH_MODE` | `demo` | `demo` folosește reguli locale. `deepseek` folosește Chat Completions cu JSON Output, iar `openai` păstrează Responses API. Un mod necunoscut oprește pornirea. |
+| `DEEPSEEK_API_KEY` | goală | Cheie privată DeepSeek în modul `deepseek`. |\n| `DEEPSEEK_MODEL` | `deepseek-flash` | Model DeepSeek configurabil. |\n| `DEEPSEEK_DAILY_REQUEST_LIMIT`, `DEEPSEEK_MAX_CONCURRENT` | `100`, `2` | Limite per proces pentru apelurile DeepSeek. |\n| `OPENAI_API_KEY` | goală | Cheie citită exclusiv de procesul backend în modul OpenAI. |
 | `OPENAI_MODEL` | `gpt-5.4-mini` | Poate fi înlocuit cu un model disponibil contului care acceptă Responses API și Structured Outputs. |
 | `OPENAI_DAILY_REQUEST_LIMIT` | `100` | Numărul maxim de încercări OpenAI într-o zi UTC, per proces. Valoarea 0 oprește apelurile externe. |
 | `OPENAI_MAX_CONCURRENT` | `2` | Numărul maxim de apeluri simultane, per proces. Trebuie să fie un întreg pozitiv. |
