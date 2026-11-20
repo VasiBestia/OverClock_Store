@@ -228,7 +228,6 @@ Asus DUAL EVO OC,949.97,GeForce RTX 4070,12,1920,2550,Black,227
 Asus ROG STRIX GAMING OC,3539.99,GeForce RTX 4090,24,2235,2640,White,358
 MSI INSPIRE 3X OC PLUS,1010,GeForce RTX 5070 Ti,16,2300,2497,Gold / Black,288
 ASRock Intel Arc A380 Challenger ITX,139.99,Arc A380,6,2250,,Black,190
-XFX Swift OC,399.99,Radeon RX 9060 XT,16,2220,3320,Black,290
 ONIX LUMI OC,285.98,Arc B580,12,2670,2740,White / Silver,260
 XFX RX-79GMERCB9,669.99,Radeon RX 7900 GRE,16,1270,2395,Black,335
 Asus TUF GAMING OC,2940.55,GeForce RTX 5090,32,2010,,Black / Silver,348
@@ -362,7 +361,6 @@ Asus ROG STRIX-GTX1070-O8G-GAMING,499,GeForce GTX 1070,8,1632,1860,Black,298
 Asus PRIME OC,709.99,GeForce RTX 5070,12,2160,2587,White / Silver,304
 MSI D4 LP OC,99.97,GeForce GT 1030 DDR4,4,1151,1430,Black,150
 Acer Nitro OC,319.99,Arc B580,12,2740,,Black / Silver,268
-XFX Swift OC,299.99,Radeon RX 9060 XT,8,2220,3320,Black,270
 XFX Speedster QICK 319 Core,1028,Radeon RX 7800 XT,16,1295,2430,White,335
 ASRock Steel Legend OC,,Radeon RX 7800 XT,16,1295,2520,White,304
 Zotac GAMING SOLID CORE,1809.99,GeForce RTX 5080,16,2300,2617,Black / Copper,304
@@ -424,7 +422,7 @@ Gigabyte OC,430,GeForce GTX 1660 Ti,6,1500,1800,Black / Gray,226
 Sapphire NITRO+,,Radeon RX 5700 XT,8,1770,2010,Black / Silver,306
 Acer Nitro OC,832.67,Radeon RX 9070,16,2070,2700,Black / Silver,297
 Asus TUF GAMING OC,1849.99,Radeon RX 7900 XTX,24,2300,2615,Black,353
-Sparkle ECO,129.99,Arc A310,4,1750,1000,Blue,156
+Sparkle ECO,129.99,Arc A310,4,1000,1750,Blue,156
 Asus DUAL OC,894.99,GeForce RTX 4070,12,1920,2550,Black,267
 Zotac GAMING Twin Edge,,GeForce RTX 3060 Ti LHR,8,1410,1665,Black,222
 Asus ROG Astral,1762.98,GeForce RTX 5080,16,2300,,Black / Silver,358
@@ -880,7 +878,6 @@ PowerColor Red Devil,,Radeon RX 7900 XTX,24,2300,2565,Black,338
 MSI GT OC,239,GeForce GTX 1060 3GB,3,1544,1759,Black / White,243
 PNY XLR8 Gaming VERTO EPIC-X RGB OC,1898,GeForce RTX 4080 SUPER,16,2210,2595,Black,332
 Asus STRIX GAMING Advanced,735,GeForce RTX 2070 SUPER,8,1635,1830,Black,300
-XFX Mercury OC,440.12,Radeon RX 9060 XT,16,2220,3320,Black / Silver,320
 EVGA XC3 BLACK GAMING,789,GeForce RTX 3080 10GB LHR,10,1440,1710,Black,285
 Asus DUAL OC,429.99,GeForce RTX 4060,8,1830,2535,Black,227
 PowerColor Hellhound Spectral,,Radeon RX 7900 XTX,24,2300,2525,White,338
@@ -946,7 +943,7 @@ Zotac GAMING AMP,399.99,GeForce RTX 5060 Ti,8,2410,2632,Black,220
 Asus DUAL OC,970,Radeon RX 6750 XT,12,2150,2618,Black / Silver,295
 MSI RTX 3090 SUPRIM X 24G,1658,GeForce RTX 3090,24,1395,1875,Silver,336
 MSI Radeon RX 6900 XT GAMING X TRIO 16G,1135.01,Radeon RX 6900 XT,16,1825,2340,Silver / Black,324
-XFX GTS,294.3,Radeon RX 580,8,1405,1425,Black / Red,270
+XFX GTS,286.3,Radeon RX 580,8,1405,1425,Black / Red,270
 Sapphire NITRO+ SE,,Radeon RX 590,8,1469,1560,Blue / White,260
 PowerColor Red Devil,,Radeon RX 580,8,1257,1380,Black / Red,255
 PowerColor ITX,149.8,Radeon RX 6500 XT,4,2310,,Black,165
@@ -1145,7 +1142,7 @@ Asus TUF GAMING,1889,GeForce RTX 4080,16,2205,2535,Black,348
 Asus ProArt OC,1958,GeForce RTX 4080,16,2205,2625,Black / Gold,300
 MSI DUKE,399,GeForce GTX 1070 Ti,8,1607,1683,Black,312
 Asus TUF GAMING OC,,Radeon RX 7700 XT,12,1700,2599,Black,320
-Asus GTXTITANX-12GD5,799,GeForce GTX Titan X,12,1075,1000,Black / Silver,267
+Asus GTXTITANX-12GD5,799,GeForce GTX Titan X,12,1000,1075,Black / Silver,267
 Gigabyte AORUS ELITE,,Radeon RX 7900 XTX,24,2300,2680,Black / Silver,335
 Palit StormX,368.71,GeForce GTX 1050 Ti,4,1290,1392,Black,166
 MSI Radeon RX 5500 XT GAMING X 8G,,Radeon RX 5500 XT,8,1685,1845,Black / Red,247
@@ -1282,7 +1279,7 @@ Asus ASUS TUF Gaming GeForce RTX 2060 6GB Edition 4K VR Ready HDMI 2.0b DP 1.4 A
 Gigabyte GAMING OC WHITE,,GeForce RTX 2070 SUPER,8,1605,1815,White,286
 MSI GAMING Z TRIO V1,629.99,Radeon RX 6800,16,1700,2155,Black / Silver,324
 MSI GAMING X TRIO,1995,GeForce RTX 4080,16,2205,2610,White,337
-PowerColor Red Dragon,164.9,Radeon RX 550 - 512,4,1100,1071,Black,181
+PowerColor Red Dragon,164.9,Radeon RX 550 - 512,4,1071,1100,Black,181
 MSI GAMING,389,Radeon R9 390,8,1000,1060,Black / Red,277
 Gigabyte GAMING OC,1962,Radeon RX 6900 XT,16,1825,2285,Black / Silver,286
 Sapphire PULSE,,Radeon RX 6500 XT,4,2310,2825,Black / Red,194
@@ -1313,7 +1310,7 @@ PowerColor Red Devil,,Radeon RX 7900 XT,20,2000,2535,Black,338
 EVGA XC GAMING,675,GeForce RTX 2070,8,1410,1710,Clear / Black,269
 Asus Turbo,495,GeForce GTX 1080,8,1607,1733,Black / Silver,267
 Asus ROG STRIX GAMING OC,,GeForce RTX 4070,12,1920,2640,Black / Red,339
-Gigabyte WINDFORCE 2X,,GeForce RTX 2070,8,1410,1620,Black,265
+Gigabyte WINDFORCE 2X,785,GeForce RTX 2070,8,1410,1620,Black,265
 Gigabyte TURBO,,GeForce RTX 3080 10GB,10,1710,,Black / Silver,267
 AMD 100-300000075,2382.14,Radeon PRO W7800,32,1855,2499,Black,280
 Zotac GAMING AMP AIRO Spider-Man: Across the Spider-Verse,999.99,GeForce RTX 4070 Ti,12,2310,2670,Black,308
@@ -1484,7 +1481,6 @@ Zotac ZT-P10510B-10L,,GeForce GTX 1050 Ti,4,1392,1506,Black / White,174
 MSI Radeon RX 6800 GAMING X TRIO 16G,,Radeon RX 6800,16,1700,2155,Black / Silver,324
 ASRock Phantom Gaming OC,,Radeon RX 6950 XT,16,1958,2324,Silver / Black,330
 XFX Speedster SWFT 319 Core,,Radeon RX 6800,16,1700,2105,Black,340
-XFX GTS,286.3,Radeon RX 580,8,1405,1425,Black / Red,270
 Inno3D X3 OC,782.41,GeForce RTX 5070,12,2325,2542,Black / Silver,300
 Zotac GAMING Trinity,,GeForce RTX 3090,24,1395,1695,Black,318
 XFX RX-79XMBABF9,,Radeon RX 7900 XTX,24,2300,2500,Black,287
@@ -1867,7 +1863,6 @@ Gainward Pegasus,,GeForce RTX 4060 Ti,8,2310,2535,Black,170
 Gigabyte AI TOP,,Radeon PRO W7800,48,1855,,Black / Silver,293
 Asus ROG STRIX OC,,GeForce RTX 4060 Ti,8,2310,2715,Black,311
 EVGA SC ULTRA GAMING,319.98,GeForce GTX 1650 G6,4,1410,1710,Black,202
-Inno3D Twin X2 OC,,GeForce RTX 5060,8,2280,2527,Black / Silver,250
 ASRock Radeon RX 7900 XT 20GB,,Radeon RX 7900 XT,20,2000,2400,Black,276
 EVGA KO GAMING,,GeForce RTX 2070 SUPER,8,1605,1770,Black,270
 EVGA ACX,,GeForce GTX 760,2,980,,Black / Silver,241
@@ -2236,7 +2231,7 @@ Gigabyte AORUS XTREME,,GeForce GTX 1080,8,1759,1936,Black / Orange,293
 Gigabyte AORUS,,GeForce RTX 2080 Ti,11,1545,1695,Black,290
 MSI AERO ITX,,GeForce RTX 2060 SUPER,8,1470,1650,Black / White,174
 Asus STRIX GAMING OC,,GeForce GTX 1660 SUPER,6,1530,1875,Black / Silver,243
-PowerColor Red Dragon,,Radeon RX 550 - 512,4,1100,1071,Black / Red,152
+PowerColor Red Dragon,,Radeon RX 550 - 512,4,1071,1100,Black / Red,152
 XFX Speedster MERC 319 Ultra,,Radeon RX 6900 XT,16,1925,2340,Black,340
 MSI GAMING TRIO,,GeForce RTX 3070 Ti,8,1575,1800,Black / Silver,323
 XFX RAW II,,Radeon RX 5600 XT,6,1247,1620,Black,326
@@ -2332,7 +2327,6 @@ PNY VCQK4000-PB,139,Quadro K4000,3,810,,Black / Silver,241
 Palit StormX,1289,GeForce RTX 2060,6,1365,1680,Black,168
 Asus TUF GAMING OC,,GeForce GTX 1660,6,1530,1785,Black,264
 MSI DUKE OC,499,GeForce GTX 1080,8,1708,1847,Black / Beige,312
-PNY XLR8 Gaming EPIC-X RGB,,GeForce RTX 3090,24,1395,1695,Black,294
 Zotac GAMING AMP Extreme Holo,1799.99,GeForce RTX 3090,24,1395,1815,Black,356
 Gigabyte AORUS XTREME WATERFORCE,,GeForce RTX 4080,16,2205,2565,Black,236
 Gigabyte GAMING OC V2,,GeForce RTX 4070 Ti,12,2310,2640,Black,300
@@ -2395,7 +2389,6 @@ GALAX EX,,GeForce GTX 1650 G5,4,1485,1695,Black,196
 PowerColor AXRX 5700XT 8GBD6-M3DH,,Radeon RX 5700 XT,8,1605,1905,Silver,270
 Asus STRIX GAMING,,GeForce RTX 2080 SUPER,8,1650,1845,Black,300
 EVGA BLACK GAMING,,GeForce GTX 1660,6,1530,1785,Black,190
-Gigabyte GAMING,,Radeon RX 570,4,1168,1255,Black / Orange,232
 Palit GameRock OC,,GeForce RTX 3070 Ti,8,1575,1845,Silver,304
 KFA2 (1-Click OC),,GeForce RTX 3060 Ti,8,1410,1680,Black,242
 Asus TUF GAMING,,GeForce RTX 3080 12GB LHR,12,1260,1740,Black / Silver,300
@@ -2438,14 +2431,12 @@ Sapphire PULSE,,Radeon RX 560 - 1024,4,1175,1300,Black / Red,210
 Gigabyte AORUS,,GeForce GTX 1060 6GB,6,1632,1860,Black / Orange,280
 Gigabyte AORUS,,GeForce GTX 1070 Ti,8,1683,1771,Black / Orange,280
 PowerColor AXRX 570 8GBD5-DM,,Radeon RX 570,4,1105,1244,Black / Red,255
-PowerColor Red Devil,,Radeon RX 580,8,1257,1380,Black / Red,255
 Gigabyte GAMING 8G,,GeForce RTX 2070,8,1620,,Black / Silver,280
 Gigabyte AORUS XTREME WATERFORCE,,GeForce RTX 2080 Ti,11,1545,1770,Black / Silver,290
 Gainward Phoenix GS,,GeForce RTX 2060,6,1365,1680,Black,235
 ASRock Radeon RX 5700 XT 8G,,Radeon RX 5700 XT,8,1605,1905,Silver,285
 MSI GAMING TRIO,,GeForce RTX 2080 SUPER,8,1650,1815,Silver / Black,328
 MSI GAMING X,,Radeon RX 5600 XT,6,1235,1620,Black / Silver,297
-Gigabyte WINDFORCE 2X,785,GeForce RTX 2070,8,1410,1620,Black,265
 Sapphire 11256-57-21G,,Radeon RX 470,8,926,1206,Black,230
 Asus DUAL EVO OC V2,,GeForce RTX 2070,8,1410,1740,Black,242
 Palit GamingPro OC,,GeForce RTX 3090,24,1395,1725,Black / Silver,294
@@ -2538,7 +2529,6 @@ Inno3D iChill,,GeForce GTX 1080 Ti,11,1607,1721,Black / Silver,303
 Zotac Blower,,GeForce RTX 2080,8,1515,1710,Black,268
 Gigabyte AORUS,,GeForce RTX 2070,8,1620,1770,Black / Silver,290
 Palit GamingPro,,GeForce RTX 2060,6,1365,1680,Black,235
-Asus DUAL EVO OC,,GeForce RTX 2080 SUPER,8,1650,1860,Black,267
 Gainward Phantom GS,,GeForce RTX 2070 SUPER,8,1605,1815,Black / Silver,292
 Palit StormX,,GeForce GTX 1660 SUPER,6,1530,1785,,168
 ASRock Phantom Gaming D OC,,Radeon RX 5600 XT,6,1280,1620,Black / Red,240
@@ -2566,7 +2556,7 @@ Asus TUF Gaming BTF,,GeForce RTX 4070 Ti,16,2310,2640,White,305
 Asus DUAL,,GeForce RTX 5070,12,2160,2542,Black / Silver,249
 VisionTek 900574,147.99,Radeon HD 7750,1,,,Black / Red,170
 Gainward Python III OC,,GeForce RTX 5060 Ti,8,2410,2662,Black,292
-VisionTek 901507,189.99,Radeon RX 550 - 512,4,1100,1071,Red,184
+VisionTek 901507,189.99,Radeon RX 550 - 512,4,1071,1100,Red,184
 Inno3D Twin X2 OC,,GeForce RTX 4070 Ti SUPER,16,2340,2640,White / Silver,250
 PNY VCGGT7102XPB,,GeForce GT 710,2,954,,Black,114
 Gigabyte GAMING OC,469,Radeon RX 5500 XT,4,1685,1845,Black / Gray,281
@@ -2589,7 +2579,7 @@ PNY Founders Edition,,GeForce GTX 1080,8,1607,1733,Black / Silver,267
 Asus STRIX,,GeForce GTX 1080,8,1759,1936,Black,298
 GALAX OC,,GeForce GTX 1060 6GB,6,1518,1733,Black / Silver,228
 PNY VCGGTX1050T4PB,,GeForce GTX 1050 Ti,4,1290,1392,Black,178
-EVGA GAMING,,GeForce GTX 1060 6GB,6,1506,1708,Black / Silver,267
+EVGA GAMING,369,GeForce GTX 1060 6GB,6,1506,1708,Black / Silver,267
 MSI AERO ITX OC,,GeForce GT 1030,2,1265,1518,Black,147
 EVGA K|NGP|N GAMING,,GeForce GTX 1080 Ti,11,1582,1695,Black,300
 Gigabyte AORUS XTREME,,GeForce GTX 1060 6GB,6,1645,1873,Black / Orange,281
@@ -2625,7 +2615,6 @@ MSI SHADOW 2X,,GeForce RTX 5070,12,2527,,Black,231
 MSI GAMING TRIO,,GeForce RTX 5060 Ti,16,2410,2587,White,300
 Gigabyte GV-R545-1GI,89.99,Radeon HD 5450,1,650,,Blue / Silver,182
 MSI LP,126.12,Radeon R7 240,2,600,,Black,144
-Gigabyte EAGLE,,GeForce RTX 3060 12GB,12,1320,1777,Black,242
 XFX PVT95GZAFG,161.98,GeForce 9500 GT,1,550,,Black / Green,
 Gigabyte GV-R68-16GC-B,,Radeon RX 6800,16,1700,2105,Black / Silver,267
 Gigabyte EAGLE,,GeForce RTX 3070 Ti,8,1575,1770,Black,283
@@ -2776,7 +2765,6 @@ PNY VCQ295NVS-X1-PB,,Quadro NVS 295,0.25,540,,Black / Green,168
 MSI GTX 980Ti 6GD5T OC,,GeForce GTX 980 Ti,6,1102,1190,Black / White,277
 MSI SEA HAWK X,,GeForce GTX 1070,8,1506,1797,Black / Silver,270
 Gigabyte XTREME,,GeForce GTX 1080,8,1759,1936,Black / Silver,289
-Gigabyte GAMING,,GeForce GTX 1060 6GB,6,1594,1847,Black / Orange,278
 Gigabyte XTREME,,GeForce GTX 1060 6GB,6,1620,1873,Black / Orange,280
 MSI RADEON RX 460 2G OC,,Radeon RX 460,2,1090,1210,Black / White,172
 Palit StormX,,GeForce GTX 1050,2,1354,1455,Black / White,166
@@ -2850,7 +2838,6 @@ Sapphire PULSE UEFI,,Radeon RX 570,4,1168,1284,Black,230
 KFA2 EX Gamer,,GeForce RTX 4070,12,1920,2550,Black,323
 EVGA 02G-P4-2663-KR,299,GeForce GTX 660,2,1072,,Black / Silver,241
 Asus 710-1-SL,203,GeForce GT 710,1,954,,Blue / Silver,134
-EVGA GAMING,369,GeForce GTX 1060 6GB,6,1506,1708,Black / Silver,267
 Asus DUAL,700,GeForce RTX 2060,6,1365,1680,Black / Silver,270
 Asus ROG STRIX WHITE OC V2,,GeForce RTX 3080 10GB LHR,10,1440,1740,White,318
 Inno3D X3 OC,,GeForce RTX 4070 Ti,12,2310,2640,Black / Silver,297
@@ -3029,7 +3016,6 @@ Zotac ZT-71113-20L,,GeForce GT 730,2,902,,Black / Gold,146
 Sapphire PULSE,,Radeon RX 560 - 1024,2,1175,1300,Black / Red,210
 Gigabyte Radeon RX VEGA 56 8G,479,Radeon RX VEGA 56,8,1156,1471,Black / Red,280
 Sapphire PULSE ITX,,Radeon RX 570,8,1168,1244,Black,170
-Gigabyte GAMING OC,,GeForce GTX 1650 G5,4,1665,1815,Black / Silver,265
 KFA2 (1-Click OC),,GeForce RTX 2060 SUPER,8,1470,1680,Silver / Black,230
 GALAX EX White,,GeForce RTX 4060 Ti,8,2310,2655,White,251
 Inno3D Twin X2 OC,,GeForce RTX 4070 SUPER,12,1980,2505,White / Silver,250
@@ -3179,8 +3165,7 @@ PowerColor PCS+,,Radeon R9 390,8,1010,,Black / Silver,305
 Sapphire 21246-00-40G,,Radeon R9 Fury X,4,1050,,Black / Red,195
 EVGA ACX 2.0+,359,GeForce GTX 970,4,1050,1178,Black / Blue,257
 EVGA Superclocked,,GeForce GTX 960,4,1216,1279,Black / Silver,173
-EVGA SSC ACX 2.0+,,GeForce GTX 960,4,1279,1342,Black / Silver,257
-MSI ARMOR 2X,,GeForce GTX 980,4,1190,1102,Black / White,277
+MSI ARMOR 2X,,GeForce GTX 980,4,1102,1190,Black / White,277
 Gigabyte WINDFORCE 2X,,Radeon R9 380X,4,980,,Black,221
 Asus 710-2-SL-CSM,,GeForce GT 710,2,954,,Blue / Silver,135
 EVGA ACX 2.0+,,GeForce GTX 960,4,1127,1178,Black,257
@@ -3198,7 +3183,6 @@ Palit KalmX,,GeForce GTX 1050 Ti,4,1290,1392,Silver,182
 Sapphire PULSE,,Radeon RX 550 - 512,2,1100,1206,Black / Red,158
 EVGA SC2 ELITE GAMING,,GeForce GTX 1080 Ti,11,1556,1670,Black,267
 KFA2 HOF Limited Edition,,GeForce GTX 1080 Ti,11,1645,1759,White,313
-EVGA FTW3 ELITE GAMING,,GeForce GTX 1080 Ti,11,1569,1683,White / Black,300
 XFX GTR XXX,,Radeon RX 580,8,1257,1386,Black / White,280
 Sapphire NITRO+,,Radeon RX VEGA 64,8,1423,1611,Black / Silver,310
 Colorful iGame GTX1080Ti Vulcan X OC,,GeForce GTX 1080 Ti,11,1480,1733,Black,317
@@ -3219,7 +3203,6 @@ Sapphire 21294-01-20G,,Radeon RX 5700,8,1465,1725,Silver,268
 Asus DUAL EVO OC,,GeForce RTX 2070,8,1410,1740,Black,267
 EVGA XC HYBRID GAMING,,GeForce RTX 2070 SUPER,8,1605,1800,Black,266
 Gigabyte GAMING OC,,GeForce RTX 2080 SUPER,8,1815,1845,Black / Silver,286
-Gigabyte GAMING 8G,,Radeon RX 590,8,1469,1560,Black / Orange,232
 PNY Blower,,GeForce RTX 2080 Ti,11,1350,1545,Black,269
 PowerColor Red Dragon,,Radeon RX 5500 XT,8,1685,1845,Black / Silver,227
 ASRock Challenger ITX,,Radeon RX 5500 XT,8,1607,1845,Black,190
@@ -3245,7 +3228,7 @@ Palit Dual,,GeForce GTX 1060 3GB,3,1506,1708,Black,252
 Asus ROG STRIX GUNDAM EDITION,,GeForce RTX 3090,24,1395,1890,White,318
 GALAX (1-click OC),,GeForce RTX 3060 8GB,8,1320,1777,Black,245
 PNY Dual,,GeForce RTX 2070 SUPER,8,1605,1770,Black,235
-PowerColor Red Dragon,,Radeon RX 550 - 512,2,1100,1017,Black,181
+PowerColor Red Dragon,,Radeon RX 550 - 512,2,1017,1100,Black,181
 Inno3D Twin X2 OC,,GeForce RTX 4060,8,1830,2490,Black / Silver,250
 Colorful iGame Advanced OC-V,,GeForce RTX 4070 Ti,12,2310,2760,Silver / Black,344
 Gainward Ghost,,GeForce RTX 4060,8,1830,2460,Black,250
@@ -3316,7 +3299,6 @@ Palit StormX,,GeForce GTX 750 Ti,2,1202,1281,Black / Gold,216
 Asus GTX970-DCMOC-4GD5,,GeForce GTX 970,4,1088,1228,Black / Red,170
 PNY VCQK420-PB,129.89,Quadro K420,1,876,,Black / Green,160
 Zotac ZT-90601-10L,,GeForce GTX 950,2,1089,1266,Black,208
-EVGA FTW ACX 2.0+,,GeForce GTX 960,4,1304,1367,Black / Silver,257
 Sapphire NITRO,,Radeon R7 360,2,1060,,Black,211
 KFA2 80NSJ6DHK5VK,,GeForce GTX 1080,8,1607,1733,Black / Blue,267
 Asus Founders Edition,,GeForce GTX 1070,8,1506,1683,Black / Silver,267
@@ -3351,7 +3333,6 @@ GALAX EX OC White,,GeForce GTX 1080 Ti,11,1531,1645,White,281
 Palit Super JetStream,,GeForce GTX 960,2,1279,1342,Red / Black,247
 PowerColor Red Devil,599,Radeon RX VEGA 56,8,1308,1526,Red / Black,316
 MSI AIR BOOST,,Radeon RX VEGA 56,8,1156,1471,Black / Red,270
-EVGA FTW3 ELITE GAMING,,GeForce GTX 1080 Ti,11,1569,1683,Black,300
 MSI DUKE,,GeForce GTX 1080,8,1708,1847,Black,312
 MSI GeForce GTX 1060 6GT V1,,GeForce GTX 1060 6GB,6,1506,1708,Black / White,243
 Inno3D GAMING OC,,GeForce RTX 2080 Ti,11,1350,,Black / Yellow,272
@@ -3380,7 +3361,6 @@ PNY Dual Gaming OC,,GeForce RTX 2060 SUPER,8,1470,1680,Black,235
 Gainward Ghost OC,,GeForce GTX 1660 SUPER,6,1530,1830,Black,235
 KFA2 EX,,GeForce RTX 2060 SUPER,8,1470,1665,Black,295
 Inno3D Twin X2 OC RGB,,GeForce RTX 2060 SUPER,8,1470,1665,Black,220
-XFX THICC II Pro,,Radeon RX 5600 XT,6,1247,1620,Black,280
 Yeston LP D5,,Radeon RX 550 - 640,4,1071,1206,Pink,170
 Gigabyte MINI ITX,,GeForce GTX 1650 G5,4,1485,1665,Black,152
 MSI VENTUS GP OC,,GeForce RTX 2080 Ti,11,1350,1635,Silver / Black,268
@@ -3527,7 +3507,6 @@ PowerColor Red Dragon,,Radeon RX 550 - 512,2,1100,1190,Black,225
 Asus RX550-2G,,Radeon RX 550 - 512,2,1100,1183,Black / Red,182
 Asus STRIX,,Radeon RX 560 - 1024,4,1175,1285,Black,194
 Asus STRIX,,Radeon RX 560 - 1024,4,1175,1336,Black,194
-EVGA SSC GAMING,383,GeForce GTX 1060 6GB,6,1607,1835,Black,267
 Zotac ZT-P10500E-10L,,GeForce GTX 1050,2,1354,1455,Black,160
 VisionTek 900961,,Radeon RX 570,4,1168,1264,Black / Red,242
 MSI RX 550 2GT LP OC,,Radeon RX 550 - 512,2,1100,1203,Black,170
@@ -3614,7 +3593,6 @@ Gigabyte AI TOP,,Radeon PRO W7800,32,1855,,Black,293
 PNY VCQ6000-PB,349.77,Quadro 6000,6,,,Black / Silver,
 PNY VCQK1200DVI-PB,137.42,Quadro K1200,4,1058,1124,Black / Green,160
 MSI VENTUS 3X OC,998,GeForce RTX 3080 10GB LHR,10,1440,1740,Black,305
-Sapphire TOXIC Limited Edition,,Radeon RX 6900 XT,16,1825,2600,Black,270
 XFX HD-467X-ZDF2,119.99,Radeon HD 4670,1,750,,Black,
 Asus GT730-SL-1GD3-BRK,143.26,GeForce GT 730,1,902,,Black / Blue,137
 GALAX HOF,,GeForce RTX 4090,24,2235,2610,White,360
@@ -3696,7 +3674,7 @@ Asus STRIX-R9380X-4G-GAMING,,Radeon R9 380X,4,970,,Black / Red,271
 XFX DD XXX OC,,Radeon R9 380X,4,990,,Black / Silver,234
 Gigabyte GV-N970XTREME-4GD,,GeForce GTX 970,4,1241,1342,Black / Silver,279
 XFX R9-270X-EDJ4,,Radeon R9 270X,4,1000,1050,Black,220
-Asus MATRIX-GTX980TI-P-6GD5-GAMING,,GeForce GTX 980 Ti,6,1317,1216,Black / Orange,296
+Asus MATRIX-GTX980TI-P-6GD5-GAMING,,GeForce GTX 980 Ti,6,1216,1317,Black / Orange,296
 EVGA 04G-P4-3960-KR,,GeForce GTX 960,4,1127,1178,Black / Gray,257
 Inno3D Twin X2,,GeForce GTX 1080,8,1607,1733,Black,266
 KFA2 Founders Edition,,GeForce GTX 1080,8,1607,1733,Black / Silver,267
@@ -3723,7 +3701,6 @@ PNY XLR8 Gaming Overclocked Edition,,GeForce GTX 1080 Ti,11,1531,1645,Black / Re
 EVGA FTW+ DT GAMING,,GeForce GTX 1060 6GB,6,1506,1708,Black,280
 Zotac ZT-P10510E-10L,,GeForce GTX 1050 Ti,4,1290,1392,Black,160
 KFA2 EX,,GeForce GTX 1080 Ti,11,1531,1645,Black,281
-PowerColor Red Dragon OC,,Radeon RX 560 - 1024,2,1175,1180,Black,225
 Asus EX-GTX1070-O8G,,GeForce GTX 1070,8,1592,1797,Gray,240
 EVGA FTW2 GAMING iCX,,GeForce GTX 1060 6GB,6,1632,1860,Black / White,267
 PowerColor Radeon RX VEGA 64,,Radeon RX VEGA 64,8,1247,1546,Black / Red,280
@@ -3892,7 +3869,6 @@ Gigabyte WINDFORCE,,Radeon R7 260X,2,1100,1188,Black / Blue,207
 MSI R7 260X 2GD5 OC,,Radeon R7 260X,2,1175,,Black / Blue,202
 Galaxy 77XPH6DV6KTZ,,GeForce GTX 770,2,1110,1163,Black,254
 Gigabyte GV-N630-2GI REV3.0,,GeForce GT 630,2,700,,Black / Blue,185
-Asus DirectCU II,,Radeon R9 280X,3,1070,,Black / Red,284
 MSI GAMING,,GeForce GTX 780 Ti,3,1020,1085,Black / Red,266
 PowerColor AXR9 290X 4GBD5-MDHG/OC,,Radeon R9 290X,4,1030,,Black / Red,267
 Asus DirectCU II,,Radeon R9 290X,4,1050,,Black / Silver,287
@@ -3914,7 +3890,7 @@ GALAX SOC,,GeForce GTX 980,4,1228,1329,Black / Red,298
 EVGA Dual ACX,,GeForce GTX 760,2,941,,Black,241
 Zotac AMP Omega Core,,GeForce GTX 970,4,1152,1304,Black,280
 HP C2J93AT,129.96,Quadro K2000,2,954,,Black / Green,202
-Asus GTX960-MOC-2GD5,,GeForce GTX 960,2,1253,1190,Black / Red,170
+Asus GTX960-MOC-2GD5,,GeForce GTX 960,2,1190,1253,Black / Red,170
 EVGA Superclocked,,GeForce GTX 750,2,1215,1294,Black,170
 Sapphire Tri-X,,Radeon R9 290X,4,1040,,Black / Orange,305
 Gigabyte GV-N730D5-2GI REV2.0,,GeForce GT 730,2,902,,Black / Blue,177
@@ -3925,7 +3901,6 @@ Zotac ZT-90501-10P,,GeForce GTX 980 Ti,6,1000,1076,Black / Silver,267
 MSI GAMING,,Radeon R7 370,2,1000,1050,Black / Red,258
 Asus R9390X-DC2-8GD5,,Radeon R9 390X,8,1050,,Black / Red,287
 MSI R7 360 2GD5 OC,,Radeon R7 360,2,1100,,Black / White,165
-XFX DD,,Radeon R9 390,8,1015,,Black / Silver,295
 Zotac AMP Omega,,GeForce GTX 980 Ti,6,1178,1279,Blue / Silver,329
 HIS IceQ X² OC,,Radeon R9 380,4,990,,Black / Silver,270
 MSI SEA HAWK,,GeForce GTX 980 Ti,6,1190,1291,Black / Silver,270
@@ -3942,7 +3917,6 @@ Gainward Founders Edition,,GeForce GTX 1070,8,1506,1683,Black / Silver,267
 EVGA SC GAMING,,GeForce GTX 950 75W,2,1076,1253,Black / Silver,173
 Palit GameRock Premium,,GeForce GTX 1080,8,1746,1885,Gray / Blue,285
 Inno3D iChill,,GeForce GTX 1060 6GB,6,1569,1784,Black / Silver,303
-XFX Triple Dissipation,,Radeon RX 470,4,926,1226,Black,240
 PowerColor Red Dragon,,Radeon RX 460,4,1090,1212,Black,225
 KFA2 OC,,GeForce GTX 1050,2,1366,1468,Black,196
 EVGA SC GAMING,,GeForce GTX 1070,8,1600,1800,Black / Silver,
@@ -4010,7 +3984,6 @@ Asus DUAL EVO,,GeForce RTX 2080,8,1515,1740,Black,267
 Asus DUAL EVO Advanced,,GeForce RTX 2060,6,1365,1725,Black,242
 Gainward Pegasus OC,,GeForce GTX 1660 SUPER,6,1530,1830,Black,168
 MSI Radeon RX 5500 XT MECH 8G,,Radeon RX 5500 XT,8,1607,1845,Black,215
-XFX THICC III Pro,,Radeon RX 5600 XT,6,1247,1750,Black,326
 MSI AERO,,GeForce RTX 2080 Ti,11,1350,1545,Black,268
 Gigabyte GAMING MI,,Radeon RX 570,8,1244,1255,Black / Orange,232
 Gigabyte MINI ITX Rev 2.0,,GeForce RTX 2060,6,1365,1680,Black / Gray,170
@@ -4052,7 +4025,6 @@ ASRock Phantom Gaming Elite,,Radeon RX 570,4,1168,1250,Black,240
 Asus Phoenix,,Radeon RX 550 - 512,2,1100,1183,Black,192
 Sapphire PULSE,,Radeon RX 570,8,1168,1254,Black,210
 XFX Triple Dissipation,,Radeon RX 5700,8,1565,1750,Black,326
-Inno3D AX Gaming X3W,,GeForce RTX 4090,24,2235,2550,White / Blue,336
 Inno3D AX Gaming X3W,,GeForce RTX 4070 Ti,12,2310,2640,White / Blue,299
 Colorful NB EX-V,,GeForce RTX 4080,16,2205,2580,Black / Red,326
 MSI GAMING SLIM,,GeForce RTX 4060 Ti,16,2310,2550,Black,307
@@ -4061,7 +4033,6 @@ Gainward Panther OC,,GeForce RTX 4070 SUPER,12,1980,2640,Black,329
 Gainward Phantom,,GeForce RTX 4070 Ti SUPER,16,2340,2610,Black,329
 Palit GamingPro,,GeForce RTX 4080 SUPER,16,2210,2550,Black / Silver,329
 KFA2 EX Gamer (1-Click OC),,GeForce RTX 4070,12,1920,2580,White,336
-Matrox LUMA,,Arc A310,4,1750,,Black,168
 Asus DUAL EVO,,GeForce RTX 4060 Ti,16,2310,2565,Black,227
 GALAX HOF Limited Edition,,GeForce RTX 3090,24,1395,1860,White,339
 EVGA 02G-P3-1733-KR,,GeForce GT 730,2,902,,,114
@@ -4249,7 +4220,7 @@ EVGA Superclocked ACX,,GeForce GTX 970,4,1165,1317,Black,241
 EVGA Classified Reference,,GeForce GTX 780 Ti,3,876,928,Black / Silver,267
 Zotac ZT-71104-10L,,GeForce GT 730,1,700,,Black / Orange,
 Zotac AMP Extreme,,GeForce GTX 970,4,1203,1355,Black / Silver,300
-EVGA Superclocked,,GeForce GTX 980,4,1241,1342,Black / Silver,267
+EVGA Superclocked,369,GeForce GTX 980,4,1241,1342,Black / Silver,267
 Zotac AMP Extreme,,GeForce GTX 980,4,1291,1393,Black / Silver,300
 Zotac ZT-71103-10L,,GeForce GT 730,2,700,,Black / Orange,
 MSI N750TI-2GD5/OCV1,,GeForce GTX 750 Ti,2,1059,1137,Black / Blue,165
@@ -4263,11 +4234,9 @@ ATI FirePro W2100,,FirePro W2100,2,630,,Black / Red,
 Asus DirectCU II,,GeForce GTX 760,2,980,1033,Black / Red,218
 GALAX EX OC,,GeForce GTX 970,4,1164,1317,Black,271
 Sapphire 11215-00-20G,,Radeon R7 250,1,1000,,Black,150
-EVGA Superclocked,369,GeForce GTX 980,4,1241,1342,Black / Silver,267
 EVGA Dual ACX,,GeForce GTX 760,4,980,1033,Black / Silver,241
 Zotac ZT-90303-10M,,GeForce GTX 960,2,1266,1329,Black,208
 HP A7U60AT,,Quadro 410,0.5,706,,Black / Green,176
-HP C2J92AA,,Quadro K600,1,876,,Black / Green,160
 HP C3G86AT,,Quadro K4000M,4,600,,Black / Silver,
 PNY VCQK5000MAC-PB,588.02,Quadro K5000,4,706,,Black / Silver,267
 Asus GT720-SL-2GD3-BRK,,GeForce GT 720,2,797,,Black / Blue,137
@@ -4276,7 +4245,6 @@ Zotac AMP Extreme Core,,GeForce GTX 970,4,1228,1380,Black / Silver,299
 Zotac ZT-71108-10L,,GeForce GT 730,4,902,,Black / Silver,
 Zogis Superclock,,GeForce GTX 960,2,1228,1291,Black / Yellow,
 Gigabyte GV-N740D3-2GI,,GeForce GT 740,2,993,,Black / Blue,190
-EVGA Superclocked,,GeForce GTX 960,4,1216,1279,Black / Silver,173
 Palit NE5XTIX015KB,,GeForce GTX Titan X,12,1000,1075,Black / Silver,282
 GALAX 97NPH6DT8RVZ,,GeForce GTX 970,4,1126,1266,Black / Silver,193
 Asus GTX980TI-6GD5,,GeForce GTX 980 Ti,6,1000,1076,Black / Silver,282
@@ -4374,7 +4342,6 @@ Asus AREZ,,Radeon RX 560 - 896,2,1149,1197,,220
 KFA2 60NRJ7DSX1PK,,GeForce RTX 2060,6,1365,1680,Black,268
 GALAX 60NRJ7DSX1PO,,GeForce RTX 2060,6,1365,1680,Black,281
 GALAX EX,,GeForce RTX 2070,8,1620,1665,Black / Clear,295
-Sapphire PULSE,,Radeon RX 570,8,1168,1284,Black,230
 EVGA XC2 ULTRA GAMING,,GeForce RTX 2080,8,1515,1815,Black / Clear,270
 GALAX EX,,GeForce GTX 1660,6,1530,1845,Black,245
 EVGA XC ULTRA BLACK GAMING,,GeForce GTX 1650 G5,4,1485,1665,Black,202
@@ -4387,7 +4354,6 @@ Inno3D iChill Black,,GeForce RTX 2080 SUPER,8,1650,1845,Gray / Black,272
 MSI Radeon RX 5500 XT MECH 4G,,Radeon RX 5500 XT,4,1607,1845,Black,215
 Asus STRIX GAMING Advanced,,GeForce GTX 1650 SUPER,4,1530,1770,Black,243
 Palit KalmX,,GeForce GTX 1650 G5,4,1485,1665,Silver,178
-MSI GAMING Z TRIO,,GeForce RTX 2070 SUPER,8,1605,1815,Black / Silver,328
 Gigabyte GAMING OC,,Radeon RX 560 - 1024,4,1176,1234,Black / Orange,190
 Gigabyte OC,,Radeon RX 560 - 1024,2,1176,1199,Black / Orange,170
 Gigabyte OC,,Radeon RX 560 - 896,4,1176,1199,Black / Orange,170
@@ -4845,15 +4811,12 @@ Sapphire Dual-X,,Radeon R9 285,2,965,,Black / Purple,264
 Gigabyte GV-N730D5-2GI,,GeForce GT 730,2,902,,Black / Blue,177
 Zotac AMP Omega,,GeForce GTX 970,4,1102,1241,Silver,268
 Gigabyte GV-N720D3-1GL,,GeForce GT 720,1,797,,Black,
-EVGA Classified ACX 2.0,,GeForce GTX 980,4,1291,1393,Black / Red,280
 PowerColor AXR9 280X 3GBD5-2DHE/OC,,Radeon R9 280X,3,880,1030,Black / Red,270
 Palit NE5XTIZ010K7-P2080F,,GeForce GTX Titan Z,12,705,876,Black / Silver,267
 PowerColor TurboDuo,,Radeon R9 290X,4,1030,,Black / Red,267
 XFX Core Edition,,Radeon R5 230,1,625,,Black / Red,172
-AMD FirePro 2270,,FirePro 2270,0.5,600,,Black / Red,170
 AMD FirePro V5800,,FirePro V5800,1,700,,Black / Red,229
 AMD 100-505841,,FirePro 2450,0.5,600,,Black / Red,170
-AMD FirePro W5000,,FirePro W5000,2,825,,Black / Red,191
 AMD FirePro W8000,,FirePro W8000,4,900,,Black / Red,279
 AMD FirePro R5000,,FirePro R5000,2,825,,Black / Red,279
 AMD FirePro V3900,,FirePro V3900,1,650,,Black / Red,168
@@ -4873,7 +4836,6 @@ EVGA 02G-P4-2963-KR,,GeForce GTX 960,2,1127,1178,Black,257
 XFX HD-667X-CLF3,,Radeon HD 6670,2,800,,Black / Red,167
 Asus GTX750-DCSL-2GD5,,GeForce GTX 750,2,1020,1085,Black / Red,200
 PNY VCQK600-PB,,Quadro K600,1,876,,Black / Green,160
-PNY XLR8 PRO OC,,GeForce GTX 980,4,1228,1329,Black / Silver,285
 PNY XLR8,,GeForce GTX 960,2,1127,1178,Black,241
 XFX R7-240D-CLF2,,Radeon R7 240,2,600,,Black,150
 Zogis Twin Vortex,,GeForce GTX 960,2,1127,1178,Black / Green,
@@ -4907,8 +4869,6 @@ MSI GAMING LE,,Radeon R9 390,8,1050,1100,Black / Red,277
 MSI GTX 950 2GD5T OC,,GeForce GTX 950,2,1076,1253,Black / White,254
 Zotac ZT-90602-10M,,GeForce GTX 950,2,1102,1279,Black,283
 XFX Core Edition,,Radeon R7 360,2,1050,,Black,234
-XFX DD,,Radeon R9 380,4,990,,Black / Silver,234
-XFX DD,,Radeon R9 390X,8,1050,,Black / Silver,295
 PowerColor PCS+,,Radeon R7 370,4,985,,Black / Red,220
 Gigabyte GV-N950XTREME-2GD,,GeForce GTX 950,2,1203,1405,Black,240
 XFX R9-FURY-4WFA,,Radeon R9 Fury,4,1000,,Black / Silver,203
@@ -4918,7 +4878,6 @@ PNY VCGGTX7501XPB-BB,,GeForce GTX 750,1,1020,,Black,
 MSI GAMING LE,,GeForce GTX 960,2,1152,1216,Black / Red,267
 Sapphire NITRO,,Radeon R7 370,2,985,,Black / Silver,170
 PowerColor PCS+,,Radeon R9 390X,8,1060,,Black / Silver,305
-Sapphire Tri-X,,Radeon R9 390X,8,1080,,Black / Orange,308
 MSI GTX 950 2GD5 OC,,GeForce GTX 950,2,1076,1253,White,170
 XFX R9-390P-8BD6,,Radeon R9 390,8,1000,,Black / Red,295
 PowerColor PCS+ Myst Edition,,Radeon R9 380X,4,1020,,Black / White,267
@@ -4945,7 +4904,6 @@ Sapphire 21260-01-20G,,Radeon RX 480,4,1120,1266,Black / Red,242
 Asus 90YV09Z0-U0NA00,,Radeon RX 480,8,1120,1266,Black / Red,242
 Gigabyte XTREME,,GeForce GTX 1080,8,1759,1936,Black / Orange,289
 Diamond RX480D58G,,Radeon RX 480,8,1120,1266,Black / Red,255
-XFX Triple Dissipation,,Radeon RX 470,4,926,1226,Black,240
 XFX Black Edition,,Radeon RX 470,4,926,1280,Black,240
 HIS IceQ X² Turbo,,Radeon RX 470,4,926,1256,Black / Blue,241
 XFX RX-460P2SFG5,,Radeon RX 460,2,1090,1220,Black,178
@@ -5026,8 +4984,6 @@ Inno3D Gaming OC X3,,GeForce RTX 2070 SUPER,8,1605,1815,Black,272
 Inno3D Gaming OC X2,,GeForce RTX 2070 SUPER,8,1605,1815,Black,300
 MSI Radeon RX 5500 XT GAMING 8G,,Radeon RX 5500 XT,8,1647,1845,Black / Red,247
 Asus STRIX GAMING,,GeForce GTX 1650 SUPER,4,1530,1755,Black,243
-XFX THICC III Ultra,,Radeon RX 5600 XT,6,1247,1750,Black,326
-XFX THICC II Pro,,Radeon RX 5600 XT,6,1247,1620,Black,280
 Gigabyte GAMING OC PRO,,GeForce RTX 2060,6,1365,1830,Black / Silver,280
 Gigabyte GAMING OC 3X WHITE,,GeForce RTX 2060 SUPER,8,1470,1710,White / Black,280
 Palit GameRock,,GeForce RTX 2070 SUPER,8,1605,1770,Silver / Black,292
@@ -5070,12 +5026,10 @@ MSI SUPRIM,,GeForce RTX 3080 12GB LHR,12,1260,1830,Silver / Black,336
 Gainward Ghost OC,,GeForce RTX 3050 8GB,8,1550,1822,Black,245
 Gainward Pegasus OC,,GeForce RTX 3050 8GB,8,1550,1807,Black,170
 GALAX EX Gamer (1-Click OC),,GeForce RTX 3090 Ti,24,1560,1905,Black,322
-Sapphire TOXIC Limited Edition,,Radeon RX 6900 XT,16,1825,2600,Black,270
 Biostar VA6756TML9,,Radeon RX 6750 XT,12,2150,2150,Black,214
 EVGA SC GAMING,,GeForce GTX 1630,4,1740,1785,Silver / Black,202
 Gainward Ghost OC,,GeForce GTX 1630,4,1740,1815,Black,170
 XFX THICC II Ultra,,Radeon RX 5700 XT,8,1605,1980,Black,293
-XFX RAW II,,Radeon RX 5700 XT,8,1605,1905,Black,278
 XFX THICC II Pro,,Radeon RX 5700 XT,8,1605,1905,Black,293
 XFX THICC III Pro,,Radeon RX 5700 XT,8,1605,1905,Black,293
 KFA2 ST (1-Click OC),,GeForce RTX 4080,16,2205,2520,Black,352
@@ -5095,8 +5049,6 @@ EVGA XC BLACK GAMING,,GeForce RTX 3060 Ti,8,1410,1665,Black,202
 MSI GAMING TRIO,,Radeon RX 6800,16,1700,2105,Black / Silver,324
 PowerColor AXR7 240 4GBD5-HLEV2,,Radeon R7 240,4,780,780,Black,146
 PowerColor AXRX 5500XT 8GBD6-DH/OC,,Radeon RX 5500 XT,8,1647,1845,Black,240
-Inno3D AX Gaming X2W,,GeForce RTX 3050 8GB,8,1550,1777,White / Blue,225
-Inno3D AX Gaming X3W,,GeForce RTX 3070 Ti,8,1575,1770,White / Blue,293
 Inno3D AX Gaming X3W,,GeForce RTX 4080,16,2205,2505,White / Blue,337
 Biostar VA7606RM81,,Radeon RX 7600,8,1720,2655,Black,235
 Colorful iGame Advanced OC-V,,GeForce RTX 4080,16,2205,2625,Silver / Black,344
@@ -5761,7 +5713,6 @@ XFX HD-575X-ZNFR,,Radeon HD 5750,1,700,,,200
 MSI TWIN FROZR,,Radeon HD 7870,2,1050,,Black / Silver,270
 HIS H777F1G2M,,Radeon HD 7770,1,1000,,Black / Blue,
 Sparkle X450S1024KDL,,GeForce GTS 450,1,789,,,209
-MSI TWIN FROZR,,Radeon HD 7870,2,1050,,Black / Silver,270
 Sapphire 11199-03-20G,,Radeon HD 7870,2,1050,,Black / Blue,260
 VisionTek 900506,,Radeon HD 7870,2,1000,,Black / Blue,
 Gigabyte GV-N440-2GI,,GeForce GT 440,2,810,,Black / Blue,185
@@ -6083,7 +6034,6 @@ XFX DD,,Radeon R9 280X,3,850,1000,Black / Silver,295
 Asus R7250-1GD5,,Radeon R7 250,1,1000,,Black / Red,160
 Asus DirectCU II,,Radeon R7 260X,2,1188,,Black / Red,215
 Gigabyte GV-R726XOC-2GD,,Radeon R7 260X,2,1188,,Black / Blue,214
-Gigabyte WINDFORCE,,Radeon R7 260X,2,1100,1188,Black / Blue,207
 MSI R7 250 1GD5 OC,,Radeon R7 250,1,1100,,Black / Blue,193
 PowerColor AXR7 240 2GBD3-HE/OC,,Radeon R7 240,2,750,800,Black / Red,161
 PowerColor AXR7 250 1GBD5-HE/OC,,Radeon R7 250,1,1100,1150,Black,
@@ -6120,11 +6070,9 @@ Club 3D royalKing,,Radeon R9 280X,3,1050,1100,Black / Red,266
 PowerColor AX7870 2GBD5-M2DH,,Radeon HD 7870 GHz Edition,2,1000,,Black / Red,241
 HIS IceQ X²,,Radeon R9 270,2,900,925,Black / Silver,223
 MSI TWIN FROZR,,Radeon R9 270,2,900,975,Black / Red,256
-Sapphire Dual-X,,Radeon R9 270,2,920,945,Black / Silver,228
 PowerColor AX7790 1GBD5-DH/OC,,Radeon HD 7790,1,1030,,Black / Red,180
 PowerColor AX7790 1GBD5-DHV2/OC,,Radeon HD 7790,1,1000,1030,Black / Red,180
 Sapphire Vapor-X,,Radeon R9 280X,3,950,1070,Black / Silver,276
-HIS IceQ X²,,Radeon R9 270X,2,1000,1050,Black / Silver,270
 XFX DD,,Radeon R9 270X,2,1000,1050,Black / Silver,251
 HIS IceQ X²,,Radeon R7 260X,1,,1075,Black / Silver,
 PowerColor AXR9 270 2GBD5-DH/OC,,Radeon R9 270,2,930,955,Black / Yellow,198
@@ -6153,9 +6101,7 @@ Gigabyte GV-R724OC-2GI,,Radeon R7 240,2,900,,Black / Silver,195
 Gigabyte GV-R725OC-1GI,,Radeon R7 250,1,1100,,Black / Silver,195
 Gigabyte GV-R725OC-2GI REV2.0,,Radeon R7 250,2,1100,,Black / Silver,195
 HIS H240FC1G,,Radeon R7 240,1,730,780,Black / Blue,171
-HIS IceQ X²,,Radeon R9 270X,2,1100,1140,Black / Silver,270
 MSI R6450-2GD3H/LP,,Radeon HD 6450,2,625,,Black / Silver,165
-MSI TWIN FROZR,,Radeon R9 270,2,900,975,Black / Red,256
 PowerColor AX7790 1GBD5-TDH/OC,,Radeon HD 7790,1,1075,,Black / Red,219
 PowerColor AX7850 2GBD5-2DHE/OC,,Radeon HD 7850,2,910,,Black / Yellow,
 PowerColor AX7870 2GBD5-2DHV2,,Radeon HD 7870 GHz Edition,2,1000,,Black / Yellow,225
@@ -6172,9 +6118,6 @@ XFX FX779AZNJ4,,Radeon HD 7790,1,1075,,Black / Silver,167
 XFX R7-250A-ZLH4,,Radeon R7 250,1,1000,1050,Silver,175
 XFX Core Edition,,Radeon R7 260X,1,1075,,Black / Silver,167
 XFX R9-290A-ENBC,,Radeon R9 290,4,980,,Black / Red,288
-Sapphire Tri-X,,Radeon R9 290X,4,1040,,Black / Orange,305
-Sapphire Tri-X,,Radeon R9 290,4,1000,,Black / Orange,305
-Gigabyte WINDFORCE,,Radeon R9 290,4,1040,,Black / Silver,294
 Club 3D CGAX-7758LM4,,Radeon HD 7750,2,800,,Black / Red,167
 Club 3D CGAX-R9276,,Radeon R9 270,2,900,955,Black / Red,210
 Club 3D '14,,Radeon R9 270,2,900,955,Black / Red,210
@@ -6182,8 +6125,6 @@ Club 3D '14,,Radeon R9 270X,2,1000,1080,Black / Red,210
 Diamond R7250D51G,,Radeon R7 250,1,1000,,Black / Blue,170
 Gigabyte GV-R726XOC-1GD,,Radeon R7 260X,1,1188,,Black / Blue,203
 Sapphire Dual-X,,Radeon R9 280X,3,870,1020,Black / Silver,262
-Sapphire Dual-X,,Radeon R9 270X,2,1020,,Black / Silver,228
-Sapphire Vapor-X,,Radeon R9 270X,2,1050,1100,Black / Blue,264
 Sapphire Vapor-X,,Radeon R9 270X,2,1050,1100,Black / Blue,264
 VisionTek 900653,,Radeon R9 290,4,662,947,Black / Red,276
 XFX r7-240a-cnf4,,Radeon R7 240,2,730,780,Black,177
@@ -6271,8 +6212,6 @@ MSI N760-2GD5T/OC,,GeForce GTX 760,2,1059,1124,Black / Blue,260
 XFX R7-265A-CNJ4,,Radeon R7 265,2,900,925,Black / Silver,198
 PNY XLR8,,GeForce GTX 780,3,902,954,Black / Silver,284
 PNY XLR8,,GeForce GTX 780 Ti,3,875,928,Black / Silver,284
-Sapphire Tri-X,,Radeon R9 280X,3,1000,1100,Black / Orange,308
-Sapphire Tri-X,,Radeon R9 280X,3,1000,1100,Black / Orange,308
 PowerColor TurboDuo,,Radeon R9 285,2,945,,Black / Red,208
 Zotac ZT-71201-20L,,GeForce GT 720,2,797,,Black,145
 Zotac ZT-71202-20L,,GeForce GT 720,1,797,,Black,145
@@ -6306,21 +6245,11 @@ ATI FirePro V8800,,FirePro V8800,2,825,,Black / Red,267
 ATI FirePro V3800,,FirePro V3800,0.5,650,,Black / Red,168
 ATI FirePro 2460,,FirePro 2460,0.5,600,,Black / Red,170
 ATI FirePro W9000,,FirePro W9000,6,975,,Black / Red,279
-ATI FirePro 2270,,FirePro 2270,0.5,600,,Black / Red,170
-ATI FirePro 2270,,FirePro 2270,0.5,600,,Black / Red,170
 ATI FirePro R5000,,FirePro R5000,2,825,,Black / Red,279
 ATI FirePro W9100,,FirePro W9100,16,930,,Black / Red,275
 ATI FirePro W4100,,FirePro W4100,2,630,,Black / Red,171
-ATI FirePro W600,,FirePro W600,2,600,,Black / Red,163
-ATI FirePro 2270,,FirePro 2270,0.5,600,,Black / Red,170
 ATI FirePro W5000 DVI,,FirePro W5000,2,825,,Black / Red,191
-ATI FirePro W5000,,FirePro W5000,2,825,,Black / Red,183
 ATI FirePro V4900,,FirePro V4900,1,800,,Black / Red,163
-ATI FirePro W7000,,FirePro W7000,4,950,,Black / Red,242
-ATI FirePro 2270,,FirePro 2270,1,600,,Black / Red,170
-ATI FirePro 2460,,FirePro 2460,0.5,600,,Black / Red,170
-ATI FirePro R5000,,FirePro R5000,2,825,,Black / Red,279
-ATI FirePro W9000,,FirePro W9000,6,975,,Black / Red,279
 ATI FirePro V3900,,FirePro V3900,1,650,,Black / Red,168
 ATI FirePro V7900,,FirePro V7900,2,725,,Black / Red,279
 ATI FirePro S9050,,FirePro S9050,12,900,,Black / Silver,254
@@ -6328,7 +6257,6 @@ ATI FirePro S9150,,FirePro S9150,16,900,,Black / White,267
 ATI FirePro S9000,,FirePro S9000,6,900,,Black / Red,267
 ATI FirePro S7000,,FirePro S7000,4,950,,Black / Silver,292
 ATI FirePro S10000,,FirePro S10000,6,825,,Black / Red,305
-ATI FirePro 2450,,FirePro 2450,0.5,600,,Black / Red,170
 ATI FirePro 2450,,FirePro 2450,0.5,600,,Black / Red,170
 HP Firepro V3900,,FirePro V3900,1,650,,Black / Red,168
 XFX Core Edition,,Radeon R7 265,1,,925,Black / Silver,220
@@ -6364,9 +6292,7 @@ Asus DirectCU II,,GeForce GTX 760,2,980,1033,Black / Red,220
 Asus STRIKER-GTX760-P-4GD,,GeForce GTX 760,4,1085,1150,Black / Red,287
 Asus DirectCU II,,Radeon R9 280X,3,850,1000,Black / Red,285
 Asus DirectCU II,,Radeon R9 290,4,947,,Black / Red,287
-XFX Core Edition,,Radeon R9 270,2,900,925,Black,220
 PowerColor AXR7 260X 2GBD5-DHV3,,Radeon R7 260X,2,1030,,Black / Red,170
-Sapphire Tri-X,,Radeon R9 290,4,1000,,Black / Orange,305
 Zogis ZOGTX970-4GD5,,GeForce GTX 970,4,1076,1216,Black,
 Zogis Superclock,,GeForce GTX 970,4,1076,1216,Black / Yellow,
 Inno3D HerculeZ,,GeForce GTX 960,2,1329,1393,Black / Red,300
@@ -6381,20 +6307,18 @@ Gigabyte GV-N740D5OC-2GI REV2,,GeForce GT 740,2,1072,,Black / Blue,186
 Sapphire Tri-X,,Radeon R9 290X,8,1020,,Black / Orange,305
 Gigabyte WINDFORCE,,Radeon R9 280X,3,850,1000,Black,296
 PowerColor AXR7 260X 2GBD5-DHV4,,Radeon R7 260X,2,1030,,Black / Red,171
-PowerColor TurboDuo,,Radeon R9 290,4,975,,Black / Red,267
 PowerColor AX7850 2GBD5-DHE/OC,,Radeon HD 7850,2,910,,Black / Yellow,203
 PowerColor AX7870 2GBD5-2DHE/OC,,Radeon HD 7870 GHz Edition,2,1030,,Black / Yellow,225
 PowerColor AX7870 2GBD5-2DHV2E/OC,,Radeon HD 7870 GHz Edition,2,1030,,Black / Red,225
 Asus 20th Anniversary Gold Edition,,GeForce GTX 980,4,1317,1431,Black / Gold,297
 PowerColor AXR7 250X 2GBD5-HE,,Radeon R7 250X,2,1000,,Black / Red,170
 Asus 90YV06X3-M0NA00,,GeForce GTX 750,2,1020,1085,Black / Red,200
-Asus DirectCU II,,Radeon R9 270X,2,1050,1000,Black / Red,272
+Asus DirectCU II,,Radeon R9 270X,2,1000,1050,Black / Red,272
 Club 3D royalKing,,Radeon R9 290,4,975,,Black,270
 MSI GAMING LE,,Radeon R9 290X,8,1000,1040,Black / Red,276
 MSI LIGHTNING LE,,Radeon R9 290X,4,1080,,Black / Yellow,302
 EVGA 04G-P4-1980-KR,,GeForce GTX 980,4,1126,1216,Black / Silver,267
 MSI N740-2GD3V1,,GeForce GT 740,2,900,,Black / Blue,169
-Sapphire Dual-X,,Radeon R9 285,2,965,,Black / Purple,264
 OcUK OcUK_980Ti,,GeForce GTX 980 Ti,6,1000,1075,Black / Silver,267
 Inno3D N98T-1DDN-N5HN,,GeForce GTX 980 Ti,6,1000,1075,Black / Silver,282
 Inno3D HerculeZ,,GeForce GTX 980 Ti,6,1038,1127,Black / Silver,266
@@ -6404,9 +6328,7 @@ MSI N610-2GD3H/LP,,GeForce GT 610,2,810,,Black / Red,167
 KFA2 EX,,GeForce GTX 960,2,1266,1329,Black,271
 PowerColor PCS+,,Radeon R9 290,4,947,,Black,292
 XFX DD,,Radeon R7 360,2,1050,,Black / Silver,234
-XFX DD,,Radeon R7 370,2,995,,Black / Silver,234
 XFX DD,,Radeon R7 370,2,1040,,Black / Silver,234
-XFX DD,,Radeon R9 380,2,990,,Black / Silver,234
 XFX DD,,Radeon R9 390,8,1050,,Black / Silver,295
 MSI GAMING,,Radeon R9 380,2,970,1000,Black / Red,268
 Asus R9390-DC2-8GD5,,Radeon R9 390,8,1000,,Black / Red,287
@@ -6428,7 +6350,6 @@ VisionTek 900810,,Radeon R9 390X,8,1050,,Black / Silver,
 Zotac ZT-71105-10BB,,GeForce GT 730,2,902,,Black,146
 Sapphire Tri-X,,Radeon R9 Fury,4,1040,,Black / Orange,305
 KFA2 HOF,,GeForce GTX 980,4,1304,1418,Black / Silver,308
-Sapphire Vapor-X,,Radeon R9 290,4,1030,,Black / Blue,305
 Gigabyte GV-R939XWF2-8GD,,Radeon R9 390X,8,1050,,Black,234
 VisionTek 900808,,Radeon R9 380,2,970,,Black / Red,
 KFA2 96NPH8DND8VZ,,GeForce GTX 960,2,1165,1228,Black / Silver,193
@@ -6440,9 +6361,6 @@ EVGA FTW ACX 2.0,,GeForce GTX 980,4,1126,1216,Black,267
 OcUK GCCK-001,,GeForce GTX 970,4,1050,1268,Black / Silver,269
 Asus STRIX-GTX960-DCOC-4GD5,,GeForce GTX 960,2,1228,1317,Black / Red,216
 XFX Core Edition,,Radeon R7 370,2,995,,Black / Silver,220
-XFX DD,,Radeon R7 370,4,995,,Black / Silver,234
-XFX DD,,Radeon R9 380,2,990,,Black / Silver,234
-Asus 20th Anniversary Gold Edition,,GeForce GTX 980,4,1317,1431,Black / Gold,297
 MSI GAMING LE,,Radeon R9 380,4,970,1000,Black / Red,268
 Gainward Phantom,,GeForce GTX 960,2,1203,1266,Black / Silver,247
 OcUK Reference Design,,GeForce GTX 980,4,1127,1216,Black / Silver,269
@@ -6461,7 +6379,6 @@ MSI GAMING LE,,Radeon R9 390X,8,1050,1060,Black / Red,277
 PowerColor AXR9 FURY 4GBHBM-DH,,Radeon R9 Fury,4,1000,,Black / Silver,320
 Gigabyte GV-R9FURYWF3OC-4GD,,Radeon R9 Fury,4,1010,,Black,278
 VisionTek R92904GVTNE,,Radeon R9 290,4,947,,Black / Red,275
-XFX DD,,Radeon R9 380X,4,1030,,Black / Silver,234
 Zotac VCGGTX9502XPB-OC-BB,,GeForce GTX 950,2,1241,,Black / Blue,213
 Asus R9NANO-4G-WHITE,,Radeon R9 Nano,4,1000,,White,153
 PowerColor PCS+,,Radeon R9 380,2,945,,Black / Red,208
@@ -6479,7 +6396,6 @@ XFX HD-645X-ZQHP,,Radeon HD 6450,1,625,,Black,181
 XFX DD XXX OC,,Radeon R9 380,4,990,,Black / Silver,234
 EVGA 01G-P3-2716-KR,,GeForce GT 710,1,954,,Black,115
 Club 3D royalQueen OC,,Radeon R9 390,8,1010,,Black / Red,
-XFX DD XXX OC,,Radeon R9 380X,4,990,,Black / Silver,234
 XFX R9-PROD-8VRW,,Radeon Pro Duo,8,1000,,Black / Red,281
 EVGA 02G-P4-0952,,GeForce GTX 950 75W,2,1025,1190,Black / Gold,173
 Gainward Founders Edition,,GeForce GTX 1080,8,1607,1733,Black / Silver,267
@@ -6493,7 +6409,6 @@ PowerColor AXRX 480 4GBD5-M3DH,,Radeon RX 480,4,1120,1266,Black / Red,255
 VisionTek 900888,,Radeon RX 480,8,1120,1266,Black / Red,255
 HIS IceQ X² OC,,Radeon RX 470,4,926,1226,Black / Blue,241
 HIS iCooler OC,,Radeon RX 460,2,1090,1220,Black / Blue,170
-XFX DD,,Radeon RX 460,2,1090,1220,Black / Red,238
 Sapphire 11257-00,,Radeon RX 460,2,1090,1210,Black,216
 Asus STRIX,,Radeon RX 460,4,1090,1220,Black,194
 GALAX Virtual Edition,,GeForce GTX 1070,8,1506,1683,Black / Red,281
@@ -6529,7 +6444,6 @@ Gigabyte GV-N75TOC-1GI,,GeForce GTX 750 Ti,2,1033,1111,Black,171
 GALAX EX OC,,GeForce GTX 1080 Ti,11,1531,1645,Black,281
 Palit NE5X67001042-1042F,,GeForce GTX 670,2,915,980,,247
 XFX Core Edition,,Radeon R7 240,2,730,780,Black,177
-Sapphire NITRO+,,Radeon RX VEGA 56,8,1305,1572,Black / Silver,310
 Inno3D iChill,,GeForce GTX 1080,8,1733,1873,Silver / Red,303
 EVGA 01G-P3-3711-KR,,GeForce GT 710,1,945,,,145
 EVGA 02G-P3-3732-KR,,GeForce GT 730,1,902,,Black,145
@@ -6560,7 +6474,6 @@ Inno3D iChill X3,,GeForce RTX 2080 SUPER,8,1650,1845,Black,302
 Inno3D Gaming OC X2,,GeForce RTX 2080 SUPER,8,1650,1845,Black,300
 MSI Radeon RX 5500 XT GAMING X 4G,,Radeon RX 5500 XT,4,1685,1845,Black / Red,247
 GALAX HOF 10th Anniversary Edition,,GeForce RTX 2080 Ti,11,1350,1740,White / Silver,320
-XFX THICC III Pro,,Radeon RX 5600 XT,6,1247,1750,Black,326
 VisionTek 901280,,Radeon RX 5700 XT,8,1605,1755,Black,272
 Palit X,,GeForce RTX 2080 Ti,11,1350,1545,Black / Gray,269
 Gigabyte TURBO,,GeForce RTX 2080 Ti,11,1350,1545,Black,267
@@ -6614,7 +6527,6 @@ MSI GeForce GTX 1630 AERO ITX 4G,,GeForce GTX 1630,4,1740,,Black,170
 Palit Dual OC,,GeForce GTX 1630,4,1740,1815,Black,170
 PNY VCG16304SFMPB,,GeForce GTX 1630,4,1740,1785,Black,158
 PNY Dual,,GeForce GTX 1630,4,1740,1785,Black,170
-XFX THICC III Ultra,,Radeon RX 5600 XT,6,1247,1750,Black,326
 XFX Raw II Ultra,,Radeon RX 5700 XT,8,1605,1980,Black,278
 Asus DUAL,,GeForce GTX 1630,4,1740,1815,Black / Silver,213
 Gainward Phoenix GS,,GeForce RTX 4070 Ti,12,2310,2775,Black,329
@@ -6628,7 +6540,6 @@ Gigabyte D6,,Radeon RX 5500 XT,4,1607,1845,Black,225
 Gigabyte D6,,Radeon RX 5500 XT,8,1607,1845,Black,225
 MSI SUPRIM SE,,GeForce RTX 3090 Ti,24,1560,1875,Black,338
 PowerColor D6-DH/OC,,Radeon RX 5500 XT,4,1607,1845,Black,240
-Inno3D AX Gaming X3W,,GeForce RTX 4080,16,2205,2505,White / Blue,337
 Gainward Ghost OC,,GeForce RTX 4060 Ti,8,2310,2685,Black,250
 KFA2 EX (1-Click OC),,GeForce RTX 4060,8,1830,2580,Black,251
 MSI VENTUS 3X E,,GeForce RTX 4080,16,2205,2520,Silver / Black,322
