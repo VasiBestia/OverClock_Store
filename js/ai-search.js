@@ -6,7 +6,8 @@
   const results = document.querySelector("#hardware-search-results");
   const modeLabels = {
     demo: "Mod demonstrativ · interpretare locală",
-    openai: "Mod OpenAI"
+    openai: "Mod OpenAI",
+    deepseek: "Mod DeepSeek · interpretare prin model"
   };
   const categories = { cpu: "Procesor", gpu: "Placă video", ram: "Memorie RAM", psu: "Sursă",
     motherboard: "Placă de bază", case: "Carcasă", cooler: "Cooler", storage: "Stocare internă" };
