@@ -32,21 +32,25 @@ function preservesExplicitFilters(local, criteria) {
   return true;
 }
 
-function providerError(err) {
+function providerError(err, mode) {
+  const provider = mode === "deepseek" ? "DeepSeek" : "OpenAI";
   if (err instanceof OpenAI.APIConnectionTimeoutError || err?.name === "TimeoutError") {
-    return new ApiError(504, "llm_timeout", "Serviciul OpenAI a depășit timpul alocat.");
+    return new ApiError(504, "llm_timeout", "Serviciul " + provider + " a depășit timpul alocat.");
   }
   if ([401, 403, 429].includes(err?.status) || err?.status >= 500 || err instanceof OpenAI.APIConnectionError) {
-    return new ApiError(503, "llm_unavailable", "Serviciul OpenAI este indisponibil. Încearcă din nou mai târziu.");
+    return new ApiError(503, "llm_unavailable", "Serviciul " + provider + " este indisponibil. Încearcă din nou mai târziu.");
   }
-  return new ApiError(502, "llm_invalid_response", "Interpretarea OpenAI nu a putut fi validată.");
+  return new ApiError(502, "llm_invalid_response", "Interpretarea " + provider + " nu a putut fi validată.");
 }
 
 const invalidInterpretation = () => new ApiError(502, "llm_invalid_response", "Interpretarea nu a păstrat filtrele explicite din cerere.");
 
 export function createInterpreter({ mode, key, model, client, dailyLimit, maxConcurrent }) {
-  if (!["openai", "demo"].includes(mode)) throw new Error("SEARCH_MODE must be demo or openai");
-  const api = mode === "openai" ? client ?? (key ? new OpenAI({ apiKey: key, timeout: 15000, maxRetries: 0 }) : null) : null;
+  if (!["deepseek", "openai", "demo"].includes(mode)) throw new Error("SEARCH_MODE must be demo, deepseek or openai");
+  // DeepSeek is OpenAI SDK-compatible, but requests go only to its official endpoint.
+  const api = mode !== "demo" ? client ?? (key ? new OpenAI({ apiKey: key,
+    baseURL: mode === "deepseek" ? "https://api.deepseek.com" : undefined,
+    timeout: 15000, maxRetries: 0 }) : null) : null;
   const run = createQuota({ dailyLimit, maxConcurrent });
   return async query => {
     const local = inspectQuery(query);
@@ -59,24 +63,50 @@ export function createInterpreter({ mode, key, model, client, dailyLimit, maxCon
         budget_exclusive: budget.budget_exclusive }, issue: "budget_currency", source: "validation" };
     }
     if (mode === "demo") return { criteria, source: "demo" };
-    if (!api) throw new ApiError(503, "openai_not_configured", "Modul OpenAI necesită o cheie configurată pe server.");
+    if (!api) throw new ApiError(503, mode === "deepseek" ? "deepseek_not_configured" : "openai_not_configured",
+      "Modul " + (mode === "deepseek" ? "DeepSeek" : "OpenAI") + " necesită o cheie configurată pe server.");
 
     const result = await run(async () => {
       try {
+        if (mode === "deepseek") {
+          const example = { ...emptyCriteria("component_search"), category: "gpu",
+            brand: "NVIDIA", brand_policy: "required", min_memory_gb: 12, unhandled_requirements: [] };
+          const jsonInstructions = instructions
+            + "\nReturn only ONE valid JSON object with exactly the fields and types shown below."
+            + " Keep every key, use null for absent values, [] for no unhandled_requirements, and no markdown."
+            + "\nExample JSON output:\n" + JSON.stringify(example);
+          return await api.chat.completions.create({
+            model,
+            messages: [{ role: "system", content: jsonInstructions }, { role: "user", content: query }],
+            response_format: { type: "json_object" }, max_tokens: 2000, stream: false
+          });
+        }
         return await api.responses.parse({
           model, instructions, input: [{ role: "user", content: query }],
           text: { format: zodTextFormat(modelShape, "hardware_criteria") },
           max_output_tokens: 2000, store: false
         });
       } catch (err) {
-        throw providerError(err);
+        throw providerError(err, mode);
       }
     });
-    const wire = modelShape.safeParse(result?.output_parsed);
-    if (result?.status !== "completed" || !wire.success) throw invalidInterpretation();
+    // DeepSeek JSON mode guarantees JSON syntax, not correctness: validate with Zod.
+    let output;
+    if (mode === "deepseek") {
+      const choice = result?.choices?.[0];
+      if (choice?.finish_reason !== "stop" || choice?.message?.refusal ||
+          typeof choice?.message?.content !== "string" || !choice.message.content.trim()) throw invalidInterpretation();
+      try { output = JSON.parse(choice.message.content); }
+      catch { throw invalidInterpretation(); }
+    } else {
+      if (result?.status !== "completed") throw invalidInterpretation();
+      output = result.output_parsed;
+    }
+    const wire = modelShape.safeParse(output);
+    if (!wire.success) throw invalidInterpretation();
     const { unhandled_requirements: unhandled, ...fields } = wire.data;
     if (unhandled.length || fields.intent === "clarify") {
-      return { criteria: emptyCriteria(), issue: unhandled.length ? "unsupported_spec" : null, source: "openai" };
+      return { criteria: emptyCriteria(), issue: unhandled.length ? "unsupported_spec" : null, source: mode };
     }
     const parsed = criteriaSchema.safeParse(fields);
     if (!parsed.success) throw invalidInterpretation();
@@ -87,6 +117,6 @@ export function createInterpreter({ mode, key, model, client, dailyLimit, maxCon
     }
     if (c.currency === "USD" && !/[$]|\b(?:usd|dollar\w*|dolar\w*|bucks)\b/i.test(query)) c.currency = null;
     if (!preservesExplicitFilters(local, c)) throw invalidInterpretation();
-    return { criteria: c, source: "openai" };
+    return { criteria: c, source: mode };
   };
 }
