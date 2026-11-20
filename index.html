@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="overclock-api-origin" content="">
     <title>Electro - Electronics Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -109,19 +110,14 @@
             </div>
             <div class="col-md-4 col-lg-6 text-center">
                 <div class="position-relative ps-4">
-                    <div class="d-flex border rounded-pill">
-                        <input class="form-control border-0 rounded-pill w-100 py-3" type="text"
-                            data-bs-target="#dropdownToggle123" placeholder="Search Looking For?">
-                        <select class="form-select text-dark border-0 border-start rounded-0 p-3" style="width: 200px;">
-                            <option value="All Category">All Category</option>
-                            <option value="Pest Control-2">Category 1</option>
-                            <option value="Pest Control-3">Category 2</option>
-                            <option value="Pest Control-4">Category 3</option>
-                            <option value="Pest Control-5">Category 4</option>
-                        </select>
-                        <button type="button" class="btn btn-primary rounded-pill py-3 px-5" style="border: 0;"><i
-                                class="fas fa-search"></i></button>
-                    </div>
+                    <form class="d-flex border rounded-pill" data-hardware-search lang="ro" role="search">
+                        <label for="hardware-query-desktop" class="visually-hidden">Ce componentă cauți?</label>
+                        <input id="hardware-query-desktop" name="query" class="form-control border-0 rounded-pill w-100 py-3 ps-4"
+                            type="search" minlength="3" maxlength="500" required placeholder="Ex. placă video NVIDIA cu minimum 12 GB">
+                        <button type="submit" class="btn btn-primary rounded-pill py-3 px-4" aria-label="Caută componente">
+                            <i class="fas fa-search" aria-hidden="true"></i></button>
+                    </form>
+                    <small class="text-muted" lang="ro" data-search-mode>Căutare în catalogul hardware</small>
                 </div>
             </div>
             <div class="col-md-4 col-lg-3 text-center text-lg-end">
@@ -258,6 +254,23 @@
         </div>
     </div>
     <!-- Navbar & Hero End -->
+
+    <section class="container my-3" id="hardware-search" lang="ro" aria-label="Căutare hardware">
+        <div class="d-lg-none">
+            <form data-hardware-search role="search">
+                <label for="hardware-query-mobile" class="form-label fw-bold">Ce componentă cauți?</label>
+                <div class="input-group">
+                    <input id="hardware-query-mobile" name="query" type="search" class="form-control"
+                        minlength="3" maxlength="500" required placeholder="Ex. 32 GB RAM DDR5">
+                    <button type="submit" class="btn btn-primary">Caută</button>
+                </div>
+            </form>
+            <small class="text-muted" data-search-mode>Căutare în catalogul hardware</small>
+        </div>
+        <div id="hardware-search-status" role="status" aria-live="polite" aria-atomic="true"></div>
+        <div id="hardware-search-results" aria-label="Rezultatele căutării"></div>
+        <noscript>Activează JavaScript pentru a căuta în catalogul hardware.</noscript>
+    </section>
 
     <!-- Carousel Start -->
     <div class="container-fluid carousel bg-light px-0">
@@ -2290,6 +2303,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/ai-search.js" defer></script>
 </body>
 
 </html>
