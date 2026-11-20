@@ -9,10 +9,15 @@ for (const origin of origins) {
   if (!["http:", "https:"].includes(url.protocol) || url.origin !== origin) throw new Error("FRONTEND_ORIGINS necesită origini HTTP(S) exacte");
 }
 const mode = process.env.SEARCH_MODE || "demo";
-const app = createApp({ repository: await loadCatalog(), mode, key: process.env.OPENAI_API_KEY,
-  model: process.env.OPENAI_MODEL || "gpt-5.4-mini", origins,
-  dailyLimit: process.env.OPENAI_DAILY_REQUEST_LIMIT ? Number(process.env.OPENAI_DAILY_REQUEST_LIMIT) : undefined,
-  maxConcurrent: process.env.OPENAI_MAX_CONCURRENT ? Number(process.env.OPENAI_MAX_CONCURRENT) : undefined });
+const deepseek = mode === "deepseek";
+const app = createApp({ repository: await loadCatalog(), mode,
+  key: deepseek ? process.env.DEEPSEEK_API_KEY : process.env.OPENAI_API_KEY,
+  model: deepseek ? (process.env.DEEPSEEK_MODEL || "deepseek-flash") : (process.env.OPENAI_MODEL || "gpt-5.4-mini"),
+  origins,
+  dailyLimit: (deepseek ? process.env.DEEPSEEK_DAILY_REQUEST_LIMIT : process.env.OPENAI_DAILY_REQUEST_LIMIT)
+    ? Number(deepseek ? process.env.DEEPSEEK_DAILY_REQUEST_LIMIT : process.env.OPENAI_DAILY_REQUEST_LIMIT) : undefined,
+  maxConcurrent: (deepseek ? process.env.DEEPSEEK_MAX_CONCURRENT : process.env.OPENAI_MAX_CONCURRENT)
+    ? Number(deepseek ? process.env.DEEPSEEK_MAX_CONCURRENT : process.env.OPENAI_MAX_CONCURRENT) : undefined });
 const host = process.env.HOST || "127.0.0.1";
 const server = app.listen(port, host, () => console.log("OverClock Store | " + mode + " | http://" + host + ":" + port));
 server.headersTimeout = 10000;
