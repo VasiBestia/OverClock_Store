@@ -12,6 +12,20 @@ npm start
 
 Folosește Node.js 22.12 sau mai nou. Deschide [magazinul local](http://127.0.0.1:3000/shop.html) și încearcă „Am nevoie de 32 GB RAM DDR5 pentru un PC de gaming”. Testele backend se execută cu `npm test` din directorul `backend`. Instrucțiunile pentru modul OpenAI, testele în browser și conectarea unui frontend static sunt în [ghidul backend și API](backend/README.md). Vezi și [proveniența prețurilor și limitele catalogului](backend/CATALOG.md).
 
+## DeepSeek API
+
+Căutarea funcționează fără API în modul `demo`. Pentru interpretare prin DeepSeek,
+configurează *numai local*, în `backend/.env`:
+
+```dotenv
+SEARCH_MODE=deepseek
+DEEPSEEK_API_KEY=cheia_ta_privata
+DEEPSEEK_MODEL=deepseek-flash
+```
+
+Pornește `cd backend && npm ci && npm start`. Cheia API trebuie păstrată exclusiv în
+backend; `.env` este ignorat de Git. Pentru limitări și teste vezi [ghidul backend](backend/README.md).
+
 ## Șablonul original
 
 # Salone - Free Bootstrap 5 Business Template 
