@@ -2,7 +2,7 @@ name: Backend tests
 
 on:
   push:
-    branches: [feature/ai-search-llm-mvp]
+    branches: [feature/ai-search-llm-mvp, feature/deepseek-api-migration]
   pull_request:
     branches: [main]
 
