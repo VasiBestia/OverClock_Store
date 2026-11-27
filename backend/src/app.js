@@ -49,16 +49,16 @@ export function createApp({ repository, mode = "demo", key, model, client,
     res.status(204).end();
   });
 
-  app.get("/api/health", (_req, res) => res.json({ status: "ok", mode, interpreter_ready: mode === "demo" || Boolean(key || client) }));
+  app.get(["/api/ai/health", "/api/health"], (_req, res) => res.json({ status: "ok", mode, interpreter_ready: mode === "demo" || Boolean(key || client) }));
   app.post("/api/ai/search", limiter(searchLimit), (req, _res, next) =>
     req.is("application/json") ? next() : next(new ApiError(415, "unsupported_media_type", "Trimite un obiect JSON.")),
   express.json({ limit: "4kb", inflate: false }), async (req, res) => {
     const input = requestSchema.safeParse(req.body);
     if (!input.success) throw badInput();
-    const { criteria, source, issue } = await interpret(input.data.query);
+    const { criteria, source, issue } = await interpret(input.data.query, input.data.scope);
     res.json({ mode, interpretation_source: source, ...search(repository, criteria, issue) });
   });
-  app.get("/api/products", limiter(catalogLimit), (req, res) => {
+  app.get(["/api/ai/products", "/api/products"], limiter(catalogLimit), (req, res) => {
     const query = productQuery.safeParse(req.query);
     if (!query.success) throw badInput();
     const { page = 1, page_size: size = 20, ...filters } = query.data;

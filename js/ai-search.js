@@ -1,13 +1,81 @@
 (() => {
   "use strict";
-  const forms = [...document.querySelectorAll("form[data-hardware-search]")];
-  if (!forms.length) return;
-  const status = document.querySelector("#hardware-search-status");
-  const results = document.querySelector("#hardware-search-results");
+  if (document.getElementById("hardware-search")) return;
+  const nav = document.querySelector(".nav-bar");
+  if (!nav) return;
+  const scopes = { "GPUs & CPUs": "cpu_gpu", "Motherboards & RAM": "board_ram",
+    "Storage & PSUs": "storage_psu", "Custom PCs": "build", "IT Service": "service" };
+  const forms = [];
+  const section = element("section", "container my-3");
+  section.id = "hardware-search";
+  section.lang = "ro";
+  section.setAttribute("aria-label", "Căutare hardware");
+  const headerInput = document.querySelector('input[data-bs-target="#dropdownToggle123"]');
+  const group = headerInput?.closest(".d-flex");
+  const headerButton = group?.querySelector("button");
+  if (headerButton && !group.closest("form")) {
+    const form = element("form");
+    group.before(form);
+    form.append(group);
+    const select = group.querySelector("select");
+    // Only the original blank template uses these placeholder categories.
+    if (select?.querySelector('option[value="Pest Control-2"]')) select.remove();
+    else if (select) {
+      select.name = "scope";
+      select.setAttribute("aria-label", "Domeniul căutării");
+    }
+    prepareForm(form, headerInput, headerButton, "desktop");
+    form.after(modeLabel());
+  }
+  const small = element("div", forms.length ? "d-lg-none" : "");
+  const mobileForm = element("form");
+  const fieldGroup = element("div", "input-group");
+  const input = element("input", "form-control");
+  const button = element("button", "btn btn-primary", "Caută");
+  fieldGroup.append(input, button);
+  mobileForm.append(fieldGroup);
+  prepareForm(mobileForm, input, button, "mobile");
+  small.append(mobileForm, modeLabel());
+  const status = element("div");
+  status.id = "hardware-search-status";
+  status.setAttribute("role", "status");
+  status.setAttribute("aria-live", "polite");
+  status.setAttribute("aria-atomic", "true");
+  const results = element("div");
+  results.id = "hardware-search-results";
+  results.setAttribute("aria-label", "Rezultatele căutării");
+  section.append(small, status, results);
+  nav.after(section);
+
+  function modeLabel() {
+    const label = element("small", "text-muted", "Căutare în catalogul hardware");
+    label.lang = "ro";
+    label.dataset.searchMode = "";
+    return label;
+  }
+
+  function prepareForm(form, field, submitButton, variant) {
+    form.setAttribute("role", "search");
+    form.dataset.hardwareSearch = "";
+    form.lang = "ro";
+    field.id = "hardware-query-" + variant;
+    field.name = "query";
+    field.type = "search";
+    field.minLength = 3;
+    field.maxLength = 500;
+    field.required = true;
+    if (!field.placeholder || field.placeholder === "Search Looking For?") field.placeholder = "Ex. 32 GB RAM DDR5";
+    const label = element("label", variant === "desktop" ? "visually-hidden" : "form-label fw-bold", "Ce componentă cauți?");
+    label.htmlFor = field.id;
+    form.prepend(label);
+    submitButton.type = "submit";
+    submitButton.setAttribute("aria-label", "Caută componente");
+    forms.push(form);
+  }
   const modeLabels = {
     demo: "Mod demonstrativ · interpretare locală",
     openai: "Mod OpenAI",
-    deepseek: "Mod DeepSeek · interpretare prin model"
+    deepseek: "Mod DeepSeek"
   };
   const categories = { cpu: "Procesor", gpu: "Placă video", ram: "Memorie RAM", psu: "Sursă",
     motherboard: "Placă de bază", case: "Carcasă", cooler: "Cooler", storage: "Stocare internă" };
@@ -109,8 +177,11 @@
   function render(data) {
     setMode(data.mode);
     const content = document.createDocumentFragment();
-    if (data.mode === "openai" && data.interpretation_source === "validation") {
-      content.append(element("p", "small text-muted mb-2", "Verificare locală · fără apel OpenAI."));
+    if (["openai", "deepseek"].includes(data.mode) && data.interpretation_source === "validation") {
+      const provider = data.mode === "deepseek" ? "DeepSeek" : "OpenAI";
+      content.append(element("p", "small text-muted mb-2", "Verificare locală · fără apel " + provider + "."));
+    } else if (data.interpretation_source === "deepseek") {
+      content.append(element("p", "small text-muted mb-2", "Criterii interpretate de DeepSeek."));
     }
     const criteria = describe(data.criteria);
     if (criteria) content.append(element("p", "fw-bold mb-2", "Criterii identificate: " + criteria));
@@ -137,6 +208,8 @@
     event.preventDefault();
     if (results.getAttribute("aria-busy") === "true") return;
     const query = event.currentTarget.elements.query.value.trim();
+    const selection = event.currentTarget.elements.scope?.value;
+    const scope = selection && Object.hasOwn(scopes, selection) ? scopes[selection] : undefined;
     results.replaceChildren();
     results.setAttribute("aria-busy", "true");
     const spinner = element("span", "spinner-border spinner-border-sm me-2");
@@ -145,7 +218,7 @@
     forms.forEach(f => { f.querySelector("button").disabled = true; });
     status.scrollIntoView({ block: "nearest" });
     try {
-      const data = await api("/api/ai/search", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ query }) });
+      const data = await api("/api/ai/search", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ query, scope }) });
       if (data.error) status.replaceChildren(element("p", "alert alert-warning mt-2", data.error));
       else render(data);
     } catch {
@@ -157,5 +230,5 @@
   }
 
   forms.forEach(form => form.addEventListener("submit", submit));
-  api("/api/health").then(data => setMode(data.mode)).catch(() => {});
+  api("/api/ai/health").then(data => setMode(data.mode)).catch(() => {});
 })();

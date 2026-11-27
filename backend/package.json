@@ -19,6 +19,8 @@
     "zod": "4.6.7"
   },
   "devDependencies": {
+    "bootstrap": "5.0.0",
+    "jquery": "3.6.4",
     "playwright": "1.65.1"
   }
 }

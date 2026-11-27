@@ -62,6 +62,7 @@ export const criteriaSchema = shape.superRefine((c, ctx) => {
 });
 
 export const requestSchema = z.strictObject({
+  scope: z.enum(["cpu_gpu", "board_ram", "storage_psu", "build", "service"]).optional(),
   query: z.string().max(500).trim().min(3)
     .refine(s => /\p{L}/u.test(s) && !/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f\p{Cf}]|<\/?[a-z][^>]*>/iu.test(s))
 });

@@ -41,6 +41,43 @@ test("demo search returns JSON with explanations; unsupported intent never escal
   assert.equal(injected.criteria.intent, "clarify"); assert.equal(injected.products.length, 0);
 });
 
+test("the AI namespace and legacy aliases return the same catalog and share rate limits", async t => {
+  const api = await start(t, { catalogLimit: 2 });
+  assert.deepEqual(await (await api.get("/api/ai/health")).json(), await (await api.get("/api/health")).json());
+  const filter = "?category=cpu&min_cores=6&page_size=2";
+  const scoped = await (await api.get("/api/ai/products" + filter)).json();
+  assert.deepEqual(scoped, await (await api.get("/api/products" + filter)).json());
+  assert.ok(scoped.products.every(p => p.source.file === "cpu.csv" && p.specs.cores >= 6));
+  assert.equal((await api.get("/api/ai/products")).status, 429);
+});
+
+test("the team category selector constrains both local interpretation and DeepSeek output", async t => {
+  let calls = 0;
+  const client = { chat: { completions: { create: async () => {
+    calls++;
+    return { choices: [{ finish_reason: "stop", message: { content: JSON.stringify(gpu) } }] };
+  } } } };
+  const api = await start(t, { mode: "deepseek", client });
+  for (const [query, scope, reason] of [["GPU NVIDIA", "board_ram", "scope_mismatch"], ["Diagnosticare", "service", "service_scope"],
+    ["GPU NVIDIA", "build", "scope_mismatch"]]) {
+    const body = await (await api.post(query, { scope })).json();
+    assert.equal(body.clarification_reason, reason);
+    assert.equal(body.interpretation_source, "validation");
+    assert.deepEqual(body.products, []);
+  }
+  assert.equal((await api.post("GPU", { scope: "free-form" })).status, 400);
+  const build = await (await api.post("Vreau un PC de gaming de 5000 lei", { scope: "build" })).json();
+  assert.equal(build.configuration.status, "unverified");
+  assert.deepEqual(build.products, []);
+  assert.equal(calls, 0);
+  const foreign = await (await api.post("Une carte graphique NVIDIA, au moins 12 Go", { scope: "storage_psu" })).json();
+  assert.equal(foreign.clarification_reason, "scope_mismatch");
+  assert.deepEqual(foreign.products, []);
+  const ok = await (await api.post("GPU NVIDIA minimum 12 GB", { scope: "cpu_gpu" })).json();
+  assert.ok(ok.products.length > 0 && ok.products.every(p => p.specs.chipset_vendor === "NVIDIA" && p.specs.memory_gb >= 12));
+  assert.equal(calls, 2);
+});
+
 test("GET products validates filters, stable pages and total; no currency guesses", async t => {
   const api = await start(t);
   const route = "/api/products?category=gpu&brand=NVIDIA&min_memory_gb=12&page_size=2";

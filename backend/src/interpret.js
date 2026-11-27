@@ -21,14 +21,15 @@ const instructions = [
 ].join("\n");
 
 function preservesExplicitFilters(local, criteria) {
-  if (criteria.intent !== "component_search") return true;
   const literal = local.anchors;
   const fullyParsed = local.criteria.intent === "component_search";
+  if (criteria.intent !== "component_search") return !fullyParsed;
   if (literal.brand && (fold(literal.brand) !== fold(criteria.brand ?? "") || literal.brand_policy !== criteria.brand_policy)) return false;
   if (fullyParsed && !literal.family && ((!literal.brand && criteria.brand) || criteria.family)) return false;
-  const keys = ["category", "min_cores", "min_memory_gb", "memory_gb", "module_count", "ddr_generation", "min_wattage_w", "budget_max", "currency"];
+  const keys = ["category", "min_cores", "min_memory_gb", "memory_gb", "module_count", "ddr_generation", "min_wattage_w", "budget_max", "currency", "usage", "resolution"];
   if (keys.some(key => (fullyParsed || literal[key] !== null) && literal[key] !== criteria[key])) return false;
-  if (literal.family && !(" " + fold(criteria.family ?? "") + " ").includes(" " + fold(literal.family) + " ")) return false;
+  if (literal.family && (fullyParsed ? fold(criteria.family ?? "") !== fold(literal.family) :
+    !(" " + fold(criteria.family ?? "") + " ").includes(" " + fold(literal.family) + " "))) return false;
   return true;
 }
 
@@ -37,13 +38,23 @@ function providerError(err, mode) {
   if (err instanceof OpenAI.APIConnectionTimeoutError || err?.name === "TimeoutError") {
     return new ApiError(504, "llm_timeout", "Serviciul " + provider + " a depășit timpul alocat.");
   }
-  if ([401, 403, 429].includes(err?.status) || err?.status >= 500 || err instanceof OpenAI.APIConnectionError) {
+  if ([401, 402, 403, 429].includes(err?.status) || err?.status >= 500 || err instanceof OpenAI.APIConnectionError) {
     return new ApiError(503, "llm_unavailable", "Serviciul " + provider + " este indisponibil. Încearcă din nou mai târziu.");
   }
   return new ApiError(502, "llm_invalid_response", "Interpretarea " + provider + " nu a putut fi validată.");
 }
 
 const invalidInterpretation = () => new ApiError(502, "llm_invalid_response", "Interpretarea nu a păstrat filtrele explicite din cerere.");
+
+const scopedCategories = { cpu_gpu: ["cpu", "gpu"], board_ram: ["motherboard", "ram"], storage_psu: ["storage", "psu"] };
+
+function scopeIssue(scope, c) {
+  if (!scope) return null;
+  if (scope === "service") return "service_scope";
+  if (scope === "build") return c.intent === "build_request" ? null : "scope_mismatch";
+  if (c.intent === "build_request" || (c.category && !scopedCategories[scope].includes(c.category))) return "scope_mismatch";
+  return null;
+}
 
 export function createInterpreter({ mode, key, model, client, dailyLimit, maxConcurrent }) {
   if (!["deepseek", "openai", "demo"].includes(mode)) throw new Error("SEARCH_MODE must be demo, deepseek or openai");
@@ -52,9 +63,11 @@ export function createInterpreter({ mode, key, model, client, dailyLimit, maxCon
     baseURL: mode === "deepseek" ? "https://api.deepseek.com" : undefined,
     timeout: 15000, maxRetries: 0 }) : null) : null;
   const run = createQuota({ dailyLimit, maxConcurrent });
-  return async query => {
+  return async (query, scope) => {
     const local = inspectQuery(query);
     const { criteria, issue, budget } = local;
+    const scopeConflict = scopeIssue(scope, criteria);
+    if (scopeConflict) return { criteria: emptyCriteria(), issue: scopeConflict, source: "validation" };
     if (issue) return { criteria, issue, source: "validation" };
     if (["build_request", "compatibility_check"].includes(criteria.intent)) return { criteria, source: "validation" };
     if (budget.budget_max != null && budget.currency !== "USD") {
@@ -78,7 +91,8 @@ export function createInterpreter({ mode, key, model, client, dailyLimit, maxCon
           return await api.chat.completions.create({
             model,
             messages: [{ role: "system", content: jsonInstructions }, { role: "user", content: query }],
-            response_format: { type: "json_object" }, max_tokens: 2000, stream: false
+            response_format: { type: "json_object" }, thinking: { type: "disabled" },
+            max_tokens: 2000, stream: false
           });
         }
         return await api.responses.parse({
@@ -117,6 +131,8 @@ export function createInterpreter({ mode, key, model, client, dailyLimit, maxCon
     }
     if (c.currency === "USD" && !/[$]|\b(?:usd|dollar\w*|dolar\w*|bucks)\b/i.test(query)) c.currency = null;
     if (!preservesExplicitFilters(local, c)) throw invalidInterpretation();
+    const modelScopeConflict = scopeIssue(scope, c);
+    if (modelScopeConflict) return { criteria: emptyCriteria(), issue: modelScopeConflict, source: mode };
     return { criteria: c, source: mode };
   };
 }

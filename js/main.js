@@ -1,3 +1,10 @@
+// Both versions of the store load this script on every page.
+if (["", "index.html", "shop.html"].includes(location.pathname.split("/").pop())) {
+    const hardwareSearch = document.createElement("script");
+    hardwareSearch.src = new URL("ai-search.js", document.currentScript.src).href;
+    document.head.append(hardwareSearch);
+}
+
 (function ($) {
     "use strict";
 

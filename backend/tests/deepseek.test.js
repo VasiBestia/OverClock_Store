@@ -68,6 +68,9 @@ test("DeepSeek Chat Completions JSON results are schema-validated and filter rea
   assert.equal(new URL(captured.url).pathname, "/chat/completions");
   assert.equal(captured.body.model, "deepseek-flash");
   assert.deepEqual(captured.body.response_format, { type: "json_object" });
+  assert.deepEqual(captured.body.thinking, { type: "disabled" });
+  assert.equal(captured.body.max_tokens, 2000);
+  assert.equal(captured.body.tools, undefined);
   assert.equal(captured.body.messages[1].role, "user");
   assert.ok(captured.body.messages[0].content.includes("JSON"));
   assert.ok(!JSON.stringify(captured.body).includes(product.name));
@@ -102,6 +105,18 @@ test("DeepSeek cannot silently discard unsupported requirements", async t => {
   assert.equal(body.interpretation_source, "deepseek");
 });
 
+test("DeepSeek cannot turn a component into a build, invent usage or narrow an explicit family", async t => {
+  const cpu = { ...emptyCriteria("component_search"), category: "cpu", family: "ryzen", unhandled_requirements: [] };
+  for (const fields of [{ ...cpu, intent: "build_request", category: null }, { ...cpu, usage: "gaming" },
+    { ...cpu, resolution: "1440p" }, { ...cpu, family: "Ryzen 9 9950X" }]) {
+    const client = { chat: { completions: { create: async () => fakeResponse(JSON.stringify(fields)) } } };
+    const api = await endpoint(t, { client });
+    const res = await api.post("Procesor Ryzen");
+    assert.equal(res.status, 502);
+    assert.equal((await res.json()).error.code, "llm_invalid_response");
+  }
+});
+
 test("DeepSeek provider failures are sanitized and local guards avoid billed requests", async t => {
   let calls = 0;
   const client = { chat: { completions: { create: async () => {
@@ -118,4 +133,22 @@ test("DeepSeek provider failures are sanitized and local guards avoid billed req
   const body = await response.text();
   assert.ok(!body.includes("secret-provider-detail"));
   assert.equal(calls, 1);
+});
+
+test("DeepSeek billing, throttling and timeout failures never leak upstream details or trigger retries", async t => {
+  for (const [upstream, status, code] of [[402, 503, "llm_unavailable"], [429, 503, "llm_unavailable"], ["TimeoutError", 504, "llm_timeout"]]) {
+    let attempts = 0;
+    const api = await endpoint(t, { client: { chat: { completions: { create: async () => {
+      attempts++;
+      const err = new Error("private-upstream-detail");
+      if (typeof upstream === "string") err.name = upstream; else err.status = upstream;
+      throw err;
+    } } } } });
+    const response = await api.post("GPU NVIDIA minimum 12 GB");
+    assert.equal(response.status, status);
+    const body = await response.json();
+    assert.equal(body.error.code, code);
+    assert.doesNotMatch(JSON.stringify(body), /private-upstream-detail/);
+    assert.equal(attempts, 1);
+  }
 });

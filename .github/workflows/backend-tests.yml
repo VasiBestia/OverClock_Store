@@ -2,7 +2,7 @@ name: Backend tests
 
 on:
   push:
-    branches: [feature/ai-search-llm-mvp, feature/deepseek-api-migration]
+    branches: [main, "integration/**", feature/ai-search-llm-mvp, feature/deepseek-api-migration]
   pull_request:
     branches: [main]
 
@@ -16,12 +16,13 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: backend
     env:
       SEARCH_MODE: demo
+      DEEPSEEK_API_KEY: ""
       OPENAI_API_KEY: ""
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
@@ -33,3 +34,24 @@ jobs:
           package-manager-cache: false
       - run: npm ci
       - run: npm test
+      - name: Read the reviewed team homepage and stylesheet for compatibility tests
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          repository: VasiBestia/OverClock_Store
+          ref: 71f2ab1fe6a63cc18411a16d23453c201434c897
+          path: team-interface
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /index.html
+            /css/style.css
+      - name: Select Chromium
+        run: |
+          if command -v google-chrome > /dev/null; then
+            echo "CHROMIUM_PATH=$(command -v google-chrome)" >> "$GITHUB_ENV"
+          else
+            npx --no-install playwright install --with-deps --only-shell chromium
+          fi
+      - run: npm run test:browser
+        env:
+          OVERCLOCK_INTERFACE_ROOT: ${{ github.workspace }}/team-interface

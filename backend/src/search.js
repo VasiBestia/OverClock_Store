@@ -10,6 +10,8 @@ const labels = { cpu: "Procesor", gpu: "Placă video", ram: "Memorie RAM", mothe
   psu: "Sursă", case: "Carcasă", cooler: "Cooler", storage: "Stocare internă" };
 const incompatibleBudget = "Catalogul oferă doar prețuri istorice verificate în USD. Bugetul cerut nu poate fi comparat.";
 const clarificationMessages = {
+  service_scope: "Căutarea hardware acoperă componentele. Pentru diagnosticare sau reparații, folosește pagina Contact.",
+  scope_mismatch: "Categoria selectată în antet nu corespunde cererii. Schimbă selecția sau precizează componenta din categoria aleasă.",
   negative: "Căutarea nu poate aplica excluderi. Precizează componenta sau marca pe care vrei să o incluzi.",
   multiple_brands: "Cererea menționează mai multe mărci. Alege o singură marcă sau caută-le separat.",
   multiple_components: "Ai cerut mai multe tipuri de componente. Caută fiecare categorie separat.",
